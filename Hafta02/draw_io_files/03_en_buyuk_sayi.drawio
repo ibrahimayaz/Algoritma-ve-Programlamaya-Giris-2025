@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:40:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="En Büyük Sayı Bulma" id="flowchart">
+    <mxGraphModel dx="1422" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 3 sayıyı al -->
+        <mxCell id="input" value="sayı1, sayı2, sayı3 al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- İlk karar: sayı1 en büyük mü? -->
+        <mxCell id="decision1" value="sayı1 >= sayı2 VE&#xa;sayı1 >= sayı3 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="200" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- sayı1 en büyük -->
+        <mxCell id="result1" value="enBüyük ← sayı1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- İkinci karar: sayı2 en büyük mü? -->
+        <mxCell id="decision2" value="sayı2 >= sayı3 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- sayı2 en büyük -->
+        <mxCell id="result2" value="enBüyük ← sayı2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- sayı3 en büyük -->
+        <mxCell id="result3" value="enBüyük ← sayı3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Sonucu göster -->
+        <mxCell id="output" value="enBüyük göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="input" target="decision1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="decision1" target="result1">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes1" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge3">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="decision1" target="decision2">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo1" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="decision2" target="result2">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes2" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge5">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="decision2" target="result3">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo2" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge6">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="result1" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="result2" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="result3" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="output" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

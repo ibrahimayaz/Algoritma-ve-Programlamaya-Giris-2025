@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:10:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="ATM Sistemi" id="flowchart">
+    <mxGraphModel dx="1422" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Başlangıç değerleri -->
+        <mxCell id="init" value="doğruPIN ← &quot;1234&quot;&#xa;bakiye ← 1000&#xa;pinDenemesi ← 0&#xa;maxDeneme ← 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="240" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- PIN deneme kontrolü -->
+        <mxCell id="check_pin_attempts" value="pinDenemesi < maxDeneme ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- PIN al -->
+        <mxCell id="get_pin" value="PIN kodunu al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- PIN doğrulama -->
+        <mxCell id="check_pin" value="girilenPIN = doğruPIN ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- PIN doğru -->
+        <mxCell id="pin_correct" value="&quot;✅ PIN doğru!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="490" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- PIN yanlış -->
+        <mxCell id="pin_wrong" value="pinDenemesi++&#xa;&quot;❌ Yanlış PIN!&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Kart bloke -->
+        <mxCell id="card_blocked" value="&quot;🚫 Kart bloke!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Ana menü -->
+        <mxCell id="main_menu" value="Ana Menü Göster&#xa;1. Bakiye Sorgula&#xa;2. Para Çek&#xa;3. Çıkış" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="200" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Menü seçimi -->
+        <mxCell id="menu_choice" value="seçim al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Seçim kontrolü -->
+        <mxCell id="check_choice" value="seçim ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Bakiye sorgula -->
+        <mxCell id="balance_inquiry" value="💰 Bakiye göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="950" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Para çek -->
+        <mxCell id="withdraw_money" value="Çekilecek tutarı al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="950" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tutar kontrolü -->
+        <mxCell id="check_amount" value="tutar <= bakiye ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1050" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Para çekme işlemi -->
+        <mxCell id="process_withdrawal" value="bakiye -= tutar&#xa;&quot;✅ Para çekildi&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1060" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Yetersiz bakiye -->
+        <mxCell id="insufficient_balance" value="&quot;❌ Yetersiz bakiye!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1180" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Çıkış -->
+        <mxCell id="exit_system" value="&quot;👋 İyi günler!&quot;&#xa;devamEt ← false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="850" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="init">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="init" target="check_pin_attempts">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="check_pin_attempts" target="get_pin">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes1" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge3">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="check_pin_attempts" target="card_blocked">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo1" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="get_pin" target="check_pin">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="check_pin" target="pin_correct">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes2" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge6">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="check_pin" target="pin_wrong">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo2" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge7">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="pin_wrong" target="check_pin_attempts">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="520"/>
+              <mxPoint x="60" y="300"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="pin_correct" target="main_menu">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="main_menu" target="menu_choice">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="menu_choice" target="check_choice">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Menu choices -->
+        <mxCell id="edge12" edge="1" parent="1" source="check_choice" target="balance_inquiry">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge12">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="check_choice" target="withdraw_money">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label2" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge13">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="check_choice" target="exit_system">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label3" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge14">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge15" edge="1" parent="1" source="withdraw_money" target="check_amount">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="check_amount" target="process_withdrawal">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes3" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge16">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge17" edge="1" parent="1" source="check_amount" target="insufficient_balance">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo3" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge17">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Back to menu loop -->
+        <mxCell id="edge18" edge="1" parent="1" source="balance_inquiry" target="main_menu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="980"/>
+              <mxPoint x="80" y="660"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="1" source="process_withdrawal" target="main_menu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1090"/>
+              <mxPoint x="700" y="660"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge20" edge="1" parent="1" source="insufficient_balance" target="main_menu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1210"/>
+              <mxPoint x="280" y="660"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Exit to end -->
+        <mxCell id="edge21" edge="1" parent="1" source="exit_system" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge22" edge="1" parent="1" source="card_blocked" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

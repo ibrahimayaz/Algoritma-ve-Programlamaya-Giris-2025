@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:40:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="Do-While Döngüsü Örnek" id="flowchart">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Başlangıç işlemi -->
+        <mxCell id="init" value="toplam ← 0&#xa;sayi ← 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- DO başlangıcı -->
+        <mxCell id="doStart" value="DO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="60" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Kullanıcıdan sayı al -->
+        <mxCell id="input" value="sayi değerini&#xa;kullanıcıdan al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Toplam hesapla -->
+        <mxCell id="process" value="toplam ← toplam + sayi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Sonuç göster -->
+        <mxCell id="output" value="toplam değerini&#xa;göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- WHILE kontrol -->
+        <mxCell id="condition" value="sayi != 0 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="init">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="init" target="doStart">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="doStart" target="input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="input" target="process">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="process" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="output" target="condition">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- While döngü devam -->
+        <mxCell id="edge7" edge="1" parent="1" source="condition" target="input">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="660"/>
+              <mxPoint x="240" y="350"/>
+            </Array>
+          </mxGeometry>
+          <mxCell id="labelYes" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge7">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Çıkış -->
+        <mxCell id="edge8" edge="1" parent="1" source="condition" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge8">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Do-While açıklama -->
+        <mxCell id="explanation" value="DO-WHILE döngüsü:&#xa;En az bir kez çalışır,&#xa;sonra koşul kontrol edilir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:55:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="Not Hesaplama Sistemi" id="flowchart">
+    <mxGraphModel dx="1422" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 3 notu al -->
+        <mxCell id="input" value="not1, not2, not3 al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Geçerlilik kontrolü -->
+        <mxCell id="check_valid" value="Notlar 0-100&#xa;arasında mı?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Hata mesajı -->
+        <mxCell id="error" value="&quot;HATA&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Ortalama hesaplama -->
+        <mxCell id="calculate_avg" value="ortalama ← (not1 + not2 + not3) / 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="280" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- >= 90 kontrolü -->
+        <mxCell id="check_90" value="ortalama >= 90 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- AA notu -->
+        <mxCell id="grade_aa" value="AA - Mükemmel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="590" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- >= 80 kontrolü -->
+        <mxCell id="check_80" value="ortalama >= 80 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- BA notu -->
+        <mxCell id="grade_ba" value="BA - İyi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="580" y="590" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- >= 70 kontrolü -->
+        <mxCell id="check_70" value="ortalama >= 70 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="690" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- BB notu -->
+        <mxCell id="grade_bb" value="BB - Orta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- >= 60 kontrolü -->
+        <mxCell id="check_60" value="ortalama >= 60 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="800" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- CB notu -->
+        <mxCell id="grade_cb" value="CB - Geçer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="810" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- FF notu -->
+        <mxCell id="grade_ff" value="FF - Kaldı" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="920" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Sonuçları göster -->
+        <mxCell id="output" value="Sonuçları göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1040" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="input" target="check_valid">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="check_valid" target="error">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo1" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge3">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="check_valid" target="calculate_avg">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes1" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="calculate_avg" target="check_90">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Cascade of grade checks -->
+        <mxCell id="edge6" edge="1" parent="1" source="check_90" target="grade_aa">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes2" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge6">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="check_90" target="check_80">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo2" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge7">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Continue with other grade checks -->
+        <mxCell id="edge8" edge="1" parent="1" source="check_80" target="grade_ba">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes3" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge8">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="check_80" target="check_70">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo3" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge9">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- All grades converge to output -->
+        <mxCell id="edge_aa_output" edge="1" parent="1" source="grade_aa" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_ba_output" edge="1" parent="1" source="grade_ba" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_bb_output" edge="1" parent="1" source="grade_bb" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_cb_output" edge="1" parent="1" source="grade_cb" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_ff_output" edge="1" parent="1" source="grade_ff" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge_final" edge="1" parent="1" source="output" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge_error" edge="1" parent="1" source="error" target="end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="1170"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

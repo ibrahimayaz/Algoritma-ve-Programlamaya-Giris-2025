@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:35:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="Switch-Case Örnek" id="flowchart">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Kullanıcıdan seçim al -->
+        <mxCell id="input" value="secim değerini&#xa;kullanıcıdan al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Switch karar yapısı -->
+        <mxCell id="switch" value="secim" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="80" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Case 1 -->
+        <mxCell id="case1" value="Seçenek 1&#xa;işlemi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Case 2 -->
+        <mxCell id="case2" value="Seçenek 2&#xa;işlemi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Case 3 -->
+        <mxCell id="case3" value="Seçenek 3&#xa;işlemi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Default -->
+        <mxCell id="default" value="Geçersiz seçim&#xa;mesajı" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Sonuç göster -->
+        <mxCell id="output" value="Sonuç göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="input" target="switch">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Switch to Cases -->
+        <mxCell id="edge3" edge="1" parent="1" source="switch" target="case1">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge3">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="switch" target="case2">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label2" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="switch" target="case3">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label3" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge5">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="switch" target="default">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelDefault" value="default" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge6">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Cases to Output -->
+        <mxCell id="edge7" edge="1" parent="1" source="case1" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="case2" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="case3" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="default" target="output">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge11" edge="1" parent="1" source="output" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -299,81 +299,45 @@ Kötü Pratikler:
 ❌ Tutarsız semboller
 ```
 
-### 🛠️ Akış Diyagramı Çizim Araçları
+### 🛠️ Akış Diyagramı Çizim Aracı
 
-#### 💻 Online Araçlar (Ücretsiz)
-
-##### 🎨 1. Draw.io (diagrams.net) - **ÖNERİLEN**
+#### 🎨 Draw.io (diagrams.net) - **KULLANILACAK TEK ARAÇ**
 - **URL:** https://app.diagrams.net/
-- ✅ Tamamen ücretsiz
-- ✅ Kayıt gerektirmez
-- ✅ Türkçe arayüz
-- ✅ Akış diyagramı şablonları
-- ✅ Export: PNG, JPG, PDF, SVG, XML
-- ✅ Embed kod üretimi
+- ✅ Tamamen ücretsiz ve kayıt gerektirmez
+- ✅ Türkçe arayüz desteği
+- ✅ Zengin akış diyagramı şablon kütüphanesi
+- ✅ Export seçenekleri: PNG, JPG, PDF, SVG, XML
+- ✅ Embed kod üretimi ve paylaşım
+- ✅ Offline çalışma desteği
+- ✅ Google Drive, OneDrive entegrasyonu
 
-**🔧 Draw.io Kullanım Rehberi:**
+**🔧 Draw.io Kurulum ve Kullanım:**
 ```
-1. Siteye git: app.diagrams.net
-2. "Create New Diagram" tıkla
-3. "Flowchart" şablonunu seç
-4. Sol panelden sembolleri sürükle
-5. Bağlantıları çiz
-6. Renkleri ayarla
-7. Export et (File → Export as → PNG)
-8. Embed kodu al (File → Embed → HTML)
-```
-
-**📋 Embed Entegrasyonu:**
-```html
-<!-- Doküman içine gömme -->
-<iframe frameborder="0" style="width:100%;height:500px;" 
-src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Akis_Diyagrami#R..."></iframe>
-
-<!-- Direkt link -->
-[Diyagramı Draw.io'da Düzenle](https://app.diagrams.net/#G1a2b3c4d5e)
+📋 Adım Adım Rehber:
+1. Tarayıcınızla https://app.diagrams.net/ gidin
+2. "Create New Diagram" butonuna tıklayın
+3. "Flowchart" şablonunu seçin ve "Create" tıklayın
+4. Sol panelden akış diyagramı sembollerini sürükleyip bırakın
+5. Sembolleri birbirine ok çizgileri ile bağlayın
+6. Metin eklemek için sembole çift tıklayın
+7. Renk ve stil düzenlemeleri için sağ paneli kullanın
+8. Bitince File → Export as → PNG seçin
+9. Dosyayı "draw_io_files" klasörüne kaydedin
 ```
 
-**🎯 Mermaid Entegrasyonu (GitHub/VS Code):**
-```mermaid
-graph TD
-    A[Başla] --> B{Koşul?}
-    B -->|Evet| C[İşlem 1]
-    B -->|Hayır| D[İşlem 2]
-    C --> E[Bitir]
-    D --> E
+**📁 Dosya Organizasyonu:**
 ```
-
-##### 🌐 2. Lucidchart
-- **URL:** https://lucidchart.com/
-- ✅ Eğitim hesabı ücretsiz
-- ✅ Gerçek zamanlı iş birliği
-- ⚠️ Sınırlı diyagram sayısı (3 adet)
-- ✅ Profesyonel şablonlar
-
-##### ⚡ 3. Flowchart.fun
-- **URL:** https://flowchart.fun/
-- ✅ Kod ile diyagram çizimi
-- ✅ Hızlı prototipleme
-- ✅ Markdown desteği
-
-**Örnek Kod:**
+Hafta02/
+├── ders_icerik.md
+├── draw_io_files/
+│   ├── 01_toplama_algoritmasi.drawio
+│   ├── 01_toplama_algoritmasi.png
+│   ├── 02_cift_tek_kontrol.drawio
+│   ├── 02_cift_tek_kontrol.png
+│   ├── 03_faktöriyel_hesaplama.drawio
+│   ├── 03_faktöriyel_hesaplama.png
+│   └── ... (diğer örnekler)
 ```
-BAŞLA
-  sayı al
-  kalan = sayı % 2
-  kalan = 0?
-    Evet: Çift
-    Hayır: Tek
-  Sonucu göster
-BITIR
-```
-
-##### 🎨 4. Creately
-- **URL:** https://creately.com/
-- ✅ Hazır şablonlar
-- ✅ Takım çalışması
-- ⚠️ Sınırlı ücretsiz plan
 
 #### 🖥️ Masaüstü Yazılımlar
 - **Microsoft Visio** → Endüstri standardı (ücretli)
@@ -385,7 +349,7 @@ BITIR
 - **Grafio** → iPad için ideal
 - **SimpleMind** → Mind mapping + akış
 
-## 3. 💡 Detaylı Örnekler ve Uygulamalar
+## 3. 💡 10 Detaylı Örnek ve Uygulamalar
 
 ### 🔥 Örnek 1: Basit Toplama İşlemi
 > **Zorluk:** ⭐ Başlangıç  
@@ -412,50 +376,45 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Akış Diyagramı:
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [01_toplama_algoritmasi.drawio](./draw_io_files/01_toplama_algoritmasi.drawio)
 
-##### 🎨 Draw.io ile Çizilmiş Diyagram:
-```mermaid
-flowchart TD
-    A([BAŞLA]) --> B[/"Birinci sayıyı girin"/]
-    B --> C[/sayı1 al/]
-    C --> D[/"İkinci sayıyı girin"/]
-    D --> E[/sayı2 al/]
-    E --> F[toplam ← sayı1 + sayı2]
-    F --> G[\Sonuç: toplam\]
-    G --> H([BITIR])
-    
-    style A fill:#90EE90
-    style H fill:#FFB6C1
-    style F fill:#87CEEB
 ```
-
-##### 📐 Alternatif ASCII Gösterim:
-```
-     ( BAŞLA )
-         ↓
-  / "Birinci sayıyı girin" /
-         ↓
-     / sayı1 al /
-         ↓
-  / "İkinci sayıyı girin" /
-         ↓
-     / sayı2 al /
-         ↓
-  [ toplam ← sayı1 + sayı2 ]
-         ↓
-   \ "Sonuç: " + toplam \
-         ↓
-      ( BITIR )
-```
-
-##### 🔗 Draw.io Editörü ile Düzenle:
-**Online Editor:** [Bu diyagramı düzenlemek için tıklayın](https://app.diagrams.net/#G1234567890)
-
-**Embed Kodu:**
-```html
-<iframe frameborder="0" style="width:100%;height:400px;" 
-src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#R7VhNc9owEP01PqYjy..."></iframe>
+Draw.io'da Çizilen Diyagram:
+┌─────────────┐
+│   BAŞLA     │ (Oval - Yeşil)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│"Birinci sayı│ (Paralelkenar - Mavi)
+│    girin"   │
+└─────┬───────┘
+      │
+┌─────v───────┐
+│  sayı1 al   │ (Paralelkenar - Mavi)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│"İkinci sayı │ (Paralelkenar - Mavi)
+│    girin"   │
+└─────┬───────┘
+      │
+┌─────v───────┐
+│  sayı2 al   │ (Paralelkenar - Mavi)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│toplam←sayı1+│ (Dikdörtgen - Sarı)
+│    sayı2    │
+└─────┬───────┘
+      │
+┌─────v───────┐
+│Sonucu göster│ (Paralelkenar - Turuncu)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│    BITIR    │ (Oval - Kırmızı)
+└─────────────┘
 ```
 
 #### 🧪 Test Senaryoları:
@@ -463,6 +422,7 @@ src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#R7
 Test 1: sayı1 = 5, sayı2 = 3  → Beklenen: 8
 Test 2: sayı1 = -2, sayı2 = 7 → Beklenen: 5
 Test 3: sayı1 = 0, sayı2 = 0  → Beklenen: 0
+Test 4: sayı1 = 1.5, sayı2 = 2.7 → Beklenen: 4.2
 ```
 
 ---
@@ -496,221 +456,46 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Akış Diyagramı:
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [02_cift_tek_kontrol.drawio](./draw_io_files/02_cift_tek_kontrol.drawio)
 
-##### 🎨 Mermaid Diyagramı:
-```mermaid
-flowchart TD
-    A([BAŞLA]) --> B[/"Bir sayı girin"/]
-    B --> C[/sayı al/]
-    C --> D[kalan ← sayı % 2]
-    D --> E{kalan = 0 ?}
-    E -->|EVET| F[\"Çift sayı"\]
-    E -->|HAYIR| G[\"Tek sayı"\]
-    F --> H[/Sonucu göster/]
-    G --> H
-    H --> I([BITIR])
-    
-    style A fill:#90EE90
-    style I fill:#FFB6C1
-    style D fill:#87CEEB
-    style E fill:#FFD700
-    style F fill:#98FB98
-    style G fill:#FFA07A
 ```
-
-##### 📐 Geleneksel Akış Diyagramı:
-```
-        ( BAŞLA )
-            ↓
-    / "Bir sayı girin" /
-            ↓
-        / sayı al /
-            ↓
-    [ kalan ← sayı % 2 ]
-            ↓
-      ◊ kalan = 0 ? ◊
-     ↙ EVET      HAYIR ↘
-[ "Çift sayı" ]    [ "Tek sayı" ]
-     ↓                ↓
-     ↘              ↙
-       \ Sonucu göster \
-             ↓
-          ( BITIR )
-```
-
-##### 🛠️ Draw.io Dosyası:
-**XML Kodu (Draw.io'ya yapıştırın):**
-```xml
-<mxfile host="app.diagrams.net">
-  <diagram name="Çift-Tek Kontrol">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="340" y="40" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <!-- Diğer elemanlar buraya eklenir -->
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
-```
-
-#### 🧪 Test Senaryoları:
-```
-Test 1: sayı = 4   → Beklenen: "4 çift sayıdır"
-Test 2: sayı = 7   → Beklenen: "7 tek sayıdır"
-Test 3: sayı = 0   → Beklenen: "0 çift sayıdır" (önemli!)
-Test 4: sayı = -3  → Beklenen: "-3 tek sayıdır"
+Draw.io'da Çizilen Diyagram:
+┌─────────────┐
+│   BAŞLA     │ (Oval - Yeşil)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│"Bir sayı    │ (Paralelkenar - Mavi)
+│   girin"    │
+└─────┬───────┘
+      │
+┌─────v───────┐
+│  sayı al    │ (Paralelkenar - Mavi)
+└─────┬───────┘
+      │
+┌─────v───────┐
+│kalan←sayı%2 │ (Dikdörtgen - Sarı)
+└─────┬───────┘
+      │
+      ◊ kalan=0? ◊ (Elmas - Pembe)
+     /           \
+ EVET/             \HAYIR
+    /               \
+┌─────v───────┐ ┌─────v───────┐
+│"Çift sayı"  │ │"Tek sayı"   │ (Paralelkenar - Turuncu)
+└─────┬───────┘ └─────┬───────┘
+      │               │
+      └─────┬─────────┘
+            │
+      ┌─────v───────┐
+      │    BITIR    │ (Oval - Kırmızı)
+      └─────────────┘
 ```
 
 ---
 
-### 🔥 Örnek 3: Faktöriyel Hesaplama
-> **Zorluk:** ⭐⭐⭐ İleri  
-> **Süre:** 15 dakika  
-> **Problem:** n! = n × (n-1) × (n-2) × ... × 1
-
-#### 📝 Sözde Kod Çözümü:
-```
-BAŞLA
-  // Giriş ve kontrol
-  Yazdır "=== FAKTÖRİYEL HESAPLAMA ==="
-  Yazdır "Faktöriyeli hesaplanacak sayıyı girin (0 veya pozitif):"
-  n ← Kullanıcıdan sayı al
-  
-  // Geçerlilik kontrolü
-  EĞER n < 0 İSE
-    Yazdır "HATA: Negatif sayıların faktöriyeli tanımsızdır!"
-    ÇIK
-  BITIR
-  
-  // Özel durum: 0! = 1
-  EĞER n = 0 İSE
-    Yazdır "0! = 1 (tanım gereği)"
-    ÇIK
-  BITIR
-  
-  // Faktöriyel hesaplama
-  faktöriyel ← 1
-  i ← 1
-  işlemMetni ← n + "! = "
-  
-  KOŞUL i <= n İKEN
-    faktöriyel ← faktöriyel * i
-    
-    // İşlem metnini oluştur
-    EĞER i = 1 İSE
-      işlemMetni ← işlemMetni + i
-    DEĞILSE
-      işlemMetni ← işlemMetni + " × " + i
-    BITIR
-    
-    i ← i + 1
-  BITIR
-  
-  // Sonucu göster
-  Yazdır işlemMetni + " = " + faktöriyel
-  Yazdır "Hesaplama tamamlandı! ✅"
-BITIR
-```
-
-#### 📊 Akış Diyagramı:
-```
-        ( BAŞLA )
-            ↓
-      / n sayısını al /
-            ↓
-       ◊ n < 0 ? ◊
-      ↙ EVET   HAYIR ↘
-  \ "HATA" \      ◊ n = 0 ? ◊
-      ↓          ↙ EVET  HAYIR ↘
-   ( BITIR )  \ "0! = 1" \   [ faktöriyel ← 1 ]
-                  ↓           [ i ← 1 ]
-               ( BITIR )          ↓
-                            ◊ i <= n ? ◊
-                           ↙ EVET    HAYIR ↘
-                  [ faktöriyel ← faktöriyel * i ]  \ sonucu göster \
-                  [ i ← i + 1 ]                        ↓
-                         ↓                         ( BITIR )
-                         ↘_____________________↙
-```
-
-#### 🧪 Test Senaryoları:
-```
-Test 1: n = 5  → Beklenen: 5! = 1 × 2 × 3 × 4 × 5 = 120
-Test 2: n = 0  → Beklenen: 0! = 1
-Test 3: n = 1  → Beklenen: 1! = 1
-Test 4: n = -3 → Beklenen: HATA mesajı
-```
-
----
-
-### 🔥 Örnek 4: Fibonacci Dizisi (İlk N Terim)
-> **Zorluk:** ⭐⭐⭐ İleri  
-> **Süre:** 20 dakika  
-> **Problem:** F(n) = F(n-1) + F(n-2), F(0)=0, F(1)=1
-
-#### 📝 Sözde Kod Çözümü:
-```
-BAŞLA
-  // Giriş
-  Yazdır "=== FİBONACCİ DİZİSİ ==="
-  Yazdır "Kaç terim yazdırılsın?"
-  n ← Kullanıcıdan sayı al
-  
-  // Kontrol
-  EĞER n <= 0 İSE
-    Yazdır "HATA: Pozitif bir sayı girin!"
-    ÇIK
-  BITIR
-  
-  // Başlangıç değerleri
-  a ← 0      // F(0)
-  b ← 1      // F(1)
-  sayaç ← 1
-  
-  Yazdır "Fibonacci Dizisi (" + n + " terim):"
-  
-  // İlk terimi yazdır
-  EĞER n >= 1 İSE
-    Yazdır "F(0) = " + a
-    sayaç ← sayaç + 1
-  BITIR
-  
-  // İkinci terimi yazdır
-  EĞER n >= 2 İSE
-    Yazdır "F(1) = " + b
-    sayaç ← sayaç + 1
-  BITIR
-  
-  // Kalan terimleri hesapla ve yazdır
-  KOŞUL sayaç <= n İKEN
-    c ← a + b
-    Yazdır "F(" + (sayaç-1) + ") = " + c
-    
-    // Kaydırma işlemi
-    a ← b
-    b ← c
-    sayaç ← sayaç + 1
-  BITIR
-  
-  Yazdır "Fibonacci dizisi tamamlandı! 🎯"
-BITIR
-```
-
-#### 🧪 Test Senaryoları:
-```
-Test 1: n = 5  → Beklenen: 0, 1, 1, 2, 3
-Test 2: n = 1  → Beklenen: 0
-Test 3: n = 8  → Beklenen: 0, 1, 1, 2, 3, 5, 8, 13
-```
-
----
-
-### 🔥 Örnek 5: En Büyük Sayıyı Bulma (3 Sayı)
+### � Örnek 3: En Büyük Sayıyı Bulma (3 Sayı)
 > **Zorluk:** ⭐⭐ Orta  
 > **Süre:** 12 dakika
 
@@ -728,7 +513,7 @@ BAŞLA
   Yazdır "Üçüncü sayıyı girin:"
   sayı3 ← Kullanıcıdan sayı al
   
-  // En büyüğü bulma (iç içe if)
+  // En büyüğü bulma
   EĞER sayı1 >= sayı2 VE sayı1 >= sayı3 İSE
     enBüyük ← sayı1
     Yazdır "En büyük sayı: " + sayı1
@@ -740,31 +525,454 @@ BAŞLA
     Yazdır "En büyük sayı: " + sayı3
   BITIR
   
-  // Ek bilgi
   Yazdır "Girilen sayılar: " + sayı1 + ", " + sayı2 + ", " + sayı3
-  Yazdır "Analiz tamamlandı! 📊"
 BITIR
 ```
 
-#### 📊 Akış Diyagramı:
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [03_en_buyuk_sayi.drawio](./draw_io_files/03_en_buyuk_sayi.drawio)
+
+---
+
+### 🔥 Örnek 4: Faktöriyel Hesaplama
+> **Zorluk:** ⭐⭐⭐ İleri  
+> **Süre:** 15 dakika  
+> **Problem:** n! = n × (n-1) × (n-2) × ... × 1
+
+#### 📝 Sözde Kod Çözümü:
 ```
-        ( BAŞLA )
-            ↓
-    / sayı1, sayı2, sayı3 al /
-            ↓
-    ◊ sayı1 >= sayı2 VE sayı1 >= sayı3 ? ◊
-   ↙ EVET                           HAYIR ↘
-[ enBüyük ← sayı1 ]              ◊ sayı2 >= sayı3 ? ◊
-    ↓                            ↙ EVET        HAYIR ↘
-    ↓                    [ enBüyük ← sayı2 ]  [ enBüyük ← sayı3 ]
-    ↓                           ↓                  ↓
-    ↘                           ↓                ↙
-      ↘                         ↓              ↙
-        ↘_____________________ ↓ ____________↙
-                        \ enBüyük göster \
-                               ↓
-                           ( BITIR )
+BAŞLA
+  Yazdır "=== FAKTÖRİYEL HESAPLAMA ==="
+  Yazdır "Faktöriyeli hesaplanacak sayıyı girin:"
+  n ← Kullanıcıdan sayı al
+  
+  // Geçerlilik kontrolü
+  EĞER n < 0 İSE
+    Yazdır "HATA: Negatif sayıların faktöriyeli tanımsızdır!"
+    ÇIK
+  BITIR
+  
+  // Özel durum: 0! = 1
+  EĞER n = 0 İSE
+    Yazdır "0! = 1"
+    ÇIK
+  BITIR
+  
+  // Faktöriyel hesaplama
+  faktöriyel ← 1
+  i ← 1
+  
+  KOŞUL i <= n İKEN
+    faktöriyel ← faktöriyel * i
+    i ← i + 1
+  BITIR
+  
+  Yazdır n + "! = " + faktöriyel
+BITIR
 ```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [04_faktoriyel_hesaplama.drawio](./draw_io_files/04_faktoriyel_hesaplama.drawio)
+
+---
+
+### 🔥 Örnek 5: Fibonacci Dizisi (İlk N Terim)
+> **Zorluk:** ⭐⭐⭐ İleri  
+> **Problem:** F(n) = F(n-1) + F(n-2), F(0)=0, F(1)=1
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== FİBONACCİ DİZİSİ ==="
+  Yazdır "Kaç terim yazdırılsın?"
+  n ← Kullanıcıdan sayı al
+  
+  EĞER n <= 0 İSE
+    Yazdır "HATA: Pozitif bir sayı girin!"
+    ÇIK
+  BITIR
+  
+  a ← 0
+  b ← 1
+  sayaç ← 1
+  
+  Yazdır "Fibonacci Dizisi:"
+  
+  EĞER n >= 1 İSE
+    Yazdır a
+    sayaç ← sayaç + 1
+  BITIR
+  
+  KOŞUL sayaç <= n İKEN
+    Yazdır b
+    c ← a + b
+    a ← b
+    b ← c
+    sayaç ← sayaç + 1
+  BITIR
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [05_fibonacci_dizisi.drawio](./draw_io_files/05_fibonacci_dizisi.drawio)
+
+---
+
+### 🔥 Örnek 6: Basit Not Hesaplama Sistemi
+> **Zorluk:** ⭐⭐ Orta  
+> **Problem:** 3 sınav notunun ortalamasını alıp harf notu veren sistem
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== NOT HESAPLAMA SİSTEMİ ==="
+  
+  // Notları alma
+  Yazdır "1. sınav notunu girin (0-100):"
+  not1 ← Kullanıcıdan sayı al
+  
+  Yazdır "2. sınav notunu girin (0-100):"
+  not2 ← Kullanıcıdan sayı al
+  
+  Yazdır "3. sınav notunu girin (0-100):"
+  not3 ← Kullanıcıdan sayı al
+  
+  // Geçerlilik kontrolü
+  EĞER (not1 < 0 VEYA not1 > 100) VEYA (not2 < 0 VEYA not2 > 100) VEYA (not3 < 0 VEYA not3 > 100) İSE
+    Yazdır "HATA: Notlar 0-100 arasında olmalıdır!"
+    ÇIK
+  BITIR
+  
+  // Ortalama hesaplama
+  ortalama ← (not1 + not2 + not3) / 3
+  
+  // Harf notu belirleme
+  EĞER ortalama >= 90 İSE
+    harfNotu ← "AA"
+    durum ← "Mükemmel"
+  DEĞILSE EĞER ortalama >= 80 İSE
+    harfNotu ← "BA"
+    durum ← "İyi"
+  DEĞILSE EĞER ortalama >= 70 İSE
+    harfNotu ← "BB"
+    durum ← "Orta"
+  DEĞILSE EĞER ortalama >= 60 İSE
+    harfNotu ← "CB"
+    durum ← "Geçer"
+  DEĞILSE
+    harfNotu ← "FF"
+    durum ← "Kaldı"
+  BITIR
+  
+  // Sonuçları gösterme
+  Yazdır "=== SONUÇLAR ==="
+  Yazdır "Notlarınız: " + not1 + ", " + not2 + ", " + not3
+  Yazdır "Ortalama: " + ortalama
+  Yazdır "Harf Notu: " + harfNotu
+  Yazdır "Durum: " + durum
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [06_not_hesaplama.drawio](./draw_io_files/06_not_hesaplama.drawio)
+
+---
+
+### 🔥 Örnek 7: Sayı Tahmin Oyunu
+> **Zorluk:** ⭐⭐⭐ İleri  
+> **Problem:** Bilgisayar 1-100 arası sayı tutar, kullanıcı tahmin eder
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== SAYI TAHMİN OYUNU ==="
+  
+  // Rastgele sayı üretme (1-100)
+  doğruSayı ← RastgeleSayı(1, 100)
+  tahminHakkı ← 7
+  tahminSayısı ← 0
+  
+  Yazdır "1-100 arası bir sayı tuttum!"
+  Yazdır "Toplam " + tahminHakkı + " hakkınız var."
+  
+  KOŞUL tahminHakkı > 0 İKEN
+    Yazdır "Tahmininizi girin:"
+    tahmin ← Kullanıcıdan sayı al
+    tahminSayısı ← tahminSayısı + 1
+    
+    EĞER tahmin = doğruSayı İSE
+      Yazdır "🎉 TEBRİKLER! Doğru tahmin!"
+      Yazdır "Sayı: " + doğruSayı
+      Yazdır tahminSayısı + " tahminde buldunuz!"
+      ÇIK
+    DEĞILSE EĞER tahmin < doğruSayı İSE
+      Yazdır "📈 Daha BÜYÜK bir sayı deneyin"
+    DEĞILSE
+      Yazdır "📉 Daha KÜÇÜK bir sayı deneyin"
+    BITIR
+    
+    tahminHakkı ← tahminHakkı - 1
+    Yazdır "Kalan hak: " + tahminHakkı
+  BITIR
+  
+  EĞER tahminHakkı = 0 İSE
+    Yazdır "😢 Oyun bitti! Doğru sayı: " + doğruSayı
+  BITIR
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [07_sayi_tahmin_oyunu.drawio](./draw_io_files/07_sayi_tahmin_oyunu.drawio)
+
+---
+
+### 🔥 Örnek 8: Vücut Kitle İndeksi (VKİ) Hesaplama
+> **Zorluk:** ⭐⭐ Orta  
+> **Problem:** Kilo ve boy bilgisine göre VKİ hesaplayıp kategori belirleyen sistem
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== VKİ HESAPLAMA SİSTEMİ ==="
+  
+  // Kişisel bilgileri alma
+  Yazdır "Kilonuzu girin (kg):"
+  kilo ← Kullanıcıdan sayı al
+  
+  Yazdır "Boyunuzu girin (cm):"
+  boy ← Kullanıcıdan sayı al
+  
+  // Geçerlilik kontrolü
+  EĞER kilo <= 0 VEYA boy <= 0 İSE
+    Yazdır "HATA: Kilo ve boy pozitif olmalıdır!"
+    ÇIK
+  BITIR
+  
+  // VKİ hesaplama
+  boyMetre ← boy / 100
+  vki ← kilo / (boyMetre * boyMetre)
+  
+  // Kategori belirleme
+  EĞER vki < 18.5 İSE
+    kategori ← "Zayıf"
+    öneri ← "Kilo almanız önerilir"
+    renk ← "🔵"
+  DEĞILSE EĞER vki < 25 İSE
+    kategori ← "Normal"
+    öneri ← "İdeal kiloda değiniz"
+    renk ← "🟢"
+  DEĞILSE EĞER vki < 30 İSE
+    kategori ← "Kilolu"
+    öneri ← "Kilo vermeniz önerilir"
+    renk ← "🟡"
+  DEĞILSE
+    kategori ← "Obez"
+    öneri ← "Doktora başvurun"
+    renk ← "🔴"
+  BITIR
+  
+  // Sonuçları gösterme
+  Yazdır "=== VKİ SONUÇLARI ==="
+  Yazdır "Kilo: " + kilo + " kg"
+  Yazdır "Boy: " + boy + " cm"
+  Yazdır "VKİ: " + vki
+  Yazdır renk + " Kategori: " + kategori
+  Yazdır "Öneri: " + öneri
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [08_vki_hesaplama.drawio](./draw_io_files/08_vki_hesaplama.drawio)
+
+---
+
+### 🔥 Örnek 9: Basit ATM Sistemi
+> **Zorluk:** ⭐⭐⭐⭐ Uzman  
+> **Problem:** PIN kontrolü, menü sistemi ve para çekme işlemleri
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== ATM SİSTEMİ ==="
+  
+  // Başlangıç değerleri
+  doğruPIN ← "1234"
+  bakiye ← 1000
+  pinDenemesi ← 0
+  maxDeneme ← 3
+  
+  // PIN kontrolü
+  KOŞUL pinDenemesi < maxDeneme İKEN
+    Yazdır "PIN kodunuzu girin:"
+    girilenPIN ← Kullanıcıdan string al
+    
+    EĞER girilenPIN = doğruPIN İSE
+      Yazdır "✅ PIN doğru! Hoş geldiniz!"
+      ÇIK döngüden
+    DEĞILSE
+      pinDenemesi ← pinDenemesi + 1
+      kalanDeneme ← maxDeneme - pinDenemesi
+      
+      EĞER kalanDeneme > 0 İSE
+        Yazdır "❌ Yanlış PIN! Kalan deneme: " + kalanDeneme
+      DEĞILSE
+        Yazdır "🚫 Kartınız bloke edildi!"
+        ÇIK
+      BITIR
+    BITIR
+  BITIR
+  
+  // Ana menü
+  EĞER pinDenemesi < maxDeneme İSE
+    devamEt ← true
+    
+    KOŞUL devamEt = true İKEN
+      Yazdır "=== ANA MENÜ ==="
+      Yazdır "1. Bakiye Sorgula"
+      Yazdır "2. Para Çek"
+      Yazdır "3. Çıkış"
+      Yazdır "Seçiminiz:"
+      seçim ← Kullanıcıdan sayı al
+      
+      EĞER seçim = 1 İSE
+        Yazdır "💰 Mevcut bakiyeniz: " + bakiye + " TL"
+        
+      DEĞILSE EĞER seçim = 2 İSE
+        Yazdır "Çekmek istediğiniz tutarı girin:"
+        tutar ← Kullanıcıdan sayı al
+        
+        EĞER tutar <= 0 İSE
+          Yazdır "❌ Geçersiz tutar!"
+        DEĞILSE EĞER tutar > bakiye İSE
+          Yazdır "❌ Yetersiz bakiye!"
+        DEĞILSE
+          bakiye ← bakiye - tutar
+          Yazdır "✅ " + tutar + " TL çekildi"
+          Yazdır "💰 Kalan bakiye: " + bakiye + " TL"
+        BITIR
+        
+      DEĞILSE EĞER seçim = 3 İSE
+        Yazdır "👋 İyi günler dileriz!"
+        devamEt ← false
+        
+      DEĞILSE
+        Yazdır "❌ Geçersiz seçim!"
+      BITIR
+    BITIR
+  BITIR
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [09_atm_sistemi.drawio](./draw_io_files/09_atm_sistemi.drawio)
+
+---
+
+### 🔥 Örnek 10: Hesap Makinesi (Menü Sistemli)
+> **Zorluk:** ⭐⭐⭐ İleri  
+> **Problem:** Dört işlem + özel fonksiyonlar içeren hesap makinesi
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  Yazdır "=== GELİŞMİŞ HESAP MAKİNESİ ==="
+  
+  devam ← true
+  
+  KOŞUL devam = true İKEN
+    Yazdır ""
+    Yazdır "=== MENÜ ==="
+    Yazdır "1. Toplama (+)"
+    Yazdır "2. Çıkarma (-)"
+    Yazdır "3. Çarpma (*)"
+    Yazdır "4. Bölme (/)"
+    Yazdır "5. Üs Alma (^)"
+    Yazdır "6. Karekök (√)"
+    Yazdır "7. Faktöriyel (!)"
+    Yazdır "8. Çıkış"
+    Yazdır "Seçiminizi yapın (1-8):"
+    
+    seçim ← Kullanıcıdan sayı al
+    
+    EĞER seçim = 1 İSE
+      Yazdır "Birinci sayıyı girin:"
+      a ← Kullanıcıdan sayı al
+      Yazdır "İkinci sayıyı girin:"
+      b ← Kullanıcıdan sayı al
+      sonuç ← a + b
+      Yazdır a + " + " + b + " = " + sonuç
+      
+    DEĞILSE EĞER seçim = 2 İSE
+      Yazdır "Birinci sayıyı girin:"
+      a ← Kullanıcıdan sayı al
+      Yazdır "İkinci sayıyı girin:"
+      b ← Kullanıcıdan sayı al
+      sonuç ← a - b
+      Yazdır a + " - " + b + " = " + sonuç
+      
+    DEĞILSE EĞER seçim = 3 İSE
+      Yazdır "Birinci sayıyı girin:"
+      a ← Kullanıcıdan sayı al
+      Yazdır "İkinci sayıyı girin:"
+      b ← Kullanıcıdan sayı al
+      sonuç ← a * b
+      Yazdır a + " × " + b + " = " + sonuç
+      
+    DEĞILSE EĞER seçim = 4 İSE
+      Yazdır "Birinci sayıyı girin:"
+      a ← Kullanıcıdan sayı al
+      Yazdır "İkinci sayıyı girin:"
+      b ← Kullanıcıdan sayı al
+      
+      EĞER b = 0 İSE
+        Yazdır "❌ Sıfıra bölme hatası!"
+      DEĞILSE
+        sonuç ← a / b
+        Yazdır a + " ÷ " + b + " = " + sonuç
+      BITIR
+      
+    DEĞILSE EĞER seçim = 6 İSE
+      Yazdır "Sayıyı girin:"
+      a ← Kullanıcıdan sayı al
+      
+      EĞER a < 0 İSE
+        Yazdır "❌ Negatif sayının karekökü alınamaz!"
+      DEĞILSE
+        sonuç ← KareKök(a)
+        Yazdır "√" + a + " = " + sonuç
+      BITIR
+      
+    DEĞILSE EĞER seçim = 7 İSE
+      Yazdır "Sayıyı girin:"
+      n ← Kullanıcıdan sayı al
+      
+      EĞER n < 0 İSE
+        Yazdır "❌ Negatif sayının faktöriyeli tanımsız!"
+      DEĞILSE
+        faktöriyel ← 1
+        i ← 1
+        KOŞUL i <= n İKEN
+          faktöriyel ← faktöriyel * i
+          i ← i + 1
+        BITIR
+        Yazdır n + "! = " + faktöriyel
+      BITIR
+      
+    DEĞILSE EĞER seçim = 8 İSE
+      Yazdır "👋 Hesap makinesi kapatılıyor..."
+      devam ← false
+      
+    DEĞILSE
+      Yazdır "❌ Geçersiz seçim! Lütfen 1-8 arası bir sayı girin."
+    BITIR
+  BITIR
+  
+  Yazdır "Program sona erdi!"
+BITIR
+```
+
+#### 📊 Draw.io Akış Diyagramı:
+**🔗 Draw.io Dosyası:** [10_hesap_makinesi.drawio](./draw_io_files/10_hesap_makinesi.drawio)
 
 ## 4. 📚 Ders Materyalleri ve Kaynaklar
 

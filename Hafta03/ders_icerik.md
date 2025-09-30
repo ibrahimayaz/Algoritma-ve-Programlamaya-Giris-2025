@@ -330,22 +330,214 @@ DEĞILSE
   Yazdır "---" // Satır sonu
 ```
 
-## 8. Ders Materyalleri
+## 8. Ders Materyalleri ve Kaynaklar
 
-### Okuma Kaynakları
+### 📖 Okuma Kaynakları
 1. **Kitap:** "Programlama Mantığı ve Tasarımı" - Bölüm 4-5
 2. **Online:** Codecademy - "Control Flow"
 3. **Video:** "Loops and Conditionals Explained" - Khan Academy
 
-### Pratik Araçlar
-1. **Online Compiler:** Repl.it, CodePen
-2. **Akış Diyagramı:** Lucidchart, Draw.io
-3. **Pseudocode Editor:** PseudoEditor
+### 🛠️ Araçlar ve Yazılımlar
 
-### Interaktif Örnekler
-1. Scratch programlama dili ile kontrol yapıları
-2. Flowgorithm ile döngü örnekleri
-3. Python Tutor ile kod takibi
+#### 💻 Online Kod Editörleri
+1. **Repl.it** - https://replit.com/
+   - ✅ Çoklu dil desteği
+   - ✅ Gerçek zamanlı çalıştırma
+   - ✅ Ücretsiz hesap
+
+2. **CodePen** - https://codepen.io/
+   - ✅ Web teknolojileri odaklı
+   - ✅ Hızlı prototipleme
+
+#### 📊 Akış Diyagramı Çizimi - Draw.io
+**🎯 ÖNERİLEN: Draw.io (diagrams.net)**
+- **Website:** https://app.diagrams.net/
+- ✅ **Tamamen ücretsiz**
+- ✅ **Kayıt gerektirmez**
+- ✅ **Türkçe arayüz desteği**
+- ✅ **Kontrol yapıları şablonları**
+- ✅ **PNG/SVG/PDF çıktı formatları**
+
+##### 🎨 Draw.io ile Akış Diyagramı Çizim Adımları:
+1. **Başlatma:** https://app.diagrams.net/ → "Blank Diagram" seç
+2. **Şekil Seçimi:** Sol panelden "Flowchart" kategorisi
+3. **Kontrol Yapıları:**
+   - Karar (IF): Elmas şekli (Diamond)
+   - İşlem: Dikdörtgen (Rectangle)
+   - Döngü: Özel döngü sembolleri
+4. **Bağlantılar:** Şekiller arası ok çizgileri
+5. **Kaydetme:** File → Export → PNG/PDF
+
+##### 📋 Draw.io Şablon Rehberi:
+```
+🔷 Karar Yapıları (IF-ELSE):
+┌─────────────┐
+│   BAŞLA     │ → Oval (Terminal)
+└─────┬───────┘
+      │
+    ◊ Koşul ◊   → Diamond (Decision)
+   ↙ EVET  HAYIR ↘
+┌─────────┐ ┌─────────┐
+│İşlem 1  │ │İşlem 2  │ → Rectangle (Process)
+└─────────┘ └─────────┘
+
+🔄 Döngü Yapıları:
+┌─────────────┐
+│ Başlangıç   │
+└─────┬───────┘
+      │    ↗
+    ◊ Koşul ◊
+   ↙ EVET  HAYIR ↘
+┌─────────┐     │
+│  İşlem  │     │
+└────┬────┘     │
+     ↖_________↙
+```
+
+#### 🔬 Pseudocode Editörleri
+1. **Notepad++** - Ücretsiz metin editörü
+2. **Visual Studio Code** - Gelişmiş editör
+3. **Online Pseudocode Editor** - Basit web araçları
+
+### 🎮 İnteraktif Örnekler ve Simülasyonlar
+
+#### 🧩 Scratch Programlama
+- **Website:** https://scratch.mit.edu/
+- ✅ Görsel programlama blokları
+- ✅ Kontrol yapıları öğretimi
+- ✅ Eğlenceli ve etkileşimli
+
+#### 🔍 Python Tutor (Kod Takibi)
+- **Website:** http://pythontutor.com/
+- ✅ Adım adım kod izleme
+- ✅ Değişken değişimlerini görselleştirme
+- ✅ Döngü ve koşul mantığını anlama
+
+#### 📚 Flowgorithm (Akış Diyagramı Simülatörü)
+- **Website:** http://flowgorithm.org/
+- ✅ Eğitim odaklı tasarım
+- ✅ Türkçe dil desteği
+- ✅ Kod çıktısı (C#, Java, Python)
+- ✅ Adım adım çalıştırma özelliği
+
+### 🎯 Draw.io ile Kontrol Yapıları Örnekleri
+
+#### 📝 Örnek 1: IF-ELSE Diyagramı
+**Problem:** Sayının pozitif, negatif veya sıfır olduğunu belirleyen algoritma
+
+**Sözde Kod:**
+```
+BAŞLA
+    "Bir sayı girin: " yazdır
+    sayı'yı oku
+    EĞER sayı > 0 İSE
+        "Sayı pozitifdir" yazdır
+    DEĞİLSE EĞER sayı < 0 İSE
+        "Sayı negatiftir" yazdır
+    DEĞİLSE
+        "Sayı sıfırdır" yazdır
+    SON
+BITIR
+```
+
+**Draw.io Akış Diyagramı:**
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=if_else_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fif_else_ornek.drawio"></iframe>
+
+#### 📝 Örnek 2: FOR Döngüsü Diyagramı
+**Problem:** 1'den 10'a kadar sayıları yazdıran algoritma
+
+**Sözde Kod:**
+```
+BAŞLA
+    İÇİN i = 1'den 10'a KADAR
+        i değerini yazdır
+    DÖNGÜ SON
+BITIR
+```
+
+**Draw.io Akış Diyagramı:**
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=for_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Ffor_dongusu_ornek.drawio"></iframe>
+
+#### 📝 Örnek 3: WHILE Döngüsü Diyagramı
+**Problem:** Kullanıcıdan 5 kez veri alıp işleyen algoritma
+
+**Sözde Kod:**
+```
+BAŞLA
+    sayaç ← 0
+    sayaç < 5 İKEN
+        kullanıcıdan veri al
+        veriyi işle
+        sayaç ← sayaç + 1
+    DÖNGÜ SON
+    Sonuç göster
+BITIR
+```
+
+**Draw.io Akış Diyagramı:**
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=while_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fwhile_dongusu_ornek.drawio"></iframe>
+
+#### 📝 Örnek 4: SWITCH-CASE Diyagramı
+**Problem:** Menü seçimlerine göre farklı işlemler yapan algoritma
+
+**Sözde Kod:**
+```
+BAŞLA
+    secim değerini kullanıcıdan al
+    DURUM secim
+        1 ise: Seçenek 1 işlemi
+        2 ise: Seçenek 2 işlemi
+        3 ise: Seçenek 3 işlemi
+        diğer: Geçersiz seçim mesajı
+    SON
+    Sonuç göster
+BITIR
+```
+
+**Draw.io Akış Diyagramı:**
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=switch_case_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fswitch_case_ornek.drawio"></iframe>
+
+#### 📝 Örnek 5: DO-WHILE Döngüsü Diyagramı
+**Problem:** En az bir kez çalışması gereken sayı toplama programı
+
+**Sözde Kod:**
+```
+BAŞLA
+    toplam ← 0
+    sayi ← 0
+    KÖR
+        sayi değerini kullanıcıdan al
+        toplam ← toplam + sayi
+        toplam değerini göster
+    sayi != 0 İKEN
+BITIR
+```
+
+**Draw.io Akış Diyagramı:**
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=do_while_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fdo_while_ornek.drawio"></iframe>
+
+#### 📝 Örnek 3: WHILE Döngüsü Diyagramı
+**Draw.io Dosyası:** [while_dongusu_ornek.drawio](./draw_io_files/while_dongusu_ornek.drawio)
+
+### 💡 Draw.io Kullanım İpuçları
+
+#### 🎨 Renk Kodlama Sistemi:
+- 🟢 **Yeşil:** Başlangıç (START)
+- 🔵 **Mavi:** Giriş/Çıkış işlemleri
+- 🟡 **Sarı:** İşlem blokları
+- 🟣 **Mor:** Karar blokları
+- 🔴 **Kırmızı:** Bitiş (END)
+
+#### ⚡ Hızlı Çizim Teknikleri:
+1. **Şablon Kullanımı:** File → New → Flowchart template
+2. **Kopyala-Yapıştır:** Benzer şekiller için Ctrl+C/Ctrl+V
+3. **Hizalama:** Şekilleri seçip Arrange → Align
+4. **Otomatik Bağlantı:** Şekil kenarlarına tıklayıp sürükle
+
+#### 🔗 Paylaşım ve İş Birliği:
+- **Link Paylaşımı:** File → Share → Link
+- **Takım Çalışması:** Google Drive entegrasyonu
+- **Gömme:** File → Embed → HTML kodu al
 
 ## 9. Yaygın Hatalar ve Çözümleri
 

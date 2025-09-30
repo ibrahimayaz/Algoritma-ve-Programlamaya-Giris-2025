@@ -1,0 +1,256 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:15:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="Hesap Makinesi" id="flowchart">
+    <mxGraphModel dx="1422" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Başlangıç -->
+        <mxCell id="init" value="devam ← true" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Devam kontrolü -->
+        <mxCell id="check_continue" value="devam = true ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Menü göster -->
+        <mxCell id="show_menu" value="Menü Göster&#xa;1.Toplama 2.Çıkarma&#xa;3.Çarpma 4.Bölme&#xa;5.Üs 6.Karekök&#xa;7.Faktöriyel 8.Çıkış" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="280" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- Seçim al -->
+        <mxCell id="get_choice" value="seçim al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Seçim kontrolü -->
+        <mxCell id="check_choice" value="seçim ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- İki sayı al (1-4 için) -->
+        <mxCell id="get_two_numbers" value="a, b al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="750" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Toplama -->
+        <mxCell id="addition" value="sonuç ← a + b&#xa;&quot;a + b = sonuç&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Çıkarma -->
+        <mxCell id="subtraction" value="sonuç ← a - b&#xa;&quot;a - b = sonuç&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Çarpma -->
+        <mxCell id="multiplication" value="sonuç ← a * b&#xa;&quot;a × b = sonuç&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="850" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Bölme -->
+        <mxCell id="division" value="EĞER b ≠ 0 İSE&#xa;sonuç ← a / b&#xa;DEĞILSE &quot;Hata&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="850" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tek sayı al (6-7 için) -->
+        <mxCell id="get_one_number" value="n al" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="750" width="100" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Karekök -->
+        <mxCell id="square_root" value="EĞER n >= 0 İSE&#xa;sonuç ← √n&#xa;DEĞILSE &quot;Hata&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="970" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Faktöriyel -->
+        <mxCell id="factorial" value="EĞER n >= 0 İSE&#xa;faktöriyel hesapla&#xa;DEĞILSE &quot;Hata&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="970" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Çıkış -->
+        <mxCell id="exit" value="&quot;Kapatılıyor...&quot;&#xa;devam ← false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="610" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Geçersiz seçim -->
+        <mxCell id="invalid" value="&quot;❌ Geçersiz seçim!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="init">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="init" target="check_continue">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="check_continue" target="show_menu">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes1" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge3">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="check_continue" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo1" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="show_menu" target="get_choice">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="get_choice" target="check_choice">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Choice branches -->
+        <mxCell id="edge7" edge="1" parent="1" source="check_choice" target="get_two_numbers">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label1_4" value="1-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge7">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="check_choice" target="get_one_number">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label6_7" value="6-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge8">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="check_choice" target="exit">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label8" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge9">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="check_choice" target="invalid">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelOther" value="diğer" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge10">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Operations from two numbers -->
+        <mxCell id="edge11" edge="1" parent="1" source="get_two_numbers" target="addition">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge11">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="get_two_numbers" target="subtraction">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label2" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge12">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="get_two_numbers" target="multiplication">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label3" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge13">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="get_two_numbers" target="division">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label4" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge14">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- Operations from one number -->
+        <mxCell id="edge15" edge="1" parent="1" source="get_one_number" target="square_root">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label6" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge15">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="get_one_number" target="factorial">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="label7" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge16">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        
+        <!-- All operations loop back to continue check -->
+        <mxCell id="edge17" edge="1" parent="1" source="addition" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="880"/>
+              <mxPoint x="40" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge18" edge="1" parent="1" source="subtraction" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="880"/>
+              <mxPoint x="20" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge19" edge="1" parent="1" source="multiplication" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="880"/>
+              <mxPoint x="800" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge20" edge="1" parent="1" source="division" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="890"/>
+              <mxPoint x="820" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge21" edge="1" parent="1" source="square_root" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1010"/>
+              <mxPoint x="840" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge22" edge="1" parent="1" source="factorial" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="1010"/>
+              <mxPoint x="860" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge23" edge="1" parent="1" source="invalid" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="640"/>
+              <mxPoint x="140" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Exit to end -->
+        <mxCell id="edge24" edge="1" parent="1" source="exit" target="check_continue">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="640"/>
+              <mxPoint x="770" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

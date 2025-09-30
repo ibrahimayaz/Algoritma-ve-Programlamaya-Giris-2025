@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:00:00.000Z" agent="5.0" etag="example" version="22.0.0">
+  <diagram name="Sayı Tahmin Oyunu" id="flowchart">
+    <mxGraphModel dx="1422" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- BAŞLA -->
+        <mxCell id="start" value="BAŞLA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Rastgele sayı üret ve başlangıç -->
+        <mxCell id="init" value="doğruSayı ← Random(1,100)&#xa;tahminHakkı ← 7&#xa;tahminSayısı ← 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="280" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Oyun kuralları -->
+        <mxCell id="rules" value="Oyun kurallarını söyle" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Hak kontrolü -->
+        <mxCell id="check_chances" value="tahminHakkı > 0 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tahmin al -->
+        <mxCell id="get_guess" value="tahmin al&#xa;tahminSayısı++&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tahmin kontrolü -->
+        <mxCell id="check_guess" value="tahmin = doğruSayı ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Doğru tahmin -->
+        <mxCell id="correct" value="&quot;TEBRİKLER!&quot;&#xa;Doğru sayı ve&#xa;tahmin sayısını göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="620" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tahmin karşılaştırması -->
+        <mxCell id="compare" value="tahmin < doğruSayı ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Büyük sayı -->
+        <mxCell id="bigger" value="&quot;Daha BÜYÜK&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="770" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Küçük sayı -->
+        <mxCell id="smaller" value="&quot;Daha KÜÇÜK&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Hak azalt -->
+        <mxCell id="decrease_chance" value="tahminHakkı--&#xa;Kalan hakkı göster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Oyun bitti -->
+        <mxCell id="game_over" value="&quot;Oyun bitti!&quot;&#xa;Doğru sayıyı göster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- BITIR -->
+        <mxCell id="end" value="BITIR" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="init">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="init" target="rules">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="rules" target="check_chances">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="check_chances" target="get_guess">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes1" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge4">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="check_chances" target="game_over">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo1" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge5">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="get_guess" target="check_guess">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="check_guess" target="correct">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes2" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge7">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="check_guess" target="compare">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo2" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge8">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="compare" target="bigger">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelYes3" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge9">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="compare" target="smaller">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell id="labelNo3" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;" vertex="1" connectable="0" parent="edge10">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="bigger" target="decrease_chance">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="smaller" target="decrease_chance">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="decrease_chance" target="check_chances">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="930"/>
+              <mxPoint x="200" y="400"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="correct" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="game_over" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
