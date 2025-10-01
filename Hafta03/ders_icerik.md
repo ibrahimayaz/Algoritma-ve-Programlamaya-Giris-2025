@@ -453,15 +453,12 @@ BITIR
 **Mermaid Akış Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B["Sayı al"]
-  B --> C{Sayı > 0?}
-  C -- Evet --> P["Sayı pozitiftir"]
-  C -- Hayır --> D{Sayı < 0?}
-  D -- Evet --> N["Sayı negatiftir"]
-  D -- Hayır --> Z["Sayı sıfırdır"]
-  P --> X([BİTİR])
-  N --> X
-  Z --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> inNum@{ shape: lean-r, label: "Sayı al" }
+  inNum --> d1@{ shape: diamond, label: "sayı > 0?" }
+  d1 -- Evet --> pos@{ shape: doc, label: "Pozitif" } --> end@{ shape: stadium, label: "BİTİR" }
+  d1 -- Hayır --> d2@{ shape: diamond, label: "sayı < 0?" }
+  d2 -- Evet --> neg@{ shape: doc, label: "Negatif" } --> end
+  d2 -- Hayır --> zero@{ shape: doc, label: "Sıfır" } --> end
 ```
 
 #### 📝 Örnek 2: FOR Döngüsü Diyagramı
@@ -479,10 +476,10 @@ BITIR
 **Mermaid Akış Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> I["i ← 1"]
-  I --> C{i <= 10?}
-  C -- Evet --> P["i yazdır"] --> INC["i ← i + 1"] --> C
-  C -- Hayır --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> init@{ shape: rect, label: "i ← 1" }
+  init --> loop@{ shape: hex, label: "i <= 10?" }
+  loop -- Evet --> print@{ shape: doc, label: "i yazdır" } --> inc@{ shape: rect, label: "i ← i+1" } --> loop
+  loop -- Hayır --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 #### 📝 Örnek 3: WHILE Döngüsü Diyagramı
@@ -504,10 +501,10 @@ BITIR
 **Mermaid Akış Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> S["sayaç ← 0"]
-  S --> C{sayaç < 5?}
-  C -- Evet --> INP["Veri al"] --> PR["Veriyi işle"] --> INC["sayaç ← sayaç + 1"] --> C
-  C -- Hayır --> OUT["Sonuç göster"] --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> init@{ shape: rect, label: "sayaç ← 0" }
+  init --> loop@{ shape: hex, label: "sayaç < 5?" }
+  loop -- Evet --> in@{ shape: lean-r, label: "Veri al" } --> proc@{ shape: rect, label: "Veriyi işle" } --> inc@{ shape: rect, label: "sayaç++" } --> loop
+  loop -- Hayır --> show@{ shape: doc, label: "Sonuç" } --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 #### 📝 Örnek 4: SWITCH-CASE Diyagramı
@@ -530,16 +527,12 @@ BITIR
 **Mermaid Akış Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> IN["Seçim al"]
-  IN --> C{Seçim}
-  C -->|1| O1["Seçenek 1 işlemi"]
-  C -->|2| O2["Seçenek 2 işlemi"]
-  C -->|3| O3["Seçenek 3 işlemi"]
-  C -->|Diğer| DEF["Geçersiz seçim"]
-  O1 --> OUT["Sonuç göster"]
-  O2 --> OUT
-  O3 --> OUT
-  DEF --> OUT --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> inSel@{ shape: lean-r, label: "Seçim al" }
+  inSel --> dec@{ shape: diamond, label: "Seçim" }
+  dec -->|1| opt1@{ shape: rect, label: "Seçenek1" } --> out@{ shape: doc, label: "Sonuç" } --> end@{ shape: stadium, label: "BİTİR" }
+  dec -->|2| opt2@{ shape: rect, label: "Seçenek2" } --> out
+  dec -->|3| opt3@{ shape: rect, label: "Seçenek3" } --> out
+  dec -->|Diğer| invalid@{ shape: doc, label: "Geçersiz" } --> out
 ```
 
 #### 📝 Örnek 5: DO-WHILE Döngüsü Diyagramı
@@ -561,10 +554,10 @@ BITIR
 **Mermaid Akış Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> T["toplam ← 0\nsayi ← 0"]
-  T --> L((DÖNGÜ)) --> IN["sayi al"] --> ADD["toplam ← toplam + sayi"] --> SHOW["toplam göster"] --> C{sayi != 0?}
-  C -- Evet --> L
-  C -- Hayır --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> init@{ shape: rect, label: "toplam=0; sayi=0" }
+  init --> loop@{ shape: hex, label: "tekrar" } --> inNum@{ shape: lean-r, label: "sayı al" } --> add@{ shape: rect, label: "toplam += sayı" } --> show@{ shape: doc, label: "toplam" } --> cont@{ shape: diamond, label: "sayı != 0?" }
+  cont -- Evet --> loop
+  cont -- Hayır --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 #### Bilgi

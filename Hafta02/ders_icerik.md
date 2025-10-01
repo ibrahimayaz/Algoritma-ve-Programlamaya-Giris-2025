@@ -393,7 +393,8 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B["Birinci sayı al"] --> C["İkinci sayı al"] --> D["toplam ← s1 + s2"] --> E["Sonucu yazdır"] --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> in1@{ shape: lean-r, label: "Birinci sayı al" } --> in2@{ shape: lean-r, label: "İkinci sayı al" }
+  in2 --> calc@{ shape: rect, label: "toplam ← s1 + s2" } --> out@{ shape: doc, label: "Sonucu yazdır" } --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 ```
@@ -479,9 +480,9 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B["Sayı al"] --> C{Sayı % 2 = 0?}
-  C -- Evet --> E["Çift"] --> X([BİTİR])
-  C -- Hayır --> F["Tek"] --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> input@{ shape: lean-r, label: "Sayı al" } --> dec@{ shape: diamond, label: "sayı % 2 == 0?" }
+  dec -- Evet --> even@{ shape: doc, label: "Çift" } --> end@{ shape: stadium, label: "BİTİR" }
+  dec -- Hayır --> odd@{ shape: doc, label: "Tek" } --> end
 ```
 
 ```
@@ -560,13 +561,14 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B["Sayı1 al"] --> C["Sayı2 al"] --> D["Sayı3 al"] --> K{S1 > S2?}
-  K -- Evet --> K2{S1 > S3?}
-  K2 -- Evet --> R1["En büyük S1"] --> X([BİTİR])
-  K2 -- Hayır --> R3["En büyük S3"] --> X
-  K -- Hayır --> L{S2 > S3?}
-  L -- Evet --> R2["En büyük S2"] --> X
-  L -- Hayır --> R3b["En büyük S3"] --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> in1@{ shape: lean-r, label: "Sayı1" } --> in2@{ shape: lean-r, label: "Sayı2" } --> in3@{ shape: lean-r, label: "Sayı3" }
+  in3 --> d1@{ shape: diamond, label: "s1 >= s2?" }
+  d1 -- Evet --> d2@{ shape: diamond, label: "s1 >= s3?" }
+  d2 -- Evet --> max1@{ shape: doc, label: "En büyük s1" } --> end@{ shape: stadium, label: "BİTİR" }
+  d2 -- Hayır --> max3a@{ shape: doc, label: "En büyük s3" } --> end
+  d1 -- Hayır --> d3@{ shape: diamond, label: "s2 >= s3?" }
+  d3 -- Evet --> max2@{ shape: doc, label: "En büyük s2" } --> end
+  d3 -- Hayır --> max3b@{ shape: doc, label: "En büyük s3" } --> end
 ```
 
 ---
@@ -614,9 +616,10 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B["n al"] --> C["sonuç ← 1"] --> I["i ← 1"] --> D{i <= n?}
-  D -- Evet --> M["sonuç ← sonuç * i"] --> INC["i ← i + 1"] --> D
-  D -- Hayır --> O["sonuç yazdır"] --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> nin@{ shape: lean-r, label: "n al" } --> init1@{ shape: rect, label: "sonuç ← 1" } --> init2@{ shape: rect, label: "i ← 1" }
+  init2 --> loop@{ shape: hex, label: "i <= n?" }
+  loop -- Evet --> mult@{ shape: rect, label: "sonuç ← sonuç * i" } --> inc@{ shape: rect, label: "i ← i + 1" } --> loop
+  loop -- Hayır --> out@{ shape: doc, label: "sonuç yazdır" } --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 ---
@@ -664,9 +667,10 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> N["n al"] --> S["a←0, b←1"] --> I["i←1"] --> C{i <= n?}
-  C -- Evet --> OUT["a yazdır"] --> UP["temp←a+b; a←b; b←temp"] --> INC["i←i+1"] --> C
-  C -- Hayır --> X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> nin@{ shape: lean-r, label: "n al" } --> init@{ shape: rect, label: "a←0; b←1; i←1" }
+  init --> loop@{ shape: hex, label: "i <= n?" }
+  loop -- Evet --> printA@{ shape: doc, label: "a yazdır" } --> step@{ shape: rect, label: "temp←a+b; a←b; b←temp" } --> inc@{ shape: rect, label: "i←i+1" } --> loop
+  loop -- Hayır --> end@{ shape: stadium, label: "BİTİR" }
 ```
 
 ---
@@ -732,9 +736,10 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> IN["Vize, Final al"] --> H["ortalama ← v*0.4 + f*0.6"] --> C{ortalama >= 60?}
-  C -- Evet --> G["GEÇTİ"] --> X([BİTİR])
-  C -- Hayır --> K["KALDI"] --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> inScores@{ shape: lean-r, label: "Notları al" } --> calc@{ shape: rect, label: "ort ← v*0.4+f*0.6" }
+  calc --> passCheck@{ shape: diamond, label: "ort >= 60?" }
+  passCheck -- Evet --> pass@{ shape: doc, label: "GEÇTİ" } --> end@{ shape: stadium, label: "BİTİR" }
+  passCheck -- Hayır --> fail@{ shape: doc, label: "KALDI" } --> end
 ```
 
 ---
@@ -788,12 +793,13 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> S["rastgeleSayı üret"] --> H["hak ← 5"] --> L((DÖNGÜ)) --> T["Tahmin al"] --> C{tahmin = sayı?}
-  C -- Evet --> WIN["Tebrikler"] --> X([BİTİR])
-  C -- Hayır --> C2{tahmin < sayı?}
-  C2 -- Evet --> UP["Daha büyük de"] --> DEC["hak ← hak - 1"] --> Z{hak > 0?} -->|Evet| L
-  C2 -- Hayır --> DN["Daha küçük de"] --> DEC --> Z
-  Z -- Hayır --> LOSE["Bitti"] --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> gen@{ shape: rect, label: "rastgele sayı" } --> init@{ shape: rect, label: "hak ← 5" } --> loop@{ shape: hex, label: "hak > 0" }
+  loop --> guessIn@{ shape: lean-r, label: "tahmin al" } --> eq@{ shape: diamond, label: "tahmin == sayı?" }
+  eq -- Evet --> win@{ shape: doc, label: "Tebrikler" } --> end@{ shape: stadium, label: "BİTİR" }
+  eq -- Hayır --> cmp@{ shape: diamond, label: "tahmin < sayı?" }
+  cmp -- Evet --> hintUp@{ shape: doc, label: "Daha büyük" } --> dec@{ shape: rect, label: "hak--" } --> cont@{ shape: hex, label: "hak > 0" } --> loop
+  cmp -- Hayır --> hintDn@{ shape: doc, label: "Daha küçük" } --> dec --> cont
+  cont -- Hayır --> lose@{ shape: doc, label: "Bitti" } --> end
 ```
 
 ---
@@ -859,13 +865,14 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> IN["Kilo, Boy al"] --> H["vki ← kilo/(boy^2)"] --> C1{vki < 18.5?}
-  C1 -- Evet --> Z1["Zayıf"] --> X([BİTİR])
-  C1 -- Hayır --> C2{vki < 25?}
-  C2 -- Evet --> I1["Normal"] --> X
-  C2 -- Hayır --> C3{vki < 30?}
-  C3 -- Evet --> F1["Fazla kilolu"] --> X
-  C3 -- Hayır --> O1["Obez"] --> X
+  start@{ shape: stadium, label: "BAŞLA" } --> input@{ shape: lean-r, label: "Kilo, Boy" } --> calc@{ shape: rect, label: "vki ← kilo/(boy^2)" }
+  calc --> d1@{ shape: diamond, label: "vki < 18.5?" }
+  d1 -- Evet --> zayif@{ shape: doc, label: "Zayıf" } --> end@{ shape: stadium, label: "BİTİR" }
+  d1 -- Hayır --> d2@{ shape: diamond, label: "vki < 25?" }
+  d2 -- Evet --> normal@{ shape: doc, label: "Normal" } --> end
+  d2 -- Hayır --> d3@{ shape: diamond, label: "vki < 30?" }
+  d3 -- Evet --> kilolu@{ shape: doc, label: "Fazla kilolu" } --> end
+  d3 -- Hayır --> obez@{ shape: doc, label: "Obez" } --> end
 ```
 
 ---
@@ -953,15 +960,15 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> G["Kart Oku"] --> P["PIN Al"] --> C{PIN doğru mu?}
-  C -- Hayır --> ERR["Hatalı PIN"] --> C
-  C -- Evet --> M{Menü}
-  M -->|1 Bakiye| BAK["Bakiye göster"] --> M
-  M -->|2 Para Çek| CEK["Tutar al"] --> V{Yeterli bakiye?}
-  V -- Hayır --> UY["Yetersiz"] --> M
-  V -- Evet --> AZ["Bakiye düş"] --> M
-  M -->|3 Para Yatır| YAT["Tutar al"] --> AR["Bakiye artır"] --> M
-  M -->|0 Çıkış| X([BİTİR])
+  start@{ shape: stadium, label: "BAŞLA" } --> read@{ shape: rect, label: "Kart oku" } --> pinIn@{ shape: lean-r, label: "PIN al" } --> pinChk@{ shape: diamond, label: "PIN doğru mu?" }
+  pinChk -- Hayır --> pinErr@{ shape: doc, label: "Hatalı PIN" } --> pinIn
+  pinChk -- Evet --> menu@{ shape: hex, label: "Menü döngüsü" }
+  menu -->|1| showBal@{ shape: doc, label: "Bakiye göster" } --> menu
+  menu -->|2| amtIn@{ shape: lean-r, label: "Tutar al" } --> balChk@{ shape: diamond, label: "Yeterli?" }
+  balChk -- Hayır --> noBal@{ shape: doc, label: "Yetersiz" } --> menu
+  balChk -- Evet --> subBal@{ shape: rect, label: "Bakiye düş" } --> menu
+  menu -->|3| depIn@{ shape: lean-r, label: "Tutar al" } --> addBal@{ shape: rect, label: "Bakiye artır" } --> menu
+  menu -->|0| end@{ shape: stadium, label: "BİTİR" }
 ```
 
 ---
@@ -1075,13 +1082,13 @@ BITIR
 **Mermaid Diyagramı:**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> OPR["İşlem seç (+,-,*,/)"] --> S1["Sayı1 al"] --> S2["Sayı2 al"] --> C{İşlem}
-  C -->|+| T["toplam ← s1 + s2"] --> OUT["Sonuç yazdır"] --> X([BİTİR])
-  C -->|-| CIK["fark ← s1 - s2"] --> OUT
-  C -->|*| CRP["çarpım ← s1 * s2"] --> OUT
-  C -->|/| BOL{S2 = 0?}
-  BOL -- Evet --> ERR["Hata: 0'a bölünmez"] --> X
-  BOL -- Hayır --> SON["bölüm ← s1 / s2"] --> OUT
+  start@{ shape: stadium, label: "BAŞLA" } --> opSel@{ shape: lean-r, label: "İşlem seç" } --> in1@{ shape: lean-r, label: "Sayı1" } --> in2@{ shape: lean-r, label: "Sayı2" } --> dec@{ shape: diamond, label: "İşlem?" }
+  dec -->|+| add@{ shape: rect, label: "s1 + s2" } --> out@{ shape: doc, label: "Sonuç" } --> end@{ shape: stadium, label: "BİTİR" }
+  dec -->|-| sub@{ shape: rect, label: "s1 - s2" } --> out
+  dec -->|*| mul@{ shape: rect, label: "s1 * s2" } --> out
+  dec -->|/| divChk@{ shape: diamond, label: "s2 == 0?" }
+  divChk -- Evet --> err@{ shape: doc, label: "0'a bölünmez" } --> end
+  divChk -- Hayır --> div@{ shape: rect, label: "s1 / s2" } --> out
 ```
 
 ## 4. 📚 Ders Materyalleri ve Kaynaklar
