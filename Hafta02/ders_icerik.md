@@ -390,49 +390,11 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [01_toplama_algoritmasi.drawio](./draw_io_files/01_toplama_algoritmasi.drawio)
 
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> in1@{ shape: lean-r, label: "Birinci sayı al" } --> in2@{ shape: lean-r, label: "İkinci sayı al" }
-  in2 --> calc@{ shape: rect, label: "toplam ← s1 + s2" } --> out@{ shape: doc, label: "Sonucu yazdır" } --> end@{ shape: stadium, label: "BİTİR" }
-```
-
-```
-Draw.io'da Çizilen Diyagram:
-┌─────────────┐
-│   BAŞLA     │ (Oval - Yeşil)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│"Birinci sayı│ (Paralelkenar - Mavi)
-│    girin"   │
-└─────┬───────┘
-      │
-┌─────v───────┐
-│  sayı1 al   │ (Paralelkenar - Mavi)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│"İkinci sayı │ (Paralelkenar - Mavi)
-│    girin"   │
-└─────┬───────┘
-      │
-┌─────v───────┐
-│  sayı2 al   │ (Paralelkenar - Mavi)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│toplam←sayı1+│ (Dikdörtgen - Sarı)
-│    sayı2    │
-└─────┬───────┘
-      │
-┌─────v───────┐
-│Sonucu göster│ (Paralelkenar - Turuncu)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│    BITIR    │ (Oval - Kırmızı)
-└─────────────┘
+  start([BAŞLA]) --> in1[/Birinci sayı al/] --> in2[/İkinci sayı al/]
+  in2 --> calc[toplam ← s1 + s2] --> out[\Sonucu yazdır\] --> end([BİTİR])
 ```
 
 #### 🧪 Test Senaryoları:
@@ -474,49 +436,12 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [02_cift_tek_kontrol.drawio](./draw_io_files/02_cift_tek_kontrol.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> input@{ shape: lean-r, label: "Sayı al" } --> dec@{ shape: diamond, label: "sayı % 2 == 0?" }
-  dec -- Evet --> even@{ shape: doc, label: "Çift" } --> end@{ shape: stadium, label: "BİTİR" }
-  dec -- Hayır --> odd@{ shape: doc, label: "Tek" } --> end
-```
-
-```
-Draw.io'da Çizilen Diyagram:
-┌─────────────┐
-│   BAŞLA     │ (Oval - Yeşil)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│"Bir sayı    │ (Paralelkenar - Mavi)
-│   girin"    │
-└─────┬───────┘
-      │
-┌─────v───────┐
-│  sayı al    │ (Paralelkenar - Mavi)
-└─────┬───────┘
-      │
-┌─────v───────┐
-│kalan←sayı%2 │ (Dikdörtgen - Sarı)
-└─────┬───────┘
-      │
-      ◊ kalan=0? ◊ (Elmas - Pembe)
-     /           \
- EVET/             \HAYIR
-    /               \
-┌─────v───────┐ ┌─────v───────┐
-│"Çift sayı"  │ │"Tek sayı"   │ (Paralelkenar - Turuncu)
-└─────┬───────┘ └─────┬───────┘
-      │               │
-      └─────┬─────────┘
-            │
-      ┌─────v───────┐
-      │    BITIR    │ (Oval - Kırmızı)
-      └─────────────┘
+  start([BAŞLA]) --> input[/Sayı al/] --> dec{sayı % 2 == 0?}
+  dec -- Evet --> even[\Çift\] --> end([BİTİR])
+  dec -- Hayır --> odd[\Tek\] --> end
 ```
 
 ---
@@ -555,20 +480,17 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [03_en_buyuk_sayi.drawio](./draw_io_files/03_en_buyuk_sayi.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> in1@{ shape: lean-r, label: "Sayı1" } --> in2@{ shape: lean-r, label: "Sayı2" } --> in3@{ shape: lean-r, label: "Sayı3" }
-  in3 --> d1@{ shape: diamond, label: "s1 >= s2?" }
-  d1 -- Evet --> d2@{ shape: diamond, label: "s1 >= s3?" }
-  d2 -- Evet --> max1@{ shape: doc, label: "En büyük s1" } --> end@{ shape: stadium, label: "BİTİR" }
-  d2 -- Hayır --> max3a@{ shape: doc, label: "En büyük s3" } --> end
-  d1 -- Hayır --> d3@{ shape: diamond, label: "s2 >= s3?" }
-  d3 -- Evet --> max2@{ shape: doc, label: "En büyük s2" } --> end
-  d3 -- Hayır --> max3b@{ shape: doc, label: "En büyük s3" } --> end
+  start([BAŞLA]) --> in1[/Sayı1/] --> in2[/Sayı2/] --> in3[/Sayı3/]
+  in3 --> d1{s1 >= s2?}
+  d1 -- Evet --> d2{s1 >= s3?}
+  d2 -- Evet --> max1[\En büyük s1\] --> end([BİTİR])
+  d2 -- Hayır --> max3a[\En büyük s3\] --> end
+  d1 -- Hayır --> d3{s2 >= s3?}
+  d3 -- Evet --> max2[\En büyük s2\] --> end
+  d3 -- Hayır --> max3b[\En büyük s3\] --> end
 ```
 
 ---
@@ -610,16 +532,13 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [04_faktoriyel_hesaplama.drawio](./draw_io_files/04_faktoriyel_hesaplama.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> nin@{ shape: lean-r, label: "n al" } --> init1@{ shape: rect, label: "sonuç ← 1" } --> init2@{ shape: rect, label: "i ← 1" }
-  init2 --> loop@{ shape: hex, label: "i <= n?" }
-  loop -- Evet --> mult@{ shape: rect, label: "sonuç ← sonuç * i" } --> inc@{ shape: rect, label: "i ← i + 1" } --> loop
-  loop -- Hayır --> out@{ shape: doc, label: "sonuç yazdır" } --> end@{ shape: stadium, label: "BİTİR" }
+  start([BAŞLA]) --> nin[/n al/] --> init1[sonuç ← 1] --> init2[i ← 1]
+  init2 --> loop{i <= n?}
+  loop -- Evet --> mult[sonuç ← sonuç * i] --> inc[i ← i + 1] --> loop
+  loop -- Hayır --> out[\sonuç yazdır\] --> end([BİTİR])
 ```
 
 ---
@@ -661,16 +580,13 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [05_fibonacci_dizisi.drawio](./draw_io_files/05_fibonacci_dizisi.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> nin@{ shape: lean-r, label: "n al" } --> init@{ shape: rect, label: "a←0; b←1; i←1" }
-  init --> loop@{ shape: hex, label: "i <= n?" }
-  loop -- Evet --> printA@{ shape: doc, label: "a yazdır" } --> step@{ shape: rect, label: "temp←a+b; a←b; b←temp" } --> inc@{ shape: rect, label: "i←i+1" } --> loop
-  loop -- Hayır --> end@{ shape: stadium, label: "BİTİR" }
+  start([BAŞLA]) --> nin[/n al/] --> init[a←0; b←1; i←1]
+  init --> loop{i <= n?}
+  loop -- Evet --> printA[\a yazdır\] --> step[temp←a+b; a←b; b←temp] --> inc[i←i+1] --> loop
+  loop -- Hayır --> end([BİTİR])
 ```
 
 ---
@@ -730,16 +646,13 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [06_not_hesaplama.drawio](./draw_io_files/06_not_hesaplama.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> inScores@{ shape: lean-r, label: "Notları al" } --> calc@{ shape: rect, label: "ort ← v*0.4+f*0.6" }
-  calc --> passCheck@{ shape: diamond, label: "ort >= 60?" }
-  passCheck -- Evet --> pass@{ shape: doc, label: "GEÇTİ" } --> end@{ shape: stadium, label: "BİTİR" }
-  passCheck -- Hayır --> fail@{ shape: doc, label: "KALDI" } --> end
+  start([BAŞLA]) --> inScores[/Notları al/] --> calc[ort ← v*0.4+f*0.6]
+  calc --> passCheck{ort >= 60?}
+  passCheck -- Evet --> pass[\GEÇTİ\] --> end([BİTİR])
+  passCheck -- Hayır --> fail[\KALDI\] --> end
 ```
 
 ---
@@ -787,19 +700,16 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [07_sayi_tahmin_oyunu.drawio](./draw_io_files/07_sayi_tahmin_oyunu.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> gen@{ shape: rect, label: "rastgele sayı" } --> init@{ shape: rect, label: "hak ← 5" } --> loop@{ shape: hex, label: "hak > 0" }
-  loop --> guessIn@{ shape: lean-r, label: "tahmin al" } --> eq@{ shape: diamond, label: "tahmin == sayı?" }
-  eq -- Evet --> win@{ shape: doc, label: "Tebrikler" } --> end@{ shape: stadium, label: "BİTİR" }
-  eq -- Hayır --> cmp@{ shape: diamond, label: "tahmin < sayı?" }
-  cmp -- Evet --> hintUp@{ shape: doc, label: "Daha büyük" } --> dec@{ shape: rect, label: "hak--" } --> cont@{ shape: hex, label: "hak > 0" } --> loop
-  cmp -- Hayır --> hintDn@{ shape: doc, label: "Daha küçük" } --> dec --> cont
-  cont -- Hayır --> lose@{ shape: doc, label: "Bitti" } --> end
+  start([BAŞLA]) --> gen[rastgele sayı] --> init[hak ← 5] --> loop{hak > 0}
+  loop --> guessIn[/tahmin al/] --> eq{tahmin == sayı?}
+  eq -- Evet --> win[\Tebrikler\] --> end([BİTİR])
+  eq -- Hayır --> cmp{tahmin < sayı?}
+  cmp -- Evet --> hintUp[\Daha büyük\] --> dec[hak--] --> cont{hak > 0} --> loop
+  cmp -- Hayır --> hintDn[\Daha küçük\] --> dec --> cont
+  cont -- Hayır --> lose[\Bitti\] --> end
 ```
 
 ---
@@ -859,20 +769,17 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [08_vki_hesaplama.drawio](./draw_io_files/08_vki_hesaplama.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> input@{ shape: lean-r, label: "Kilo, Boy" } --> calc@{ shape: rect, label: "vki ← kilo/(boy^2)" }
-  calc --> d1@{ shape: diamond, label: "vki < 18.5?" }
-  d1 -- Evet --> zayif@{ shape: doc, label: "Zayıf" } --> end@{ shape: stadium, label: "BİTİR" }
-  d1 -- Hayır --> d2@{ shape: diamond, label: "vki < 25?" }
-  d2 -- Evet --> normal@{ shape: doc, label: "Normal" } --> end
-  d2 -- Hayır --> d3@{ shape: diamond, label: "vki < 30?" }
-  d3 -- Evet --> kilolu@{ shape: doc, label: "Fazla kilolu" } --> end
-  d3 -- Hayır --> obez@{ shape: doc, label: "Obez" } --> end
+  start([BAŞLA]) --> input[/Kilo, Boy/] --> calc[vki ← kilo/(boy^2)]
+  calc --> d1{vki < 18.5?}
+  d1 -- Evet --> zayif[\Zayıf\] --> end([BİTİR])
+  d1 -- Hayır --> d2{vki < 25?}
+  d2 -- Evet --> normal[\Normal\] --> end
+  d2 -- Hayır --> d3{vki < 30?}
+  d3 -- Evet --> kilolu[\Fazla kilolu\] --> end
+  d3 -- Hayır --> obez[\Obez\] --> end
 ```
 
 ---
@@ -954,21 +861,18 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [09_atm_sistemi.drawio](./draw_io_files/09_atm_sistemi.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> read@{ shape: rect, label: "Kart oku" } --> pinIn@{ shape: lean-r, label: "PIN al" } --> pinChk@{ shape: diamond, label: "PIN doğru mu?" }
-  pinChk -- Hayır --> pinErr@{ shape: doc, label: "Hatalı PIN" } --> pinIn
-  pinChk -- Evet --> menu@{ shape: hex, label: "Menü döngüsü" }
-  menu -->|1| showBal@{ shape: doc, label: "Bakiye göster" } --> menu
-  menu -->|2| amtIn@{ shape: lean-r, label: "Tutar al" } --> balChk@{ shape: diamond, label: "Yeterli?" }
-  balChk -- Hayır --> noBal@{ shape: doc, label: "Yetersiz" } --> menu
-  balChk -- Evet --> subBal@{ shape: rect, label: "Bakiye düş" } --> menu
-  menu -->|3| depIn@{ shape: lean-r, label: "Tutar al" } --> addBal@{ shape: rect, label: "Bakiye artır" } --> menu
-  menu -->|0| end@{ shape: stadium, label: "BİTİR" }
+  start([BAŞLA]) --> read[Kart oku] --> pinIn[/PIN al/] --> pinChk{PIN doğru mu?}
+  pinChk -- Hayır --> pinErr[\Hatalı PIN\] --> pinIn
+  pinChk -- Evet --> menu{Menü döngüsü}
+  menu -->|1| showBal[\Bakiye göster\] --> menu
+  menu -->|2| amtIn[/Tutar al/] --> balChk{Yeterli?}
+  balChk -- Hayır --> noBal[\Yetersiz\] --> menu
+  balChk -- Evet --> subBal[Bakiye düş] --> menu
+  menu -->|3| depIn[/Tutar al/] --> addBal[Bakiye artır] --> menu
+  menu -->|0| end([BİTİR])
 ```
 
 ---
@@ -1076,19 +980,16 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [10_hesap_makinesi.drawio](./draw_io_files/10_hesap_makinesi.drawio)
-
-**Mermaid Diyagramı:**
+**Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start@{ shape: stadium, label: "BAŞLA" } --> opSel@{ shape: lean-r, label: "İşlem seç" } --> in1@{ shape: lean-r, label: "Sayı1" } --> in2@{ shape: lean-r, label: "Sayı2" } --> dec@{ shape: diamond, label: "İşlem?" }
-  dec -->|+| add@{ shape: rect, label: "s1 + s2" } --> out@{ shape: doc, label: "Sonuç" } --> end@{ shape: stadium, label: "BİTİR" }
-  dec -->|-| sub@{ shape: rect, label: "s1 - s2" } --> out
-  dec -->|*| mul@{ shape: rect, label: "s1 * s2" } --> out
-  dec -->|/| divChk@{ shape: diamond, label: "s2 == 0?" }
-  divChk -- Evet --> err@{ shape: doc, label: "0'a bölünmez" } --> end
-  divChk -- Hayır --> div@{ shape: rect, label: "s1 / s2" } --> out
+  start([BAŞLA]) --> opSel[/İşlem seç/] --> in1[/Sayı1/] --> in2[/Sayı2/] --> dec{İşlem?}
+  dec -->|+| add[s1 + s2] --> out[\Sonuç\] --> end([BİTİR])
+  dec -->|-| sub[s1 - s2] --> out
+  dec -->|*| mul[s1 * s2] --> out
+  dec -->|/| divChk{s2 == 0?}
+  divChk -- Evet --> err[\0'a bölünmez\] --> end
+  divChk -- Hayır --> div[s1 / s2] --> out
 ```
 
 ## 4. 📚 Ders Materyalleri ve Kaynaklar
@@ -1105,101 +1006,6 @@ flowchart TD
    - Chapter 2: Flowcharts and Pseudocode
    - İngilizce kaynak, çeviri notları mevcut
 
-#### 🌐 Online Kaynaklar
-1. **Khan Academy** → "Intro to Programming"
-   - https://khanacademy.org/computing/intro-to-programming
-   - Türkçe altyazı mevcut
-
-2. **Coursera: Algorithmic Thinking** 
-   - https://coursera.org/learn/algorithmic-thinking
-   - "Pseudocode Basics" modülü
-
-3. **MIT OpenCourseWare**
-   - Introduction to Computer Science
-   - Lecture 2: Branching and Iteration
-
-#### 📺 Video Kaynakları
-1. **YouTube: "Sözde Kod Nasıl Yazılır?"** (Türkçe)
-   - Kanal: Yazılım Bilimi
-   - Süre: 25 dakika
-   - https://youtube.com/watch?v=example
-
-2. **Udemy: Algorithm Fundamentals**
-   - Section 3: Pseudocode and Flowcharts
-   - İndirim kodu: STUDENT2024
-
-### 🛠️ Yazılım Araçları ve Uygulamalar
-
-#### 💻 Online Araçlar (Ücretsiz)
-1. **Draw.io (diagrams.net)**
-   - https://app.diagrams.net/
-   - ✅ Tamamen ücretsiz
-   - ✅ Kayıt gerektirmez
-   - ✅ Türkçe arayüz
-   - ✅ Akış diyagramı şablonları
-
-2. **Lucidchart**
-   - https://lucidchart.com/
-   - ✅ Eğitim hesabı ücretsiz
-   - ✅ Gerçek zamanlı iş birliği
-   - ⚠️ Sınırlı diyagram sayısı
-
-3. **Flowchart.fun**
-   - https://flowchart.fun/
-   - ✅ Kod ile diyagram çizimi
-   - ✅ Hızlı prototipleme
-   - ✅ Markdown desteği
-
-4. **Creately**
-   - https://creately.com/
-   - ✅ Hazır şablonlar
-   - ✅ Takım çalışması
-
-#### 🖥️ Masaüstü Yazılımlar
-1. **Flowgorithm** (ÖNERİLEN)
-   - http://flowgorithm.org/
-   - ✅ Eğitim odaklı
-   - ✅ Türkçe dil desteği
-   - ✅ Kod çıktısı (C#, Java, Python)
-   - ✅ Adım adım çalıştırma
-
-2. **Microsoft Visio**
-   - ⚠️ Ücretli (Office 365'e dahil)
-   - ✅ Profesyonel kalite
-   - ✅ Şablon kütüphanesi
-
-3. **LibreOffice Draw**
-   - https://libreoffice.org/
-   - ✅ Tamamen ücretsiz
-   - ✅ Açık kaynak
-   - ✅ Temel akış diyagramı desteği
-
-#### 📱 Mobil Uygulamalar
-1. **Flowdia** (Android/iOS)
-   - Basit diyagramlar için ideal
-   - Dokunmatik optimizasyonu
-
-2. **Grafio** (iPad)
-   - Apple Pencil desteği
-   - Profesyonel çizim
-
-### 🎯 Pratik Egzersizleri
-
-#### 🏃‍♂️ Hızlı Alıştırmalar (5-10 dk)
-1. **Günlük Aktivite Algoritması**
-   - Sabah rutininizi sözde kod ile yazın
-   - En az 10 adım içermeli
-   - Koşullu durumları dahil edin
-
-2. **Basit Karar Ağacı**
-   - "Bugün ne giyeceğim?" algoritması
-   - Hava durumu, mevsim, ortam faktörleri
-   - Akış diyagramı ile çizin
-
-3. **ATM İşlem Akışı**
-   - Para çekme işlemini modelleyin
-   - PIN doğrulama, bakiye kontrolü
-   - Hata durumlarını dahil edin
 
 #### 🎲 Zorlayıcı Problemler (15-30 dk)
 1. **Hesap Makinesi Tasarımı**

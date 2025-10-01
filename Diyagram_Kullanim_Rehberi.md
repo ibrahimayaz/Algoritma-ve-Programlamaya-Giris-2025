@@ -18,6 +18,27 @@ Artık ayrı dosya gerekmez. Diyagramlar ilgili haftanın `ders_icerik.md` dosya
 ---
 ## 3. Mermaid Diyagram Tasarım Standartları
 
+> Uyum Notu (2025-10-01): Depodaki tüm diyagramlar GitHub'ın şu an desteklediği klasik Mermaid düğüm sözdizimini kullanacak şekilde (örn. `A([BAŞLA])`, `B[/Girdi/]`, `C{Koşul?}`) güncellendi. Daha önce kısa süreliğine kullanılan `node@{ shape: ..., label: "..." }` biçimi GitHub Markdown önizleyicisinde parse hatasına yol açtığı için kaldırıldı.
+
+### 3.0 Şekil (Shape) Eşleme Tablosu
+Kullanıcı tarafından tanımlanan pedagojik şekil standardı klasik sözdizime şu şekilde yansıtılır:
+
+| Anlam | Modern (kullanılmıyor) | Klasik Mermaid Karşılığı | Örnek |
+|-------|------------------------|--------------------------|-------|
+| Başla / Bitir (terminal) | `shape: stadium` | `([BAŞLA])` | `A([BAŞLA])` |
+| İşlem / Atama | `shape: rect` | `[işlem]` | `P[sonuç ← a+b]` |
+| Giriş (Input) | `shape: lean-r` | `[/girdi al/]` | `IN[/Sayı al/]` |
+| Çıkış (Output / Yazdır) | `shape: doc` | `[\\Mesaj\\]` (köşeli + kaçış) | `OUT[\\Toplam\\]` |
+| Karar (if) | `shape: diamond` | `{koşul?}` | `D{sayı % 2 == 0?}` |
+| Döngü koşulu | `shape: hex` | `{koşul?}` + gerekirse açıklayıcı etiket | `L{i <= n?}` |
+| Döngü etiket düğümü (opsiyonel) | (ayrı shape) | `((DÖNGÜ))` | `LOOP((DÖNGÜ))` |
+
+Notlar:
+1. `shape: doc` yerine kare köşeli parantezde çift ters eğik çizgi ile (ör: `[\\Sonuç\\]`) vurgulu çıktı kullanılabilir; düz `[Sonuç]` da render olur fakat ayrımı artırmak için depo içinde bazı çıktılar kaçışlı formata geçirildi.
+2. Döngü koşulları için ayrı bir altıgen shape klasik sözdizimde bulunmadığından karar bloğu `{ ... }` ile temsil edilir; gerekirse metin "(döngü)" şeklinde genişletilebilir.
+3. GitHub ileride modern attribute sözdizimini desteklerse bu bölüm güncellenip dönüşüm yeniden değerlendirilebilir.
+
+
 ### 3.1 Genel Sözdizimi
 Temel akış diyagramı şablonu:
 ````
