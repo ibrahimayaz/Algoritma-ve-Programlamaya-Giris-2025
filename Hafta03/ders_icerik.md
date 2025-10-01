@@ -454,11 +454,11 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> inNum[/Sayı al/]
-  inNum --> d1{sayı > 0?}
-  d1 -- Evet --> pos[Pozitif] --> endNode([BİTİR])
+  inNum --> d1{sayı > 0}
+  d1 -- Evet --> pos@{ shape: doc, label: "Pozitif" } --> endNode([BİTİR])
   d1 -- Hayır --> d2{sayı < 0?}
-  d2 -- Evet --> neg[Negatif] --> endNode
-  d2 -- Hayır --> zero[Sıfır] --> endNode
+  d2 -- Evet --> neg@{ shape: doc, label: "Negatif" } --> endNode
+  d2 -- Hayır --> zero@{ shape: doc, label: "Sıfır" } --> endNode
 ```
 
 #### 📝 Örnek 2: FOR Döngüsü Diyagramı
@@ -504,7 +504,7 @@ flowchart TD
   start([BAŞLA]) --> init[sayaç ← 0]
   init --> loop{sayaç < 5?}
   loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[sayaç++] --> loop
-  loop -- Hayır --> show[Sonuç] --> endNode([BİTİR])
+  loop -- Hayır --> show@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
 ```
 
 #### 📝 Örnek 4: SWITCH-CASE Diyagramı
@@ -529,10 +529,10 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> inSel[/Seçim al/]
   inSel --> dec{Seçim}
-  dec -->|1| opt1[Seçenek1] --> out[Sonuç] --> endNode([BİTİR])
+  dec -->|1| opt1[Seçenek1] --> out@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
   dec -->|2| opt2[Seçenek2] --> out
   dec -->|3| opt3[Seçenek3] --> out
-  dec -->|Diğer| invalid[Geçersiz] --> out
+  dec -->|Diğer| invalid@{ shape: doc, label: "Geçersiz" } --> out
 ```
 
 #### 📝 Örnek 5: DO-WHILE Döngüsü Diyagramı
@@ -555,7 +555,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> init[toplam=0; sayi=0]
-  init --> loop{tekrar} --> inNum[/sayı al/] --> add[toplam += sayı] --> show[\toplam\] --> cont{sayı != 0?}
+  init --> loop{tekrar} --> inNum[/sayı al/] --> add[toplam += sayı] --> show@{ shape: doc, label: "toplam" } --> cont{sayı != 0?}
   cont -- Evet --> loop
   cont -- Hayır --> endNode([BİTİR])
 ```

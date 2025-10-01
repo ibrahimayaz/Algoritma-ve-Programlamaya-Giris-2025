@@ -28,15 +28,20 @@ Kullanıcı tarafından tanımlanan pedagojik şekil standardı klasik sözdizim
 | Başla / Bitir (terminal) | `shape: stadium` | `([BAŞLA])` | `A([BAŞLA])` |
 | İşlem / Atama | `shape: rect` | `[işlem]` | `P[sonuç ← a+b]` |
 | Giriş (Input) | `shape: lean-r` | `[/girdi al/]` | `IN[/Sayı al/]` |
-| Çıkış (Output / Yazdır) | `shape: doc` | `[\\Mesaj\\]` (köşeli + kaçış) | `OUT[\\Toplam\\]` |
+| Çıkış (Output / Yazdır) | `shape: doc` | `node@{ shape: doc, label: "..." }` | `OUT@{ shape: doc, label: "Toplam" }` |
 | Karar (if) | `shape: diamond` | `{koşul?}` | `D{sayı % 2 == 0?}` |
 | Döngü koşulu | `shape: hex` | `{koşul?}` + gerekirse açıklayıcı etiket | `L{i <= n?}` |
 | Döngü etiket düğümü (opsiyonel) | (ayrı shape) | `((DÖNGÜ))` | `LOOP((DÖNGÜ))` |
 
 Notlar:
-1. `shape: doc` yerine kare köşeli parantezde çift ters eğik çizgi ile (ör: `[\\Sonuç\\]`) vurgulu çıktı kullanılabilir; düz `[Sonuç]` da render olur fakat ayrımı artırmak için depo içinde bazı çıktılar kaçışlı formata geçirildi.
+1. **Çıkış düğümleri için `@{ shape: doc }` kullanımı:** GitHub'ın güncel Mermaid renderer'ı bu modern attribute syntax'i destekliyorsa diyagramlarda kullanılır. Parse hatası alırsanız klasik `[Çıktı]` formatına geri dönebilirsiniz.
 2. Döngü koşulları için ayrı bir altıgen shape klasik sözdizimde bulunmadığından karar bloğu `{ ... }` ile temsil edilir; gerekirse metin "(döngü)" şeklinde genişletilebilir.
 3. GitHub ileride modern attribute sözdizimini desteklerse bu bölüm güncellenip dönüşüm yeniden değerlendirilebilir.
+
+**Doc Shape Fallback:** Eğer `@{ shape: doc, label: "..." }` GitHub'da parse hatası verirse, çıkış düğümlerini şu alternatiflerle değiştirin:
+- `[\\Sonuç\\]` (ters eğik çizgi vurgusu)
+- `[📄 Sonuç]` (emoji ile görsel ayrım)
+- `[Sonuç]` (düz klasik format)
 
 
 ### 3.1 Genel Sözdizimi

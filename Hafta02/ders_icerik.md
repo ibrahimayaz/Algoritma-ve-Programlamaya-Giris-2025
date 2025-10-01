@@ -308,56 +308,6 @@ Kötü Pratikler:
 ❌ Tutarsız semboller
 ```
 
-### 🛠️ Akış Diyagramı Çizim Aracı
-
-#### 🎨 Draw.io (diagrams.net) - **KULLANILACAK TEK ARAÇ**
-- **URL:** https://app.diagrams.net/
-- ✅ Tamamen ücretsiz ve kayıt gerektirmez
-- ✅ Türkçe arayüz desteği
-- ✅ Zengin akış diyagramı şablon kütüphanesi
-- ✅ Export seçenekleri: PNG, JPG, PDF, SVG, XML
-- ✅ Embed kod üretimi ve paylaşım
-- ✅ Offline çalışma desteği
-- ✅ Google Drive, OneDrive entegrasyonu
-
-**🔧 Draw.io Kurulum ve Kullanım:**
-```
-📋 Adım Adım Rehber:
-1. Tarayıcınızla https://app.diagrams.net/ gidin
-2. "Create New Diagram" butonuna tıklayın
-3. "Flowchart" şablonunu seçin ve "Create" tıklayın
-4. Sol panelden akış diyagramı sembollerini sürükleyip bırakın
-5. Sembolleri birbirine ok çizgileri ile bağlayın
-6. Metin eklemek için sembole çift tıklayın
-7. Renk ve stil düzenlemeleri için sağ paneli kullanın
-8. Bitince File → Export as → PNG seçin
-9. Dosyayı "draw_io_files" klasörüne kaydedin
-```
-
-**📁 Dosya Organizasyonu:**
-```
-Hafta02/
-├── ders_icerik.md
-├── draw_io_files/
-│   ├── 01_toplama_algoritmasi.drawio
-│   ├── 01_toplama_algoritmasi.png
-│   ├── 02_cift_tek_kontrol.drawio
-│   ├── 02_cift_tek_kontrol.png
-│   ├── 03_faktöriyel_hesaplama.drawio
-│   ├── 03_faktöriyel_hesaplama.png
-│   └── ... (diğer örnekler)
-```
-
-#### 🖥️ Masaüstü Yazılımlar
-- **Microsoft Visio** → Endüstri standardı (ücretli)
-- **Flowgorithm** → Eğitim odaklı (ücretsiz)
-- **LibreOffice Draw** → Açık kaynak (ücretsiz)
-
-#### 📱 Mobil Uygulamalar
-- **Flowdia** → Android/iOS
-- **Grafio** → iPad için ideal
-- **SimpleMind** → Mind mapping + akış
-
 ## 3. 💡 10 Detaylı Örnek ve Uygulamalar
 
 > ℹ️ Not: Bu bölümdeki tüm diyagramlar Mermaid olarak gömülüdür. Render edilmiyorsa kod bloğunu kopyalayıp https://mermaid.live adresinde görüntüleyebilirsiniz.
@@ -387,14 +337,12 @@ BAŞLA
 BITIR
 ```
 
-#### 📊 Draw.io Akış Diyagramı:
-**🔗 Draw.io Dosyası:** [01_toplama_algoritmasi.drawio](./draw_io_files/01_toplama_algoritmasi.drawio)
 
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> in1[/Birinci sayı al/] --> in2[/İkinci sayı al/]
-  in2 --> calc[toplam ← s1 + s2] --> out[Sonucu yazdır] --> endNode([BİTİR])
+  in2 --> calc[toplam ← s1 + s2] --> out@{ shape: doc, label: "Sonucu yazdır" } --> endNode([BİTİR])
 ```
 
 #### 🧪 Test Senaryoları:
@@ -440,8 +388,8 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> input[/Sayı al/] --> dec{sayı % 2 == 0?}
-  dec -- Evet --> even[Çift] --> endNode([BİTİR])
-  dec -- Hayır --> odd[Tek] --> endNode
+  dec -- Evet --> even@{ shape: doc, label: "Çift" } --> endNode([BİTİR])
+  dec -- Hayır --> odd@{ shape: doc, label: "Tek" } --> endNode
 ```
 
 ---
@@ -486,11 +434,11 @@ flowchart TD
   start([BAŞLA]) --> in1[/Sayı1/] --> in2[/Sayı2/] --> in3[/Sayı3/]
   in3 --> d1{s1 >= s2?}
   d1 -- Evet --> d2{s1 >= s3?}
-  d2 -- Evet --> max1[En büyük s1] --> endNode([BİTİR])
-  d2 -- Hayır --> max3a[En büyük s3] --> endNode
+  d2 -- Evet --> max1@{ shape: doc, label: "En büyük s1" } --> endNode([BİTİR])
+  d2 -- Hayır --> max3a@{ shape: doc, label: "En büyük s3" } --> endNode
   d1 -- Hayır --> d3{s2 >= s3?}
-  d3 -- Evet --> max2[\En büyük s2\] --> end
-  d3 -- Hayır --> max3b[\En büyük s3\] --> end
+  d3 -- Evet --> max2@{ shape: doc, label: "En büyük s2" } --> endNode
+  d3 -- Hayır --> max3b@{ shape: doc, label: "En büyük s3" } --> endNode
 ```
 
 ---
@@ -538,7 +486,7 @@ flowchart TD
   start([BAŞLA]) --> nin[/n al/] --> init1[sonuç ← 1] --> init2[i ← 1]
   init2 --> loop{i <= n?}
   loop -- Evet --> mult[sonuç ← sonuç * i] --> inc[i ← i + 1] --> loop
-  loop -- Hayır --> out[sonuç yazdır] --> endNode([BİTİR])
+  loop -- Hayır --> out@{ shape: doc, label: "sonuç yazdır" } --> endNode([BİTİR])
 ```
 
 ---
@@ -651,8 +599,8 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> inScores[/Notları al/] --> calc[ort ← v*0.4+f*0.6]
   calc --> passCheck{ort >= 60?}
-  passCheck -- Evet --> pass[GEÇTİ] --> endNode([BİTİR])
-  passCheck -- Hayır --> fail[KALDI] --> endNode
+  passCheck -- Evet --> pass@{ shape: doc, label: "GEÇTİ" } --> endNode([BİTİR])
+  passCheck -- Hayır --> fail@{ shape: doc, label: "KALDI" } --> endNode
 ```
 
 ---
@@ -705,11 +653,11 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> gen[rastgele sayı] --> init[hak ← 5] --> loop{hak > 0}
   loop --> guessIn[/tahmin al/] --> eq{tahmin == sayı?}
-  eq -- Evet --> win[Tebrikler] --> endNode([BİTİR])
+  eq -- Evet --> win@{ shape: doc, label: "Tebrikler" } --> endNode([BİTİR])
   eq -- Hayır --> cmp{tahmin < sayı?}
-  cmp -- Evet --> hintUp[\Daha büyük\] --> dec[hak--] --> cont{hak > 0} --> loop
-  cmp -- Hayır --> hintDn[\Daha küçük\] --> dec --> cont
-  cont -- Hayır --> lose[\Bitti\] --> end
+  cmp -- Evet --> hintUp@{ shape: doc, label: "Daha büyük" } --> dec[hak--] --> cont{hak > 0} --> loop
+  cmp -- Hayır --> hintDn@{ shape: doc, label: "Daha küçük" } --> dec --> cont
+  cont -- Hayır --> lose@{ shape: doc, label: "Bitti" } --> endNode
 ```
 
 ---
@@ -774,12 +722,12 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> input[/Kilo, Boy/] --> calc[vki ← kilo/(boy^2)]
   calc --> d1{vki < 18.5?}
-  d1 -- Evet --> zayif[Zayıf] --> endNode([BİTİR])
+  d1 -- Evet --> zayif@{ shape: doc, label: "Zayıf" } --> endNode([BİTİR])
   d1 -- Hayır --> d2{vki < 25?}
-  d2 -- Evet --> normal[Normal] --> endNode
+  d2 -- Evet --> normal@{ shape: doc, label: "Normal" } --> endNode
   d2 -- Hayır --> d3{vki < 30?}
-  d3 -- Evet --> kilolu[Fazla kilolu] --> endNode
-  d3 -- Hayır --> obez[Obez] --> endNode
+  d3 -- Evet --> kilolu@{ shape: doc, label: "Fazla kilolu" } --> endNode
+  d3 -- Hayır --> obez@{ shape: doc, label: "Obez" } --> endNode
 ```
 
 ---
@@ -865,11 +813,11 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> read[Kart oku] --> pinIn[/PIN al/] --> pinChk{PIN doğru mu?}
-  pinChk -- Hayır --> pinErr[\Hatalı PIN\] --> pinIn
+  pinChk -- Hayır --> pinErr@{ shape: doc, label: "Hatalı PIN" } --> pinIn
   pinChk -- Evet --> menu{Menü döngüsü}
-  menu -->|1| showBal[\Bakiye göster\] --> menu
+  menu -->|1| showBal@{ shape: doc, label: "Bakiye göster" } --> menu
   menu -->|2| amtIn[/Tutar al/] --> balChk{Yeterli?}
-  balChk -- Hayır --> noBal[\Yetersiz\] --> menu
+  balChk -- Hayır --> noBal@{ shape: doc, label: "Yetersiz" } --> menu
   balChk -- Evet --> subBal[Bakiye düş] --> menu
   menu -->|3| depIn[/Tutar al/] --> addBal[Bakiye artır] --> menu
   menu -->|0| endNode([BİTİR])
@@ -984,11 +932,11 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> opSel[/İşlem seç/] --> in1[/Sayı1/] --> in2[/Sayı2/] --> dec{İşlem?}
-  dec -->|+| add[s1 + s2] --> out[Sonuç] --> endNode([BİTİR])
+  dec -->|+| add[s1 + s2] --> out@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
   dec -->|-| sub[s1 - s2] --> out
   dec -->|*| mul[s1 * s2] --> out
   dec -->|/| divChk{s2 == 0?}
-  divChk -- Evet --> err[0'a bölünmez] --> endNode
+  divChk -- Evet --> err@{ shape: doc, label: "0'a bölünmez" } --> endNode
   divChk -- Hayır --> div[s1 / s2] --> out
 ```
 
