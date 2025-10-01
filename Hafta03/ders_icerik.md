@@ -162,7 +162,7 @@ KOŞUL sayı != 0 İKEN
 
 ## 6. Detaylı Örnekler
 
-> ℹ️ Not: Aşağıdaki Draw.io akış diyagramları gömülü iframe ile yükleniyorsa ama sizde boş görünüyorsa tarayıcı uzantıları veya kurumsal güvenlik politikaları engelliyor olabilir. Bu durumda ilgili `.drawio` dosyasını proje klasöründen indirip https://app.diagrams.net/ sitesinde File → Open From → Device adımlarını izleyerek açabilirsiniz. Her diyagram için ayrıca "⚠️ Açılmıyorsa" bölümü alternatif erişim sağlar.
+> ℹ️ Not: Tüm akış diyagramları artık yalnızca Mermaid ile oluşturulmuştur. Render edilmiyorsa kod bloklarını https://mermaid.live adresinde açabilirsiniz.
 
 ### Örnek 1: Sayının Pozitif/Negatif Kontrolü
 
@@ -430,7 +430,7 @@ DEĞILSE
 - ✅ Kod çıktısı (C#, Java, Python)
 - ✅ Adım adım çalıştırma özelliği
 
-### 🎯 Draw.io ile Kontrol Yapıları Örnekleri
+### Kontrol Yapıları Örnekleri (Mermaid)
 
 #### 📝 Örnek 1: IF-ELSE Diyagramı
 **Problem:** Sayının pozitif, negatif veya sıfır olduğunu belirleyen algoritma
@@ -567,28 +567,8 @@ flowchart TD
   C -- Hayır --> X([BİTİR])
 ```
 
-#### 📝 Örnek 3: WHILE Döngüsü Diyagramı
-**Draw.io Dosyası:** [while_dongusu_ornek.drawio](./draw_io_files/while_dongusu_ornek.drawio)
-
-### 💡 Draw.io Kullanım İpuçları
-
-#### 🎨 Renk Kodlama Sistemi:
-- 🟢 **Yeşil:** Başlangıç (START)
-- 🔵 **Mavi:** Giriş/Çıkış işlemleri
-- 🟡 **Sarı:** İşlem blokları
-- 🟣 **Mor:** Karar blokları
-- 🔴 **Kırmızı:** Bitiş (END)
-
-#### ⚡ Hızlı Çizim Teknikleri:
-1. **Şablon Kullanımı:** File → New → Flowchart template
-2. **Kopyala-Yapıştır:** Benzer şekiller için Ctrl+C/Ctrl+V
-3. **Hizalama:** Şekilleri seçip Arrange → Align
-4. **Otomatik Bağlantı:** Şekil kenarlarına tıklayıp sürükle
-
-#### 🔗 Paylaşım ve İş Birliği:
-- **Link Paylaşımı:** File → Share → Link
-- **Takım Çalışması:** Google Drive entegrasyonu
-- **Gömme:** File → Embed → HTML kodu al
+#### Bilgi
+Örnek diyagramlarda ek bir çizim aracına gerek kalmadan tüm mantık Mermaid ile ifade edilmiştir.
 
 ## 9. Yaygın Hatalar ve Çözümleri
 

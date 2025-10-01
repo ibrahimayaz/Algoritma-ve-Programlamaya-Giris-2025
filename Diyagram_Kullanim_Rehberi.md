@@ -1,6 +1,6 @@
 # Mermaid Diyagram Kullanım Rehberi
 
-Bu rehber; projedeki tüm algoritma diyagramlarının (akış, karar, döngü) VS Code ve GitHub Markdown içinde doğal olarak render edilen **Mermaid** sözdizimi ile tutarlı biçimde yazılması için standartları tanımlar. Eski Draw.io yaklaşımı terk edilmiştir; `.drawio` dosyaları yalnızca arşiv amaçlı kalabilir (yeni ekleme yapmayın).
+Bu rehber; projedeki tüm algoritma diyagramlarının (akış, karar, döngü) VS Code ve GitHub Markdown içinde doğal olarak render edilen **Mermaid** sözdizimi ile tutarlı biçimde yazılması için standartları tanımlar. Tüm önceki harici çizim aracı yaklaşımları (ör. Draw.io) tamamen kaldırılmıştır; depo içinde artık hiçbir `.drawio` kaynağı tutulmamalıdır.
 
 ---
 ## 1. Amaç
