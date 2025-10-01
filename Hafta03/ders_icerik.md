@@ -1,5 +1,13 @@
 # Hafta 03: Kontrol Yapıları (Koşul ve Döngüler)
 
+<div align="center">
+<sub>
+Gezin: [Hafta01](../Hafta01/ders_icerik.md) · [Hafta02](../Hafta02/ders_icerik.md) · Hafta03 · Hafta04 · Hafta05 · Hafta06 · Hafta07 · Hafta08 · Hafta09 · Hafta10 · Hafta11 · Hafta12 · Hafta13 · Hafta14
+</sub>
+</div>
+
+> 🔗 Diyagram standartları için bkz: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md)
+
 ## Ders Hedefleri
 Bu dersin sonunda öğrenciler:
 - Koşul yapılarını anlayacak ve kullanacak
@@ -153,6 +161,8 @@ KOŞUL sayı != 0 İKEN
 ```
 
 ## 6. Detaylı Örnekler
+
+> ℹ️ Not: Aşağıdaki Draw.io akış diyagramları gömülü iframe ile yükleniyorsa ama sizde boş görünüyorsa tarayıcı uzantıları veya kurumsal güvenlik politikaları engelliyor olabilir. Bu durumda ilgili `.drawio` dosyasını proje klasöründen indirip https://app.diagrams.net/ sitesinde File → Open From → Device adımlarını izleyerek açabilirsiniz. Her diyagram için ayrıca "⚠️ Açılmıyorsa" bölümü alternatif erişim sağlar.
 
 ### Örnek 1: Sayının Pozitif/Negatif Kontrolü
 
@@ -440,8 +450,11 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı:**
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=if_else_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fif_else_ornek.drawio"></iframe>
+**Draw.io Akış Diyagramı (Gömülü):**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=if_else_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fif_else_ornek.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyorsa</summary>
+Yerel açma ve engel çözümü için bkz: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md) · Dosya: `Hafta03/draw_io_files/if_else_ornek.drawio`
+</details>
 
 #### 📝 Örnek 2: FOR Döngüsü Diyagramı
 **Problem:** 1'den 10'a kadar sayıları yazdıran algoritma
@@ -455,8 +468,11 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı:**
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=for_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Ffor_dongusu_ornek.drawio"></iframe>
+**Draw.io Akış Diyagramı (Gömülü):**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=for_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Ffor_dongusu_ornek.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyorsa</summary>
+Bkz: Rehber · Dosya: `Hafta03/draw_io_files/for_dongusu_ornek.drawio`
+</details>
 
 #### 📝 Örnek 3: WHILE Döngüsü Diyagramı
 **Problem:** Kullanıcıdan 5 kez veri alıp işleyen algoritma
@@ -474,8 +490,11 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı:**
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=while_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fwhile_dongusu_ornek.drawio"></iframe>
+**Draw.io Akış Diyagramı (Gömülü):**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=while_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fwhile_dongusu_ornek.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyorsa</summary>
+Rehberdeki talimatları uygula · Dosya: `Hafta03/draw_io_files/while_dongusu_ornek.drawio`
+</details>
 
 #### 📝 Örnek 4: SWITCH-CASE Diyagramı
 **Problem:** Menü seçimlerine göre farklı işlemler yapan algoritma
@@ -494,8 +513,11 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı:**
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=switch_case_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fswitch_case_ornek.drawio"></iframe>
+**Draw.io Akış Diyagramı (Gömülü):**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=switch_case_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fswitch_case_ornek.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyorsa</summary>
+Bkz: Rehber · Dosya: `Hafta03/draw_io_files/switch_case_ornek.drawio`
+</details>
 
 #### 📝 Örnek 5: DO-WHILE Döngüsü Diyagramı
 **Problem:** En az bir kez çalışması gereken sayı toplama programı
@@ -513,8 +535,11 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı:**
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=do_while_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmain%2FHafta03%2Fdraw_io_files%2Fdo_while_ornek.drawio"></iframe>
+**Draw.io Akış Diyagramı (Gömülü):**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=do_while_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fdo_while_ornek.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyorsa</summary>
+Bkz: Rehber · Dosya: `Hafta03/draw_io_files/do_while_ornek.drawio`
+</details>
 
 #### 📝 Örnek 3: WHILE Döngüsü Diyagramı
 **Draw.io Dosyası:** [while_dongusu_ornek.drawio](./draw_io_files/while_dongusu_ornek.drawio)

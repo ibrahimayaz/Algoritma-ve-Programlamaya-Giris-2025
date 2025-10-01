@@ -1,5 +1,14 @@
 # Hafta 02: Sözde Kod ve Akış Diyagramları
 
+<div align="center">
+<sub>
+Bu içeriği diğer haftalarla gezin: 
+[Hafta01](../Hafta01/ders_icerik.md) · Hafta02 · [Hafta03](../Hafta03/ders_icerik.md) · Hafta04 · Hafta05 · Hafta06 · Hafta07 · Hafta08 · Hafta09 · Hafta10 · Hafta11 · Hafta12 · Hafta13 · Hafta14
+</sub>
+</div>
+
+> 🔗 Diyagram standartları için: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md)
+
 ## 🎯 Ders Hedefleri
 Bu dersin sonunda öğrenciler:
 - ✅ Sözde kod yazabilecek ve anlayabilecek
@@ -351,6 +360,8 @@ Hafta02/
 
 ## 3. 💡 10 Detaylı Örnek ve Uygulamalar
 
+> ℹ️ Not: Bu bölümdeki tüm Draw.io diyagramları iframe ile çevrimiçi olarak `viewer.diagrams.net` üzerinden yüklenir. Diyagramlar görünmüyorsa tarayıcı eklentisi, güvenlik duvarı veya çevrimdışı çalışma sebebiyle engellenmiş olabilir. Alternatif olarak ilgili `.drawio` dosyasını `Hafta02/draw_io_files` klasöründen açıp https://app.diagrams.net/ üzerinde File → Open From → Device yolunu izleyerek görüntüleyebilirsiniz. Her diyagramın altında "⚠️ Açılmıyorsa" detay kutusu da yerel açma talimatı içerir.
+
 ### 🔥 Örnek 1: Basit Toplama İşlemi
 > **Zorluk:** ⭐ Başlangıç  
 > **Süre:** 5 dakika  
@@ -378,6 +389,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [01_toplama_algoritmasi.drawio](./draw_io_files/01_toplama_algoritmasi.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=01_toplama_algoritmasi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F01_toplama_algoritmasi.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Rehber: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md) · Dosya: `Hafta02/draw_io_files/01_toplama_algoritmasi.drawio`
+</details>
 
 ```
 Draw.io'da Çizilen Diyagram:
@@ -459,6 +476,12 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [02_cift_tek_kontrol.drawio](./draw_io_files/02_cift_tek_kontrol.drawio)
 
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=02_cift_tek_kontrol.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F02_cift_tek_kontrol.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/02_cift_tek_kontrol.drawio`
+</details>
+
 ```
 Draw.io'da Çizilen Diyagram:
 ┌─────────────┐
@@ -532,6 +555,12 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [03_en_buyuk_sayi.drawio](./draw_io_files/03_en_buyuk_sayi.drawio)
 
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=03_en_buyuk_sayi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F03_en_buyuk_sayi.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/03_en_buyuk_sayi.drawio`
+</details>
+
 ---
 
 ### 🔥 Örnek 4: Faktöriyel Hesaplama
@@ -574,6 +603,12 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [04_faktoriyel_hesaplama.drawio](./draw_io_files/04_faktoriyel_hesaplama.drawio)
 
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=04_faktoriyel_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F04_faktoriyel_hesaplama.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/04_faktoriyel_hesaplama.drawio`
+</details>
+
 ---
 
 ### 🔥 Örnek 5: Fibonacci Dizisi (İlk N Terim)
@@ -615,6 +650,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [05_fibonacci_dizisi.drawio](./draw_io_files/05_fibonacci_dizisi.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=05_fibonacci_dizisi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F05_fibonacci_dizisi.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/05_fibonacci_dizisi.drawio`
+</details>
 
 ---
 
@@ -676,6 +717,12 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [06_not_hesaplama.drawio](./draw_io_files/06_not_hesaplama.drawio)
 
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=06_not_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F06_not_hesaplama.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/06_not_hesaplama.drawio`
+</details>
+
 ---
 
 ### 🔥 Örnek 7: Sayı Tahmin Oyunu
@@ -723,6 +770,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [07_sayi_tahmin_oyunu.drawio](./draw_io_files/07_sayi_tahmin_oyunu.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=07_sayi_tahmin_oyunu.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F07_sayi_tahmin_oyunu.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/07_sayi_tahmin_oyunu.drawio`
+</details>
 
 ---
 
@@ -783,6 +836,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [08_vki_hesaplama.drawio](./draw_io_files/08_vki_hesaplama.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=08_vki_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F08_vki_hesaplama.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/08_vki_hesaplama.drawio`
+</details>
 
 ---
 
@@ -865,6 +924,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [09_atm_sistemi.drawio](./draw_io_files/09_atm_sistemi.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=09_atm_sistemi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F09_atm_sistemi.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/09_atm_sistemi.drawio`
+</details>
 
 ---
 
@@ -973,6 +1038,12 @@ BITIR
 
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [10_hesap_makinesi.drawio](./draw_io_files/10_hesap_makinesi.drawio)
+
+**Gömülü Diyagram:**
+<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=10_hesap_makinesi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F10_hesap_makinesi.drawio"></iframe>
+<details><summary>⚠️ Görüntülenmiyor mu?</summary>
+Bkz: Rehber · Dosya: `Hafta02/draw_io_files/10_hesap_makinesi.drawio`
+</details>
 
 ## 4. 📚 Ders Materyalleri ve Kaynaklar
 
