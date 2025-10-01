@@ -360,7 +360,7 @@ Hafta02/
 
 ## 3. 💡 10 Detaylı Örnek ve Uygulamalar
 
-> ℹ️ Not: Bu bölümdeki tüm Draw.io diyagramları iframe ile çevrimiçi olarak `viewer.diagrams.net` üzerinden yüklenir. Diyagramlar görünmüyorsa tarayıcı eklentisi, güvenlik duvarı veya çevrimdışı çalışma sebebiyle engellenmiş olabilir. Alternatif olarak ilgili `.drawio` dosyasını `Hafta02/draw_io_files` klasöründen açıp https://app.diagrams.net/ üzerinde File → Open From → Device yolunu izleyerek görüntüleyebilirsiniz. Her diyagramın altında "⚠️ Açılmıyorsa" detay kutusu da yerel açma talimatı içerir.
+> ℹ️ Not: Bu bölümdeki tüm diyagramlar Mermaid olarak gömülüdür. Render edilmiyorsa kod bloğunu kopyalayıp https://mermaid.live adresinde görüntüleyebilirsiniz.
 
 ### 🔥 Örnek 1: Basit Toplama İşlemi
 > **Zorluk:** ⭐ Başlangıç  
@@ -390,11 +390,11 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [01_toplama_algoritmasi.drawio](./draw_io_files/01_toplama_algoritmasi.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=01_toplama_algoritmasi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F01_toplama_algoritmasi.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Rehber: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md) · Dosya: `Hafta02/draw_io_files/01_toplama_algoritmasi.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> B["Birinci sayı al"] --> C["İkinci sayı al"] --> D["toplam ← s1 + s2"] --> E["Sonucu yazdır"] --> X([BİTİR])
+```
 
 ```
 Draw.io'da Çizilen Diyagram:
@@ -476,11 +476,13 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [02_cift_tek_kontrol.drawio](./draw_io_files/02_cift_tek_kontrol.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=02_cift_tek_kontrol.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F02_cift_tek_kontrol.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/02_cift_tek_kontrol.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> B["Sayı al"] --> C{Sayı % 2 = 0?}
+  C -- Evet --> E["Çift"] --> X([BİTİR])
+  C -- Hayır --> F["Tek"] --> X
+```
 
 ```
 Draw.io'da Çizilen Diyagram:
@@ -555,11 +557,17 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [03_en_buyuk_sayi.drawio](./draw_io_files/03_en_buyuk_sayi.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=03_en_buyuk_sayi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F03_en_buyuk_sayi.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/03_en_buyuk_sayi.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> B["Sayı1 al"] --> C["Sayı2 al"] --> D["Sayı3 al"] --> K{S1 > S2?}
+  K -- Evet --> K2{S1 > S3?}
+  K2 -- Evet --> R1["En büyük S1"] --> X([BİTİR])
+  K2 -- Hayır --> R3["En büyük S3"] --> X
+  K -- Hayır --> L{S2 > S3?}
+  L -- Evet --> R2["En büyük S2"] --> X
+  L -- Hayır --> R3b["En büyük S3"] --> X
+```
 
 ---
 
@@ -603,11 +611,13 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [04_faktoriyel_hesaplama.drawio](./draw_io_files/04_faktoriyel_hesaplama.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=04_faktoriyel_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F04_faktoriyel_hesaplama.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/04_faktoriyel_hesaplama.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> B["n al"] --> C["sonuç ← 1"] --> I["i ← 1"] --> D{i <= n?}
+  D -- Evet --> M["sonuç ← sonuç * i"] --> INC["i ← i + 1"] --> D
+  D -- Hayır --> O["sonuç yazdır"] --> X([BİTİR])
+```
 
 ---
 
@@ -651,11 +661,13 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [05_fibonacci_dizisi.drawio](./draw_io_files/05_fibonacci_dizisi.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=05_fibonacci_dizisi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F05_fibonacci_dizisi.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/05_fibonacci_dizisi.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> N["n al"] --> S["a←0, b←1"] --> I["i←1"] --> C{i <= n?}
+  C -- Evet --> OUT["a yazdır"] --> UP["temp←a+b; a←b; b←temp"] --> INC["i←i+1"] --> C
+  C -- Hayır --> X([BİTİR])
+```
 
 ---
 
@@ -717,11 +729,13 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [06_not_hesaplama.drawio](./draw_io_files/06_not_hesaplama.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=06_not_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F06_not_hesaplama.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/06_not_hesaplama.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> IN["Vize, Final al"] --> H["ortalama ← v*0.4 + f*0.6"] --> C{ortalama >= 60?}
+  C -- Evet --> G["GEÇTİ"] --> X([BİTİR])
+  C -- Hayır --> K["KALDI"] --> X
+```
 
 ---
 
@@ -771,11 +785,16 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [07_sayi_tahmin_oyunu.drawio](./draw_io_files/07_sayi_tahmin_oyunu.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=07_sayi_tahmin_oyunu.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F07_sayi_tahmin_oyunu.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/07_sayi_tahmin_oyunu.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> S["rastgeleSayı üret"] --> H["hak ← 5"] --> L((DÖNGÜ)) --> T["Tahmin al"] --> C{tahmin = sayı?}
+  C -- Evet --> WIN["Tebrikler"] --> X([BİTİR])
+  C -- Hayır --> C2{tahmin < sayı?}
+  C2 -- Evet --> UP["Daha büyük de"] --> DEC["hak ← hak - 1"] --> Z{hak > 0?} -->|Evet| L
+  C2 -- Hayır --> DN["Daha küçük de"] --> DEC --> Z
+  Z -- Hayır --> LOSE["Bitti"] --> X
+```
 
 ---
 
@@ -837,11 +856,17 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [08_vki_hesaplama.drawio](./draw_io_files/08_vki_hesaplama.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=08_vki_hesaplama.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F08_vki_hesaplama.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/08_vki_hesaplama.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> IN["Kilo, Boy al"] --> H["vki ← kilo/(boy^2)"] --> C1{vki < 18.5?}
+  C1 -- Evet --> Z1["Zayıf"] --> X([BİTİR])
+  C1 -- Hayır --> C2{vki < 25?}
+  C2 -- Evet --> I1["Normal"] --> X
+  C2 -- Hayır --> C3{vki < 30?}
+  C3 -- Evet --> F1["Fazla kilolu"] --> X
+  C3 -- Hayır --> O1["Obez"] --> X
+```
 
 ---
 
@@ -925,11 +950,19 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [09_atm_sistemi.drawio](./draw_io_files/09_atm_sistemi.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=09_atm_sistemi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F09_atm_sistemi.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/09_atm_sistemi.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> G["Kart Oku"] --> P["PIN Al"] --> C{PIN doğru mu?}
+  C -- Hayır --> ERR["Hatalı PIN"] --> C
+  C -- Evet --> M{Menü}
+  M -->|1 Bakiye| BAK["Bakiye göster"] --> M
+  M -->|2 Para Çek| CEK["Tutar al"] --> V{Yeterli bakiye?}
+  V -- Hayır --> UY["Yetersiz"] --> M
+  V -- Evet --> AZ["Bakiye düş"] --> M
+  M -->|3 Para Yatır| YAT["Tutar al"] --> AR["Bakiye artır"] --> M
+  M -->|0 Çıkış| X([BİTİR])
+```
 
 ---
 
@@ -1039,11 +1072,17 @@ BITIR
 #### 📊 Draw.io Akış Diyagramı:
 **🔗 Draw.io Dosyası:** [10_hesap_makinesi.drawio](./draw_io_files/10_hesap_makinesi.drawio)
 
-**Gömülü Diyagram:**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=10_hesap_makinesi.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta02%2Fdraw_io_files%2F10_hesap_makinesi.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyor mu?</summary>
-Bkz: Rehber · Dosya: `Hafta02/draw_io_files/10_hesap_makinesi.drawio`
-</details>
+**Mermaid Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> OPR["İşlem seç (+,-,*,/)"] --> S1["Sayı1 al"] --> S2["Sayı2 al"] --> C{İşlem}
+  C -->|+| T["toplam ← s1 + s2"] --> OUT["Sonuç yazdır"] --> X([BİTİR])
+  C -->|-| CIK["fark ← s1 - s2"] --> OUT
+  C -->|*| CRP["çarpım ← s1 * s2"] --> OUT
+  C -->|/| BOL{S2 = 0?}
+  BOL -- Evet --> ERR["Hata: 0'a bölünmez"] --> X
+  BOL -- Hayır --> SON["bölüm ← s1 / s2"] --> OUT
+```
 
 ## 4. 📚 Ders Materyalleri ve Kaynaklar
 

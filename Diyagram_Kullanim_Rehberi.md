@@ -1,6 +1,6 @@
-# Draw.io Diyagram Kullanım Rehberi
+# Mermaid Diyagram Kullanım Rehberi
 
-Bu rehber; projedeki tüm `.drawio` diyagramlarının tutarlı, erişilebilir ve bakımı kolay olacak şekilde oluşturulması ve gömülmesi için standartları belirler.
+Bu rehber; projedeki tüm algoritma diyagramlarının (akış, karar, döngü) VS Code ve GitHub Markdown içinde doğal olarak render edilen **Mermaid** sözdizimi ile tutarlı biçimde yazılması için standartları tanımlar. Eski Draw.io yaklaşımı terk edilmiştir; `.drawio` dosyaları yalnızca arşiv amaçlı kalabilir (yeni ekleme yapmayın).
 
 ---
 ## 1. Amaç
@@ -10,117 +10,102 @@ Bu rehber; projedeki tüm `.drawio` diyagramlarının tutarlı, erişilebilir ve
 - ✅ Otomatik referans ve link düzeni
 
 ---
-## 2. Dosya Konumlandırma ve Adlandırma
-Her hafta için `HaftaXX/draw_io_files/` klasörü kullanılır.
+## 2. Diyagram Kaynağı ve Konumlandırma
+Artık ayrı dosya gerekmez. Diyagramlar ilgili haftanın `ders_icerik.md` dosyasına gömülü Mermaid kod blokları şeklinde yazılır.
 
-Adlandırma Formatı:
-```
-NN_konu_ozeti.drawio
-```
-- `NN`: 01, 02, 03 ... iki haneli sıra numarası
-- `konu_ozeti`: Küçük harf, Türkçe karakter kullanılabilir, boşluk yerine `_`
-
-Örnekler:
-```
-01_toplama_algoritmasi.drawio
-02_cift_tek_kontrol.drawio
-09_atm_sistemi.drawio
-10_hesap_makinesi.drawio
-```
+İstisna (opsiyonel): Çok büyük diyagramlar alt bölümlere ayrılacaksa aynı dosya içinde başlıklarla ayrılmalıdır; ek dosya oluşturmayın.
 
 ---
-## 3. Diyagram İç Tasarım Standartları
+## 3. Mermaid Diyagram Tasarım Standartları
 
-### 3.1 Renk Kodları
-| Anlam | Şekil | Renk | Hex |
-|-------|-------|------|-----|
-| Başlangıç / Bitiş | Oval | Yeşil / Kırmızı | #d5e8d4 / #f8cecc |
-| Giriş / Çıkış | Paralelkenar | Mavi | #dae8fc |
-| İşlem | Dikdörtgen | Sarı | #fff2cc |
-| Karar | Elmas | Mor | #e1d5e7 |
-| Uyarı / Hata | Dikdörtgen | Açık Kırmızı | #f8cecc |
-| Açıklama Notu | Yuvarlatılmış | Gri | #f0f0f0 |
+### 3.1 Genel Sözdizimi
+Temel akış diyagramı şablonu:
+````
+```mermaid
+flowchart TD
+	A([BAŞLA]) --> B["İşlem"] --> C{Koşul?}
+	C -- Evet --> D["Alt işlem"] --> C
+	C -- Hayır --> X([BİTİR])
+```
+````
 
-### 3.2 Font & Boyutlar
-- Font: Varsayılan (Arial) – 14pt başlık benzeri düğümler, 12pt içerik
-- Kenar Kalınlığı: 1px
-- Oklar: Yön gösteren (Arrow end) zorunlu
-- Karar şekillerinde iki çıkış etiketlenmeli: `EVET` / `HAYIR` veya `TRUE` / `FALSE`
+### 3.2 Düğüm Tipleri
+| Amaç | Biçim | Örnek |
+|------|------|-------|
+| Başlangıç / Bitiş | `( )` yuvarlatılmış köşeli: `[BAŞLA]` | `A([BAŞLA])` |
+| İşlem | Köşeli parantez | `B["sayı al"]` |
+| Karar | Süslü parantez | `C{n > 0?}` |
+| Alt süreç / Döngü etiketi | Çift parantez | `L((DÖNGÜ))` |
+| Veri / I/O (opsiyonel) | Köşeli + fiil | `IN["Veri al"]` |
 
-### 3.3 Düzen
-- Akış yönü: Üstten aşağı + soldan sağa
-- Kesişen çizgilerden kaçının (gerekirse yön noktaları ekleyin)
-- Döngü geri dönüş hattı mümkün olduğunca soldan veya sağdan dış kenardan
+Renk özelleştirmesi şimdilik yapılmıyor (düz okuyabilirlik). İleride global tema eklenebilir.
+
+### 3.3 Biçim Kuralları
+- Düğüm kimlikleri kısa ve anlamlı olmalı: `A, B, C` veya `IN, PROC, DEC` gibi.
+- Etiketlerde Türkçe karakter kullanılabilir.
+- Karar düğümlerinde çıkışlar `-- Evet -->`, `-- Hayır -->` veya bağlama göre `-- Doğru --> / -- Yanlış -->` şeklinde yazılır.
+- Döngü gösterimi: Karar düğümüne geri dönen ok veya `L((DÖNGÜ))` gibi görsel işaret.
+
+### 3.4 Kod Blok Stil Tutarlılığı
+- Her diyagram ayrı bir ` ```mermaid ` kod bloğunda.
+- Akış yönü varsayılan: `flowchart TD` (Top-Down). Yatay istenirse `LR` açıkça belirtilir.
+- Diyagram hemen üstünde açıklayıcı başlık (`**Mermaid Akış Diyagramı:**`).
 
 ---
 ## 4. Gömme (Embed) Standartları
-Markdown içine iframe ile ekleme formatı:
-```
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=DOSYA_ADI.drawio#URAW_URL_ENCODE"></iframe>
-<details><summary>⚠️ Açılmıyorsa (alternatif erişim)</summary>
-Yerel aç: `HaftaXX/draw_io_files/DOSYA_ADI.drawio` → https://app.diagrams.net/ → File → Open From → Device.
-</details>
-```
+Ekstra iframe, resim veya dış servis kullanılmaz. Sadece Markdown içi Mermaid blokları.
 
-`RAW_URL_ENCODE` değeri şu formatı izler:
-```
-https%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHaftaXX%2Fdraw_io_files%2FDOSYA_ADI.drawio
-```
+Yanına açıklama gerekiyorsa diyagram üstü veya altı normal metin kullanın; `<details>` yalnızca çok uzun varyantları saklamak için.
 
 ---
-## 5. Çevrimdışı / Ağ Engeli Durumunda Erişim
-1. `.drawio` dosyasını dosya gezgininden seçin
-2. https://app.diagrams.net/ açın
-3. File → Open From → Device → dosyayı seçin
-4. Gerekirse düzenleyin / PNG olarak dışa aktarın (File → Export as → PNG)
-
-### PNG Üretim Önerisi
-- Saydam arka plan: Kapalı
-- Kenarlık: 10px
-- Ölçek: 1x yeterli (metin okunabilir olmalı)
+## 5. Çevrimdışı / Engelli Render Durumu
+GitHub veya VS Code bazı ortamlarda Mermaid'i kapatırsa kod blokları düz metin olarak görünür. Bu durumda:
+1. Kod bloğunu kopyalayın.
+2. https://mermaid.live sitesine gidin.
+3. Editör alanına yapıştırıp diyagramı görüntüleyin.
 
 ---
 ## 6. Versiyonlama
-- Diyagram yapısal olarak değişiyorsa (mantık değişikliği): Versiyon notu ekleyin
-- Değişiklik kaydı formatı (diyagramın altında veya haftanın sonunda):
+Mantıksal değişikliklerde altına kısa not ekleyin:
 ```
-> Değişiklik: 2025-10-01 – Döngü koşulu güncellendi (i < 10 → i <= 10)
+> Not (2025-10-01): Döngü koşulu i < 10'dan i <= 10'a güncellendi.
 ```
 
 ---
 ## 7. Sorun Giderme
-| Sorun | Olası Neden | Çözüm |
-|-------|-------------|-------|
-| Diyagram boş görünüyor | İçerik engelleyici | Farklı tarayıcı / uzantıyı devre dışı bırak | 
-| iframe çalışmıyor | Güvenlik politikası | Yerel açma yöntemi kullan |
-| Renkler tutarsız | Elle değiştirilmiş | Tabloya göre yeniden ayarla |
-| Döngü okunmuyor | Karmaşık akış | Alt diyagrama böl (ayrı .drawio) |
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| Diyagram render olmuyor | Mermaid destek kapalı | VS Code Settings: Markdown > Preview: mermaid etkinleştir / veya mermaid.live kullan |
+| Çok karışık görünüm | Aşırı düğüm | Diyagramı 2 küçük diyagrama böl |
+| Döngü okunmuyor | Geri ok karmaşık | Döngü etiket düğümü (L((DÖNGÜ))) ekle |
+| Karar dalları belirsiz | Etiket yok | `-- Evet -->` / `-- Hayır -->` ekle |
 
 ---
 ## 8. Yeni Diyagram Eklerken Kontrol Listesi
-- [ ] Adlandırma formatı doğru mu?
-- [ ] Renkler tabloda belirtildiği gibi mi?
-- [ ] Karar bloklarının iki çıkışı var mı?
-- [ ] Döngü geri dönüş oku net mi?
-- [ ] iframe URL’si doğru encode edildi mi?
-- [ ] `<details>` fallback eklendi mi?
-- [ ] Rehber linki haftanın dosyasında var mı?
+- [ ] ` ```mermaid ` bloğu doğru açılıp kapandı mı?
+- [ ] `flowchart TD` veya `LR` uygun mu?
+- [ ] Karar düğümlerinde iki çıkış etiketi var mı?
+- [ ] Döngü geri dönüşü net mi?
+- [ ] Gereksiz karmaşıklık yok (≤ ~12 düğüm önerilir)
+- [ ] Diyagram başlığı/metni açıklayıcı mı?
 
 ---
-## 9. Örnek Tam Embed
+## 9. Örnek Tam Diyagram
+````
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+	A([BAŞLA]) --> B["Veri al"] --> C{Geçerli mi?}
+	C -- Evet --> P["İşle"] --> X([BİTİR])
+	C -- Hayır --> E["Hata mesajı"] --> B
 ```
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&nav=1&title=ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta99%2Fdraw_io_files%2Fornek.drawio"></iframe>
-<details><summary>⚠️ Açılmıyorsa (alternatif erişim)</summary>
-Yerel aç: `Hafta99/draw_io_files/ornek.drawio`
-</details>
-```
+````
 
 ---
 ## 10. Gelecek İyileştirmeler (Opsiyonel)
-- Otomatik script ile `.drawio` → `.png` batch export
-- Haftalar arası diyagram indeks sayfası
-- Diyagram karmaşıklık ölçütü (düğüm ve bağlantı sayısı)
+- Ortak bileşen kütüphanesi (snippet) oluşturma
+- Karmaşık diyagramlarda alt diyagram referans sistemi
+- Otomatik lint (regex tabanlı) ile karar düğümü kontrolü
 
 ---
-Bu rehberi güncellemek için pull request açabilirsiniz.
+Katkı sağlamak için pull request açabilirsiniz.

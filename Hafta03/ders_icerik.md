@@ -450,11 +450,19 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=if_else_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fif_else_ornek.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyorsa</summary>
-Yerel açma ve engel çözümü için bkz: [Diyagram Kullanım Rehberi](../Diyagram_Kullanim_Rehberi.md) · Dosya: `Hafta03/draw_io_files/if_else_ornek.drawio`
-</details>
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> B["Sayı al"]
+  B --> C{Sayı > 0?}
+  C -- Evet --> P["Sayı pozitiftir"]
+  C -- Hayır --> D{Sayı < 0?}
+  D -- Evet --> N["Sayı negatiftir"]
+  D -- Hayır --> Z["Sayı sıfırdır"]
+  P --> X([BİTİR])
+  N --> X
+  Z --> X
+```
 
 #### 📝 Örnek 2: FOR Döngüsü Diyagramı
 **Problem:** 1'den 10'a kadar sayıları yazdıran algoritma
@@ -468,11 +476,14 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=for_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Ffor_dongusu_ornek.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyorsa</summary>
-Bkz: Rehber · Dosya: `Hafta03/draw_io_files/for_dongusu_ornek.drawio`
-</details>
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> I["i ← 1"]
+  I --> C{i <= 10?}
+  C -- Evet --> P["i yazdır"] --> INC["i ← i + 1"] --> C
+  C -- Hayır --> X([BİTİR])
+```
 
 #### 📝 Örnek 3: WHILE Döngüsü Diyagramı
 **Problem:** Kullanıcıdan 5 kez veri alıp işleyen algoritma
@@ -490,11 +501,14 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=while_dongusu_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fwhile_dongusu_ornek.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyorsa</summary>
-Rehberdeki talimatları uygula · Dosya: `Hafta03/draw_io_files/while_dongusu_ornek.drawio`
-</details>
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> S["sayaç ← 0"]
+  S --> C{sayaç < 5?}
+  C -- Evet --> INP["Veri al"] --> PR["Veriyi işle"] --> INC["sayaç ← sayaç + 1"] --> C
+  C -- Hayır --> OUT["Sonuç göster"] --> X([BİTİR])
+```
 
 #### 📝 Örnek 4: SWITCH-CASE Diyagramı
 **Problem:** Menü seçimlerine göre farklı işlemler yapan algoritma
@@ -513,11 +527,20 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=switch_case_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fswitch_case_ornek.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyorsa</summary>
-Bkz: Rehber · Dosya: `Hafta03/draw_io_files/switch_case_ornek.drawio`
-</details>
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> IN["Seçim al"]
+  IN --> C{Seçim}
+  C -->|1| O1["Seçenek 1 işlemi"]
+  C -->|2| O2["Seçenek 2 işlemi"]
+  C -->|3| O3["Seçenek 3 işlemi"]
+  C -->|Diğer| DEF["Geçersiz seçim"]
+  O1 --> OUT["Sonuç göster"]
+  O2 --> OUT
+  O3 --> OUT
+  DEF --> OUT --> X([BİTİR])
+```
 
 #### 📝 Örnek 5: DO-WHILE Döngüsü Diyagramı
 **Problem:** En az bir kez çalışması gereken sayı toplama programı
@@ -535,11 +558,14 @@ BAŞLA
 BITIR
 ```
 
-**Draw.io Akış Diyagramı (Gömülü):**
-<iframe frameborder="0" loading="lazy" style="width:100%;height:420px;" src="https://viewer.diagrams.net/?lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=do_while_ornek.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fibrahimayaz%2FAlgoritma-ve-Programlamaya-Giris-2025%2Fmain%2FHafta03%2Fdraw_io_files%2Fdo_while_ornek.drawio"></iframe>
-<details><summary>⚠️ Görüntülenmiyorsa</summary>
-Bkz: Rehber · Dosya: `Hafta03/draw_io_files/do_while_ornek.drawio`
-</details>
+**Mermaid Akış Diyagramı:**
+```mermaid
+flowchart TD
+  A([BAŞLA]) --> T["toplam ← 0\nsayi ← 0"]
+  T --> L((DÖNGÜ)) --> IN["sayi al"] --> ADD["toplam ← toplam + sayi"] --> SHOW["toplam göster"] --> C{sayi != 0?}
+  C -- Evet --> L
+  C -- Hayır --> X([BİTİR])
+```
 
 #### 📝 Örnek 3: WHILE Döngüsü Diyagramı
 **Draw.io Dosyası:** [while_dongusu_ornek.drawio](./draw_io_files/while_dongusu_ornek.drawio)
