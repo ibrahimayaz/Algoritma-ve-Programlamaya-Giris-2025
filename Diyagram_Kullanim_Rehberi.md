@@ -100,6 +100,7 @@ Mantıksal değişikliklerde altına kısa not ekleyin:
 | Çok karışık görünüm | Aşırı düğüm | Diyagramı 2 küçük diyagrama böl |
 | Döngü okunmuyor | Geri ok karmaşık | Döngü etiket düğümü (L((DÖNGÜ))) ekle |
 | Karar dalları belirsiz | Etiket yok | `-- Evet -->` / `-- Hayır -->` ekle |
+| Parse error 'got end' | `end` node id'si ayraç/parsing ile çakışıyor | Node kimliğini `endNode` / `finish` yapın |
 
 ---
 ## 8. Yeni Diyagram Eklerken Kontrol Listesi

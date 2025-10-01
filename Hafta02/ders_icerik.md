@@ -394,7 +394,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> in1[/Birinci sayı al/] --> in2[/İkinci sayı al/]
-  in2 --> calc[toplam ← s1 + s2] --> out[\Sonucu yazdır\] --> end([BİTİR])
+  in2 --> calc[toplam ← s1 + s2] --> out[Sonucu yazdır] --> endNode([BİTİR])
 ```
 
 #### 🧪 Test Senaryoları:
@@ -440,8 +440,8 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> input[/Sayı al/] --> dec{sayı % 2 == 0?}
-  dec -- Evet --> even[\Çift\] --> end([BİTİR])
-  dec -- Hayır --> odd[\Tek\] --> end
+  dec -- Evet --> even[Çift] --> endNode([BİTİR])
+  dec -- Hayır --> odd[Tek] --> endNode
 ```
 
 ---
@@ -486,8 +486,8 @@ flowchart TD
   start([BAŞLA]) --> in1[/Sayı1/] --> in2[/Sayı2/] --> in3[/Sayı3/]
   in3 --> d1{s1 >= s2?}
   d1 -- Evet --> d2{s1 >= s3?}
-  d2 -- Evet --> max1[\En büyük s1\] --> end([BİTİR])
-  d2 -- Hayır --> max3a[\En büyük s3\] --> end
+  d2 -- Evet --> max1[En büyük s1] --> endNode([BİTİR])
+  d2 -- Hayır --> max3a[En büyük s3] --> endNode
   d1 -- Hayır --> d3{s2 >= s3?}
   d3 -- Evet --> max2[\En büyük s2\] --> end
   d3 -- Hayır --> max3b[\En büyük s3\] --> end
@@ -538,7 +538,7 @@ flowchart TD
   start([BAŞLA]) --> nin[/n al/] --> init1[sonuç ← 1] --> init2[i ← 1]
   init2 --> loop{i <= n?}
   loop -- Evet --> mult[sonuç ← sonuç * i] --> inc[i ← i + 1] --> loop
-  loop -- Hayır --> out[\sonuç yazdır\] --> end([BİTİR])
+  loop -- Hayır --> out[sonuç yazdır] --> endNode([BİTİR])
 ```
 
 ---
@@ -586,7 +586,7 @@ flowchart TD
   start([BAŞLA]) --> nin[/n al/] --> init[a←0; b←1; i←1]
   init --> loop{i <= n?}
   loop -- Evet --> printA[\a yazdır\] --> step[temp←a+b; a←b; b←temp] --> inc[i←i+1] --> loop
-  loop -- Hayır --> end([BİTİR])
+  loop -- Hayır --> endNode([BİTİR])
 ```
 
 ---
@@ -651,8 +651,8 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> inScores[/Notları al/] --> calc[ort ← v*0.4+f*0.6]
   calc --> passCheck{ort >= 60?}
-  passCheck -- Evet --> pass[\GEÇTİ\] --> end([BİTİR])
-  passCheck -- Hayır --> fail[\KALDI\] --> end
+  passCheck -- Evet --> pass[GEÇTİ] --> endNode([BİTİR])
+  passCheck -- Hayır --> fail[KALDI] --> endNode
 ```
 
 ---
@@ -705,7 +705,7 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> gen[rastgele sayı] --> init[hak ← 5] --> loop{hak > 0}
   loop --> guessIn[/tahmin al/] --> eq{tahmin == sayı?}
-  eq -- Evet --> win[\Tebrikler\] --> end([BİTİR])
+  eq -- Evet --> win[Tebrikler] --> endNode([BİTİR])
   eq -- Hayır --> cmp{tahmin < sayı?}
   cmp -- Evet --> hintUp[\Daha büyük\] --> dec[hak--] --> cont{hak > 0} --> loop
   cmp -- Hayır --> hintDn[\Daha küçük\] --> dec --> cont
@@ -774,12 +774,12 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> input[/Kilo, Boy/] --> calc[vki ← kilo/(boy^2)]
   calc --> d1{vki < 18.5?}
-  d1 -- Evet --> zayif[\Zayıf\] --> end([BİTİR])
+  d1 -- Evet --> zayif[Zayıf] --> endNode([BİTİR])
   d1 -- Hayır --> d2{vki < 25?}
-  d2 -- Evet --> normal[\Normal\] --> end
+  d2 -- Evet --> normal[Normal] --> endNode
   d2 -- Hayır --> d3{vki < 30?}
-  d3 -- Evet --> kilolu[\Fazla kilolu\] --> end
-  d3 -- Hayır --> obez[\Obez\] --> end
+  d3 -- Evet --> kilolu[Fazla kilolu] --> endNode
+  d3 -- Hayır --> obez[Obez] --> endNode
 ```
 
 ---
@@ -872,7 +872,7 @@ flowchart TD
   balChk -- Hayır --> noBal[\Yetersiz\] --> menu
   balChk -- Evet --> subBal[Bakiye düş] --> menu
   menu -->|3| depIn[/Tutar al/] --> addBal[Bakiye artır] --> menu
-  menu -->|0| end([BİTİR])
+  menu -->|0| endNode([BİTİR])
 ```
 
 ---
@@ -984,11 +984,11 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> opSel[/İşlem seç/] --> in1[/Sayı1/] --> in2[/Sayı2/] --> dec{İşlem?}
-  dec -->|+| add[s1 + s2] --> out[\Sonuç\] --> end([BİTİR])
+  dec -->|+| add[s1 + s2] --> out[Sonuç] --> endNode([BİTİR])
   dec -->|-| sub[s1 - s2] --> out
   dec -->|*| mul[s1 * s2] --> out
   dec -->|/| divChk{s2 == 0?}
-  divChk -- Evet --> err[\0'a bölünmez\] --> end
+  divChk -- Evet --> err[0'a bölünmez] --> endNode
   divChk -- Hayır --> div[s1 / s2] --> out
 ```
 
