@@ -597,8 +597,8 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> in1[/v/] --> in2[/f/] --> calc[ort ← v*0.4+f*0.6]
-  calc --> passCheck{ort >= 60?}
+  start([BAŞLA]) --> in1[/v/] --> in2[/f/] --> calc[ort = v*0.4+f*0.6]
+  calc --> passCheck{ort >= 60}
   passCheck -- Evet --> pass@{ shape: doc, label: "GEÇTİ" } --> endNode([BİTİR])
   passCheck -- Hayır --> fail@{ shape: doc, label: "KALDI" } --> endNode
 ```
