@@ -342,7 +342,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> in1[/s1/] --> in2[/s2/]
-  in2 --> calc[toplam = s1 + s2] --> out@{ shape: doc, label: "Sonucu yazdır" } --> endNode([BİTİR])
+  in2 --> calc[toplam = s1 + s2] --> out@{ shape: doc, label: "toplam" } --> endNode([BİTİR])
 ```
 
 #### 🧪 Test Senaryoları:
@@ -372,7 +372,7 @@ BAŞLA
   kalan ← sayı % 2
   
   // Karar verme
-  EĞER kalan = 0 İSE
+  EĞER kalan == 0 İSE
     Yazdır sayı + " çift sayıdır ✅"
     Yazdır "2'ye tam bölünür."
   DEĞILSE
@@ -431,9 +431,9 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> in1[/Sayı1/] --> in2[/Sayı2/] --> in3[/Sayı3/]
-  in3 --> d1{s1 >= s2?}
-  d1 -- Evet --> d2{s1 >= s3?}
+  start([BAŞLA]) --> in1[/s1/] --> in2[/s2/] --> in3[/s3/]
+  in3 --> d1{s1 >= s2}
+  d1 -- Evet --> d2{s1 >= s3}
   d2 -- Evet --> max1@{ shape: doc, label: "En büyük s1" } --> endNode([BİTİR])
   d2 -- Hayır --> max3a@{ shape: doc, label: "En büyük s3" } --> endNode
   d1 -- Hayır --> d3{s2 >= s3?}
@@ -483,9 +483,9 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> nin[/n al/] --> init1[sonuç ← 1] --> init2[i ← 1]
+  start([BAŞLA]) --> nin[/n/] --> init1[sonuç = 1] --> init2[i = 1]
   init2 --> loop{i <= n?}
-  loop -- Evet --> mult[sonuç ← sonuç * i] --> inc[i ← i + 1] --> loop
+  loop -- Evet --> mult[sonuç = sonuç * i] --> inc[i = i + 1] --> loop
   loop -- Hayır --> out@{ shape: doc, label: "sonuç yazdır" } --> endNode([BİTİR])
 ```
 
