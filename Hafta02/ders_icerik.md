@@ -485,7 +485,7 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> nin[/n/] --> init1[sonuç = 1] --> init2[i = 1]
   init2 --> loop{i <= n?}
-  loop -- Evet --> mult[sonuç = sonuç * i] --> inc[i = i + 1] --> loop
+  loop -- Evet --> mult[sonuc = sonuc * i] --> inc[i = i + 1] --> loop
   loop -- Hayır --> out@{ shape: doc, label: "sonuç yazdır" } --> endNode([BİTİR])
 ```
 
@@ -531,9 +531,9 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> nin[/n al/] --> init[a←0; b←1; i←1]
+  start([BAŞLA]) --> nin[/n al/] --> init[a=0; b=1; i=1]
   init --> loop{i <= n?}
-  loop -- Evet --> printA[\a yazdır\] --> step[temp←a+b; a←b; b←temp] --> inc[i←i+1] --> loop
+  loop -- Evet --> printA[\a yazdır\] --> step[temp=a+b; a=b; b=temp] --> inc[i=i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
 ```
 
