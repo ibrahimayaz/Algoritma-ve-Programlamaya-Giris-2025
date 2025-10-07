@@ -533,7 +533,7 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> nin[/n al/] --> init[a=0; b=1; i=1]
   init --> loop{i <= n}
-  loop -- Evet --> out@{ shape: doc, label: "sonuç yazdır" } --> step[temp=a+b; a=b; b=temp] --> inc[i=i+1] --> loop
+  loop -- Evet --> out@{ shape: doc, label: "a yazdır" } --> step[temp=a+b; a=b; b=temp] --> inc[i=i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
 ```
 
