@@ -342,7 +342,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> in1[/s1/] --> in2[/s2/]
-  in2 --> calc[toplam ← s1 + s2] --> out@{ shape: doc, label: "Sonucu yazdır" } --> endNode([BİTİR])
+  in2 --> calc[toplam = s1 + s2] --> out@{ shape: doc, label: "Sonucu yazdır" } --> endNode([BİTİR])
 ```
 
 #### 🧪 Test Senaryoları:
