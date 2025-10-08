@@ -424,7 +424,7 @@ flowchart TD
   d1 -- Evet --> d2{s1 >= s3}
   d2 -- Evet --> max1@{ shape: doc, label: "En büyük s1" } --> endNode([BİTİR])
   d2 -- Hayır --> max3a@{ shape: doc, label: "En büyük s3" } --> endNode
-  d1 -- Hayır --> d3{s2 >= s3?}
+  d1 -- Hayır --> d3{s2 >= s3}
   d3 -- Evet --> max2@{ shape: doc, label: "En büyük s2" } --> endNode
   d3 -- Hayır --> max3b@{ shape: doc, label: "En büyük s3" } --> endNode
 ```
@@ -450,7 +450,7 @@ BAŞLA
   BITIR
   
   // Özel durum: 0! = 1
-  EĞER n = 0 İSE
+  EĞER n == 0 İSE
     Yazdır "0! = 1"
     ÇIK
   BITIR
