@@ -375,7 +375,7 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> input[/Sayı al/] --> dec{sayı % 2 == 0?}
+  start([BAŞLA]) --> input[/sayı/] --> dec{sayı % 2 == 0}
   dec -- Evet --> even@{ shape: doc, label: "Çift" } --> endNode([BİTİR])
   dec -- Hayır --> odd@{ shape: doc, label: "Tek" } --> endNode
 ```
@@ -392,19 +392,19 @@ BAŞLA
   // Veri girişi
   Yazdır "=== EN BÜYÜK SAYI BULMA ==="
   Yazdır "Birinci sayıyı girin:"
-  sayı1 = Kullanıcıdan sayı al
+  sayı1 ← Kullanıcıdan sayı al
   
   Yazdır "İkinci sayıyı girin:"
-  sayı2 = Kullanıcıdan sayı al
+  sayı2 ← Kullanıcıdan sayı al
   
   Yazdır "Üçüncü sayıyı girin:"
-  sayı3 = Kullanıcıdan sayı al
+  sayı3 ← Kullanıcıdan sayı al
   
   // En büyüğü bulma
   EĞER sayı1 >= sayı2 VE sayı1 >= sayı3 İSE
     enBüyük = sayı1
     Yazdır "En büyük sayı: " + sayı1
-  DEĞILSE EĞER sayı2 >= sayı1 VE sayı2 >= sayı3 İSE
+  DEĞILSE EĞER sayı2 >= sayı3 İSE
     enBüyük = sayı2
     Yazdır "En büyük sayı: " + sayı2
   DEĞILSE
