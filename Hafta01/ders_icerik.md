@@ -68,11 +68,11 @@ BAŞLA
   sayı3 ← Kullanıcıdan sayı al
   
   EĞER sayı1 > sayı2 VE sayı1 > sayı3 İSE
-    enBüyük ← sayı1
+    enBüyük = sayı1
   DEĞILSE EĞER sayı2 > sayı3 İSE
-    enBüyük ← sayı2
+    enBüyük = sayı2
   DEĞILSE
-    enBüyük ← sayı3
+    enBüyük = sayı3
   
   Yazdır "En büyük sayı: " + enBüyük
 BITIR
@@ -104,7 +104,7 @@ Algoritmanın görsel temsilidir.
 BAŞLA
   a ← Kullanıcıdan sayı al
   b ← Kullanıcıdan sayı al
-  toplam ← a + b
+  toplam = a + b
   Yazdır "Toplam: " + toplam
 BITIR
 ```
@@ -119,8 +119,8 @@ BAŞLA
   sayı2 ← Kullanıcıdan sayı al
   sayı3 ← Kullanıcıdan sayı al
   
-  toplam ← sayı1 + sayı2 + sayı3
-  ortalama ← toplam / 3
+  toplam = sayı1 + sayı2 + sayı3
+  ortalama = toplam / 3
   
   Yazdır "Ortalama: " + ortalama
 BITIR
@@ -136,9 +136,9 @@ BAŞLA
   b ← Kullanıcıdan sayı al
   
   EĞER a > b İSE
-    geçici ← a
-    a ← b
-    b ← geçici
+    temp = a
+    a = b
+    b = temp
   
   Yazdır a + " " + b
 BITIR

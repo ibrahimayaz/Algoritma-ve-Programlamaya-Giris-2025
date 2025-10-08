@@ -73,7 +73,7 @@ Sözde Kod:
 BAŞLA
   tencere ← ocağa koy
   su ← tencereye ekle
-  KOŞUL su kaynayıncaya kadar BEKLE
+  EĞER su kaynıyor İSE
   makarna ← tencereye at
   12 dakika BEKLE
   makarna ← süz
@@ -93,11 +93,11 @@ BITIR
 
 #### 2. 📦 Değişken Atama
 ```
-değişken_adı ← değer        // Temel atama
-x ← 5                       // Sayısal değer
-isim ← "Ahmet"             // Metin değeri
-doğru ← true               // Mantıksal değer
-liste ← [1, 2, 3, 4]       // Dizi değeri
+değişken_adı = değer        // Temel atama
+x = 5                       // Sayısal değer
+isim = "Ahmet"             // Metin değeri
+doğru = true               // Mantıksal değer
+liste = [1, 2, 3, 4]       // Dizi değeri
 ```
 
 #### 3. 🔄 Giriş/Çıkış İşlemleri
@@ -105,7 +105,7 @@ liste ← [1, 2, 3, 4]       // Dizi değeri
 // 📥 Veri alma (INPUT)
 sayı ← Kullanıcıdan sayı al
 isim ← Kullanıcıdan string al
-"Yaşınızı girin:" ← Mesaj göster ve sayı al
+
 
 // 📤 Veri gösterme (OUTPUT)
 Yazdır "Sonuç: " + sonuç
@@ -138,12 +138,6 @@ DEĞILSE
   varsayılan_işlem
 BITIR
 
-// SWITCH yapısı
-DEĞİŞKEN seçim'E GÖRE
-  DURUM 1: işlem1; ÇIK
-  DURUM 2: işlem2; ÇIK
-  VARSAYILAN: varsayılan_işlem
-BITIR
 ```
 
 #### 5. 🔁 Döngü Yapıları (Tekrar)
@@ -164,13 +158,7 @@ KOŞUL i <= 10 İKEN
   i ← i + 1
 BITIR
 
-// DO-WHILE (En az bir kez çalışır)
-YAP
-  işlem
-  kullanıcı_girdisi ← Kullanıcıdan veri al
-KOŞUL kullanıcı_girdisi != "çıkış" İKEN
 ```
-
 #### 6. 🔧 Fonksiyon Tanımlama
 ```
 FONKSİYON fonksiyon_adı(parametre1, parametre2)
@@ -199,12 +187,12 @@ BITIR
 
 #### Karşılaştırma Operatörleri
 ```
-= veya ==  → Eşit mi?           (5 == 5 → true)
-≠ veya !=  → Eşit değil mi?     (5 != 3 → true)
->          → Büyük mü?          (5 > 3 → true)
-<          → Küçük mü?          (3 < 5 → true)
->=         → Büyük eşit mi?     (5 >= 5 → true)
-<=         → Küçük eşit mi?     (3 <= 5 → true)
+==  → Eşit mi?           (5 == 5 → true)
+!=  → Eşit değil mi?     (5 != 3 → true)
+>   → Büyük mü?          (5 > 3 → true)
+<   → Küçük mü?          (3 < 5 → true)
+>=  → Büyük eşit mi?     (5 >= 5 → true)
+<=  → Küçük eşit mi?     (3 <= 5 → true)
 ```
 
 #### Mantıksal Operatörler
@@ -329,7 +317,7 @@ BAŞLA
   sayı2 ← Kullanıcıdan sayı al
   
   // İşlem yapma
-  toplam ← sayı1 + sayı2
+  toplam = sayı1 + sayı2
   
   // Sonucu gösterme
   Yazdır "Sonuç: " + sayı1 + " + " + sayı2 + " = " + toplam
@@ -369,7 +357,7 @@ BAŞLA
   sayı ← Kullanıcıdan sayı al
   
   // Çift/tek kontrolü (mod operatörü)
-  kalan ← sayı % 2
+  kalan = sayı % 2
   
   // Karar verme
   EĞER kalan == 0 İSE
@@ -404,23 +392,23 @@ BAŞLA
   // Veri girişi
   Yazdır "=== EN BÜYÜK SAYI BULMA ==="
   Yazdır "Birinci sayıyı girin:"
-  sayı1 ← Kullanıcıdan sayı al
+  sayı1 = Kullanıcıdan sayı al
   
   Yazdır "İkinci sayıyı girin:"
-  sayı2 ← Kullanıcıdan sayı al
+  sayı2 = Kullanıcıdan sayı al
   
   Yazdır "Üçüncü sayıyı girin:"
-  sayı3 ← Kullanıcıdan sayı al
+  sayı3 = Kullanıcıdan sayı al
   
   // En büyüğü bulma
   EĞER sayı1 >= sayı2 VE sayı1 >= sayı3 İSE
-    enBüyük ← sayı1
+    enBüyük = sayı1
     Yazdır "En büyük sayı: " + sayı1
   DEĞILSE EĞER sayı2 >= sayı1 VE sayı2 >= sayı3 İSE
-    enBüyük ← sayı2
+    enBüyük = sayı2
     Yazdır "En büyük sayı: " + sayı2
   DEĞILSE
-    enBüyük ← sayı3
+    enBüyük = sayı3
     Yazdır "En büyük sayı: " + sayı3
   BITIR
   
@@ -468,12 +456,12 @@ BAŞLA
   BITIR
   
   // Faktöriyel hesaplama
-  faktöriyel ← 1
-  i ← 1
+  faktöriyel = 1
+  i = 1
   
   KOŞUL i <= n İKEN
-    faktöriyel ← faktöriyel * i
-    i ← i + 1
+    faktöriyel = faktöriyel * i
+    i = i + 1
   BITIR
   
   Yazdır n + "! = " + faktöriyel
@@ -507,23 +495,23 @@ BAŞLA
     ÇIK
   BITIR
   
-  a ← 0
-  b ← 1
-  sayaç ← 1
+  a = 0
+  b = 1
+  sayaç = 1
   
   Yazdır "Fibonacci Dizisi:"
   
   EĞER n >= 1 İSE
     Yazdır a
-    sayaç ← sayaç + 1
+    sayaç = sayaç + 1
   BITIR
   
   KOŞUL sayaç <= n İKEN
     Yazdır b
-    c ← a + b
-    a ← b
-    b ← c
-    sayaç ← sayaç + 1
+    c = a + b
+    a = b
+    b = c
+    sayaç = sayaç + 1
   BITIR
 BITIR
 ```
@@ -565,24 +553,24 @@ BAŞLA
   BITIR
   
   // Ortalama hesaplama
-  ortalama ← (not1 + not2 + not3) / 3
+  ortalama = (not1 + not2 + not3) / 3
   
   // Harf notu belirleme
   EĞER ortalama >= 90 İSE
-    harfNotu ← "AA"
-    durum ← "Mükemmel"
+    harfNotu = "AA"
+    durum = "Mükemmel"
   DEĞILSE EĞER ortalama >= 80 İSE
-    harfNotu ← "BA"
-    durum ← "İyi"
+    harfNotu = "BA"
+    durum = "İyi"
   DEĞILSE EĞER ortalama >= 70 İSE
-    harfNotu ← "BB"
-    durum ← "Orta"
+    harfNotu = "BB"
+    durum = "Orta"
   DEĞILSE EĞER ortalama >= 60 İSE
-    harfNotu ← "CB"
-    durum ← "Geçer"
+    harfNotu = "CB"
+    durum = "Geçer"
   DEĞILSE
-    harfNotu ← "FF"
-    durum ← "Kaldı"
+    harfNotu = "FF"
+    durum = "Kaldı"
   BITIR
   
   // Sonuçları gösterme
