@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\bin\Debug\net8.0\IkinciDers.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\bin\Debug\net8.0\IkinciDers.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\bin\Debug\net8.0\IkinciDers.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\bin\Debug\net8.0\IkinciDers.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\bin\Debug\net8.0\IkinciDers.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\refint\IkinciDers.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\IkinciDers.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\IkinciDers\IkinciDers\obj\Debug\net8.0\ref\IkinciDers.dll

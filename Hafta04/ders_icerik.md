@@ -257,8 +257,8 @@ else
 
 ### 8.1 Otomatik Dönüşüm (Implicit)
 ```csharp
-int kucukSayı = 100;
-long buyukSayı = küçükSayı;    // Otomatik dönüşüm
+int kucukSayi = 100;
+long buyukSayi = küçükSayı;    // Otomatik dönüşüm
 
 float kucukOndalik = 3.14f;
 double buyukOndalik = kucukOndalik; // Otomatik dönüşüm
@@ -291,6 +291,9 @@ int sayi = int.Parse(sayiStr);
 
 string ondalikStr = "12.34";
 double ondalik = double.Parse(ondalikStr);
+
+string boolStr = "True";
+bool boool = bool.Parse(boolStr);
 ```
 
 ### 8.5 TryParse (Güvenli Dönüşüm)
@@ -301,7 +304,7 @@ string kullaniciGirdisi = "abc123"; // Geçersiz sayı
 // int sayi = int.Parse(kullaniciGirdisi); // EXCEPTION!
 
 // Güvenli yöntem
-if (int.TryParse(kullanıcıGirdisi, out int sayi))
+if (int.TryParse(kullaniciGirdisi, out int sayi))
 {
     Console.WriteLine($"Geçerli sayı: {sayi}");
 }

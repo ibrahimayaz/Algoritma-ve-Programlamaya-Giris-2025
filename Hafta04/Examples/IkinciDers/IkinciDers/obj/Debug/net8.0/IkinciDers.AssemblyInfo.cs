@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FirstLesson")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("IkinciDers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73556d2fcfb8437f10608d6a01797bac06260eaf")]
-[assembly: System.Reflection.AssemblyProductAttribute("FirstLesson")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FirstLesson")]
+[assembly: System.Reflection.AssemblyProductAttribute("IkinciDers")]
+[assembly: System.Reflection.AssemblyTitleAttribute("IkinciDers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
