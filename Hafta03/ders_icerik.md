@@ -182,25 +182,6 @@ BAŞLA
     Yazdır "Girdiğiniz sayı sıfırdır"
 BITIR
 ```
-
-**Akış Diyagramı:**
-```
-[BAŞLA]
-    ↓
-[Sayı al]
-    ↓
-◊ sayı > 0 ? ◊
-↙ Evet     Hayır ↘
-[Pozitif]      ◊ sayı < 0 ? ◊
-    ↓        ↙ Evet    Hayır ↘
-    ↓    [Negatif]    [Sıfır]
-    ↓        ↓           ↓
-    ↘        ↓         ↙
-      ↘      ↓       ↙
-        ↘    ↓     ↙
-         [BITIR]
-```
-
 ### Örnek 2: 1'den 10'a Kadar Sayıları Yazdırma
 
 **FOR Döngüsü ile:**
@@ -359,76 +340,10 @@ DEĞILSE
    - ✅ Web teknolojileri odaklı
    - ✅ Hızlı prototipleme
 
-#### 📊 Akış Diyagramı Çizimi - Draw.io
-**🎯 ÖNERİLEN: Draw.io (diagrams.net)**
-- **Website:** https://app.diagrams.net/
-- ✅ **Tamamen ücretsiz**
-- ✅ **Kayıt gerektirmez**
-- ✅ **Türkçe arayüz desteği**
-- ✅ **Kontrol yapıları şablonları**
-- ✅ **PNG/SVG/PDF çıktı formatları**
-
-##### 🎨 Draw.io ile Akış Diyagramı Çizim Adımları:
-1. **Başlatma:** https://app.diagrams.net/ → "Blank Diagram" seç
-2. **Şekil Seçimi:** Sol panelden "Flowchart" kategorisi
-3. **Kontrol Yapıları:**
-   - Karar (IF): Elmas şekli (Diamond)
-   - İşlem: Dikdörtgen (Rectangle)
-   - Döngü: Özel döngü sembolleri
-4. **Bağlantılar:** Şekiller arası ok çizgileri
-5. **Kaydetme:** File → Export → PNG/PDF
-
-##### 📋 Draw.io Şablon Rehberi:
-```
-🔷 Karar Yapıları (IF-ELSE):
-┌─────────────┐
-│   BAŞLA     │ → Oval (Terminal)
-└─────┬───────┘
-      │
-    ◊ Koşul ◊   → Diamond (Decision)
-   ↙ EVET  HAYIR ↘
-┌─────────┐ ┌─────────┐
-│İşlem 1  │ │İşlem 2  │ → Rectangle (Process)
-└─────────┘ └─────────┘
-
-🔄 Döngü Yapıları:
-┌─────────────┐
-│ Başlangıç   │
-└─────┬───────┘
-      │    ↗
-    ◊ Koşul ◊
-   ↙ EVET  HAYIR ↘
-┌─────────┐     │
-│  İşlem  │     │
-└────┬────┘     │
-     ↖_________↙
-```
-
 #### 🔬 Pseudocode Editörleri
 1. **Notepad++** - Ücretsiz metin editörü
 2. **Visual Studio Code** - Gelişmiş editör
 3. **Online Pseudocode Editor** - Basit web araçları
-
-### 🎮 İnteraktif Örnekler ve Simülasyonlar
-
-#### 🧩 Scratch Programlama
-- **Website:** https://scratch.mit.edu/
-- ✅ Görsel programlama blokları
-- ✅ Kontrol yapıları öğretimi
-- ✅ Eğlenceli ve etkileşimli
-
-#### 🔍 Python Tutor (Kod Takibi)
-- **Website:** http://pythontutor.com/
-- ✅ Adım adım kod izleme
-- ✅ Değişken değişimlerini görselleştirme
-- ✅ Döngü ve koşul mantığını anlama
-
-#### 📚 Flowgorithm (Akış Diyagramı Simülatörü)
-- **Website:** http://flowgorithm.org/
-- ✅ Eğitim odaklı tasarım
-- ✅ Türkçe dil desteği
-- ✅ Kod çıktısı (C#, Java, Python)
-- ✅ Adım adım çalıştırma özelliği
 
 ### Kontrol Yapıları Örnekleri (Mermaid)
 
@@ -476,9 +391,9 @@ BITIR
 **Mermaid Akış Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> init[i ← 1]
-  init --> loop{i <= 10?}
-  loop -- Evet --> print[\i yazdır\] --> inc[i ← i+1] --> loop
+  start([BAŞLA]) --> init[i = 1]
+  init --> loop{i <= 10}
+  loop -- Evet --> print@{ shape: doc, label: "i yazdır" } --> inc[i = i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
 ```
 
@@ -488,11 +403,11 @@ flowchart TD
 **Sözde Kod:**
 ```
 BAŞLA
-    sayaç ← 0
+    sayaç = 0
     sayaç < 5 İKEN
         kullanıcıdan veri al
         veriyi işle
-        sayaç ← sayaç + 1
+        sayaç = sayaç + 1
     DÖNGÜ SON
     Sonuç göster
 BITIR
@@ -502,7 +417,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> init[sayaç ← 0]
-  init --> loop{sayaç < 5?}
+  init --> loop{sayaç < 5}
   loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[sayaç++] --> loop
   loop -- Hayır --> show@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
 ```
@@ -541,11 +456,11 @@ flowchart TD
 **Sözde Kod:**
 ```
 BAŞLA
-    toplam ← 0
-    sayi ← 0
+    toplam = 0
+    sayi = 0
     KÖR
         sayi değerini kullanıcıdan al
-        toplam ← toplam + sayi
+        toplam = toplam + sayi
         toplam değerini göster
     sayi != 0 İKEN
 BITIR
@@ -576,10 +491,10 @@ KOŞUL i <= 10 İKEN
 
 **Doğrusu:**
 ```
-i ← 1
+i = 1
 KOŞUL i <= 10 İKEN
   Yazdır i
-  i ← i + 1  // Çok önemli!
+  i = i + 1  // Çok önemli!
 ```
 
 ### Mantık Hatası
