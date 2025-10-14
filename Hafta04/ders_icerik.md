@@ -47,7 +47,7 @@ Bu dersin sonunda öğrenciler:
 ```csharp
 using System;
 
-namespace İlkProgram
+namespace IlkProgram
 {
     class Program
     {
@@ -116,19 +116,19 @@ if (koşul)
 ### 5.1 Tam Sayı Türleri
 ```csharp
 // Küçük tam sayılar
-byte yaş = 25;           // 0-255 arası
-sbyte sıcaklık = -10;    // -128 ile 127 arası
+byte yas = 25;           // 0-255 arası
+sbyte sicaklik = -10;    // -128 ile 127 arası
 
 // Normal tam sayılar  
-short kısaSayı = 1000;   // -32,768 ile 32,767
-ushort pozitifKısa = 2000; // 0 ile 65,535
+short kisaSayi = 1000;   // -32,768 ile 32,767
+ushort pozitifKisa = 2000; // 0 ile 65,535
 
 // Büyük tam sayılar
-int sayı = 1000000;      // -2 milyar ile +2 milyar
-uint pozitifSayı = 3000000; // 0 ile 4 milyar
+int sayi = 1000000;      // -2 milyar ile +2 milyar
+uint pozitifSayi = 3000000; // 0 ile 4 milyar
 
 // Çok büyük tam sayılar
-long uzunSayı = 9000000000; // Çok büyük aralık
+long uzunSayi = 9000000000; // Çok büyük aralık
 ulong pozitifUzun = 18000000000; // Pozitif çok büyük
 ```
 
@@ -143,22 +143,22 @@ decimal para = 1234.56m; // 28-29 haneli, para için ideal
 ```csharp
 char harf = 'A';         // Tek karakter
 string isim = "Mehmet";  // Metin (string)
-string boşMetin = "";    // Boş string
+string bosMetin = "";    // Boş string
 string nullMetin = null; // Null string
 ```
 
 ### 5.4 Mantıksal Tür
 ```csharp
-bool doğru = true;       // Doğru
-bool yanlış = false;     // Yanlış
-bool sonuç = (5 > 3);    // true
+bool dogru = true;       // Doğru
+bool yanlis = false;     // Yanlış
+bool sonuc = (5 > 3);    // true
 ```
 
 ### 5.5 Diğer Önemli Türler
 ```csharp
-DateTime şimdi = DateTime.Now;     // Tarih-saat
-TimeSpan süre = TimeSpan.FromHours(2); // Zaman aralığı
-object herşey = "Bu bir string";   // Her türü tutabilir
+DateTime simdi = DateTime.Now;     // Tarih-saat
+TimeSpan sure = TimeSpan.FromHours(2); // Zaman aralığı
+object hersey = "Bu bir string";   // Her türü tutabilir
 var otomatik = 123;               // Otomatik tür belirleme (int)
 ```
 
@@ -167,9 +167,9 @@ var otomatik = 123;               // Otomatik tür belirleme (int)
 ### 6.1 Temel Tanımlama
 ```csharp
 // Tür değişkenAdı = değer;
-int yaş = 18;
+int yas = 18;
 string ad = "Ayşe";
-bool öğrenciMi = true;
+bool ogrenciMi = true;
 double not = 85.5;
 ```
 
@@ -181,7 +181,7 @@ int x = 1, y = 2, z = 3;
 
 // Farklı türlerde
 string isim = "Ali";
-int yaş = 20;
+int yas = 20;
 bool aktif = true;
 ```
 
@@ -189,7 +189,7 @@ bool aktif = true;
 ```csharp
 const double PI = 3.14159;
 const string OKUL_ADI = "İstanbul Üniversitesi";
-const int MAX_ÖĞRENCI = 100;
+const int MAX_OGRENCI = 100;
 
 // Sabitleri değiştirmeye çalışırsan hata alırsın
 // PI = 3.14; // HATA!
@@ -198,9 +198,9 @@ const int MAX_ÖĞRENCI = 100;
 ### 6.4 Değişken Adlandırma Kuralları
 ```csharp
 // DOĞRU adlandırmalar
-int öğrenciSayısı;      // Camel Case (önerilen)
-string kullanıcıAdı;
-bool işlemTamamMı;
+int ogrenciSayisi;      // Camel Case (önerilen)
+string kullaniciAdi;
+bool islemTamamMi;
 
 // YANLIŞ adlandırmalar
 // int 123sayı;         // Sayı ile başlayamaz
@@ -218,27 +218,27 @@ Console.WriteLine("Dünya!");    // Satır sonu var
 
 // Değişken yazdırma
 string isim = "Fatma";
-int yaş = 22;
+int yas = 22;
 Console.WriteLine("İsim: " + isim);
-Console.WriteLine("Yaş: " + yaş);
+Console.WriteLine("Yaş: " + yas);
 
 // String interpolation (modern yöntem)
-Console.WriteLine($"İsim: {isim}, Yaş: {yaş}");
+Console.WriteLine($"İsim: {isim}, Yaş: {yas}");
 
 // Formatted string
-Console.WriteLine("İsim: {0}, Yaş: {1}", isim, yaş);
+Console.WriteLine("İsim: {0}, Yaş: {1}", isim, yas);
 ```
 
 ### 7.2 Kullanıcıdan Veri Alma
 ```csharp
 // String olarak alma
 Console.Write("Adınızı girin: ");
-string kullanıcıAdı = Console.ReadLine();
+string kullaniciAdi = Console.ReadLine();
 
 // Sayı olarak alma (dönüştürme gerekli)
 Console.Write("Yaşınızı girin: ");
-string yaşMetin = Console.ReadLine();
-int yaş = Convert.ToInt32(yaşMetin);
+string yasMetin = Console.ReadLine();
+int yas = Convert.ToInt32(yasMetin);
 
 // Daha güvenli yöntem
 Console.Write("Notunuzu girin: ");
@@ -257,17 +257,17 @@ else
 
 ### 8.1 Otomatik Dönüşüm (Implicit)
 ```csharp
-int küçükSayı = 100;
-long büyükSayı = küçükSayı;    // Otomatik dönüşüm
+int kucukSayı = 100;
+long buyukSayı = küçükSayı;    // Otomatik dönüşüm
 
-float küçükOndalık = 3.14f;
-double büyükOndalık = küçükOndalık; // Otomatik dönüşüm
+float kucukOndalik = 3.14f;
+double buyukOndalik = kucukOndalik; // Otomatik dönüşüm
 ```
 
 ### 8.2 Açık Dönüşüm (Explicit)
 ```csharp
-double büyük = 123.456;
-int küçük = (int)büyük;        // 123 (ondalık kısmı kaybolur)
+double buyuk = 123.456;
+int kucuk = (int)buyuk;        // 123 (ondalık kısmı kaybolur)
 
 long uzun = 1000;
 int normal = (int)uzun;        // Güvenli aralıkta
@@ -275,35 +275,35 @@ int normal = (int)uzun;        // Güvenli aralıkta
 
 ### 8.3 Convert Sınıfı
 ```csharp
-string sayıMetin = "123";
-int sayı = Convert.ToInt32(sayıMetin);
+string sayiMetin = "123";
+int sayi = Convert.ToInt32(sayiMetin);
 
-string ondalıkMetin = "45.67";
-double ondalık = Convert.ToDouble(ondalıkMetin);
+string ondalikMetin = "45.67";
+double ondalik = Convert.ToDouble(ondalikMetin);
 
-bool doğru = Convert.ToBoolean("True");
+bool dogru = Convert.ToBoolean("True");
 ```
 
 ### 8.4 Parse Metodu
 ```csharp
-string sayıStr = "789";
-int sayı = int.Parse(sayıStr);
+string sayiStr = "789";
+int sayi = int.Parse(sayiStr);
 
-string ondalıkStr = "12.34";
-double ondalık = double.Parse(ondalıkStr);
+string ondalikStr = "12.34";
+double ondalik = double.Parse(ondalikStr);
 ```
 
 ### 8.5 TryParse (Güvenli Dönüşüm)
 ```csharp
-string kullanıcıGirdisi = "abc123"; // Geçersiz sayı
+string kullaniciGirdisi = "abc123"; // Geçersiz sayı
 
 // Güvensiz yöntem - hata verir
-// int sayı = int.Parse(kullanıcıGirdisi); // EXCEPTION!
+// int sayi = int.Parse(kullaniciGirdisi); // EXCEPTION!
 
 // Güvenli yöntem
-if (int.TryParse(kullanıcıGirdisi, out int sayı))
+if (int.TryParse(kullanıcıGirdisi, out int sayi))
 {
-    Console.WriteLine($"Geçerli sayı: {sayı}");
+    Console.WriteLine($"Geçerli sayı: {sayi}");
 }
 else
 {
@@ -317,7 +317,7 @@ else
 ```csharp
 using System;
 
-namespace Tanıtım
+namespace Tanitim
 {
     class Program
     {
@@ -325,8 +325,8 @@ namespace Tanıtım
         {
             // Değişken tanımlamaları
             string ad, soyad, meslek;
-            int yaş;
-            double maaş;
+            int yas;
+            double maas;
             bool evliMi;
             
             // Kullanıcıdan bilgi alma
@@ -337,13 +337,13 @@ namespace Tanıtım
             soyad = Console.ReadLine();
             
             Console.Write("Yaşınız: ");
-            yaş = Convert.ToInt32(Console.ReadLine());
+            yas = Convert.ToInt32(Console.ReadLine());
             
             Console.Write("Mesleğiniz: ");
             meslek = Console.ReadLine();
             
             Console.Write("Maaşınız: ");
-            maaş = Convert.ToDouble(Console.ReadLine());
+            maas = Convert.ToDouble(Console.ReadLine());
             
             Console.Write("Evli misiniz? (true/false): ");
             evliMi = Convert.ToBoolean(Console.ReadLine());
@@ -351,9 +351,9 @@ namespace Tanıtım
             // Bilgileri ekrana yazdırma
             Console.WriteLine("\n--- KİŞİ BİLGİLERİ ---");
             Console.WriteLine($"Ad Soyad: {ad} {soyad}");
-            Console.WriteLine($"Yaş: {yaş}");
+            Console.WriteLine($"Yaş: {yas}");
             Console.WriteLine($"Meslek: {meslek}");
-            Console.WriteLine($"Maaş: {maaş:C}"); // Para formatında
+            Console.WriteLine($"Maaş: {maas:C}"); // Para formatında
             Console.WriteLine($"Medeni Durum: {(evliMi ? "Evli" : "Bekar")}");
             
             Console.ReadKey();
@@ -373,26 +373,26 @@ namespace Hesaplama
         static void Main(string[] args)
         {
             // Değişkenler
-            double sayı1, sayı2;
-            double toplam, fark, çarpım, bölüm;
+            double sayi1, sayi2;
+            double toplam, fark, carpim, bolum;
             
             // Sayıları alma
             Console.WriteLine("=== HESAP MAKİNESİ ===");
             Console.Write("Birinci sayıyı girin: ");
-            sayı1 = Convert.ToDouble(Console.ReadLine());
+            sayi1 = Convert.ToDouble(Console.ReadLine());
             
             Console.Write("İkinci sayıyı girin: ");
-            sayı2 = Convert.ToDouble(Console.ReadLine());
+            sayi2 = Convert.ToDouble(Console.ReadLine());
             
             // Hesaplamalar
-            toplam = sayı1 + sayı2;
-            fark = sayı1 - sayı2;
-            çarpım = sayı1 * sayı2;
+            toplam = sayi1 + sayi2;
+            fark = sayi1 - sayi2;
+            carpim = sayi1 * sayi2;
             
             // Sıfıra bölme kontrolü
-            if (sayı2 != 0)
+            if (sayi2 != 0)
             {
-                bölüm = sayı1 / sayı2;
+                bolum = sayi1 / sayi2;
             }
             else
             {
@@ -403,10 +403,10 @@ namespace Hesaplama
             
             // Sonuçları yazdırma
             Console.WriteLine("\n=== SONUÇLAR ===");
-            Console.WriteLine($"Toplam: {sayı1} + {sayı2} = {toplam}");
-            Console.WriteLine($"Fark: {sayı1} - {sayı2} = {fark}");
-            Console.WriteLine($"Çarpım: {sayı1} × {sayı2} = {çarpım}");
-            Console.WriteLine($"Bölüm: {sayı1} ÷ {sayı2} = {bölüm:F2}");
+            Console.WriteLine($"Toplam: {sayi1} + {sayi2} = {toplam}");
+            Console.WriteLine($"Fark: {sayi1} - {sayi2} = {fark}");
+            Console.WriteLine($"Çarpım: {sayi1} × {sayi2} = {carpim}");
+            Console.WriteLine($"Bölüm: {sayi1} ÷ {sayi2} = {bolum:F2}");
             
             Console.ReadKey();
         }
