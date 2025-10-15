@@ -79,10 +79,10 @@ DEĞİŞKEN seçim'E GÖRE
 
 ## 3. Karşılaştırma Operatörleri
 
-- `=` veya `==` : Eşit mi?
-- `≠` veya `!=` : Eşit değil mi?
-- `>` : Büyük mü?
-- `<` : Küçük mü?
+- `==` : Eşit mi?
+- `!=` : Eşit değil mi?
+- `>`  : Büyük mü?
+- `<`  : Küçük mü?
 - `>=` : Büyük eşit mi?
 - `<=` : Küçük eşit mi?
 
@@ -136,10 +136,10 @@ KOŞUL koşul İKEN
 
 **Örnek:**
 ```
-sayaç ← 1
+sayaç = 1
 KOŞUL sayaç <= 5 İKEN
   Yazdır sayaç
-  sayaç ← sayaç + 1
+  sayaç = sayaç + 1
 ```
 
 ### 5.3 DO-WHILE Döngüsü
@@ -327,23 +327,6 @@ DEĞILSE
 1. **Kitap:** "Programlama Mantığı ve Tasarımı" - Bölüm 4-5
 2. **Online:** Codecademy - "Control Flow"
 3. **Video:** "Loops and Conditionals Explained" - Khan Academy
-
-### 🛠️ Araçlar ve Yazılımlar
-
-#### 💻 Online Kod Editörleri
-1. **Repl.it** - https://replit.com/
-   - ✅ Çoklu dil desteği
-   - ✅ Gerçek zamanlı çalıştırma
-   - ✅ Ücretsiz hesap
-
-2. **CodePen** - https://codepen.io/
-   - ✅ Web teknolojileri odaklı
-   - ✅ Hızlı prototipleme
-
-#### 🔬 Pseudocode Editörleri
-1. **Notepad++** - Ücretsiz metin editörü
-2. **Visual Studio Code** - Gelişmiş editör
-3. **Online Pseudocode Editor** - Basit web araçları
 
 ### Kontrol Yapıları Örnekleri (Mermaid)
 
