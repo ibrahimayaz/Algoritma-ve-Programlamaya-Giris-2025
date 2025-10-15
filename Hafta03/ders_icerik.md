@@ -195,10 +195,10 @@ BITIR
 **WHILE Döngüsü ile:**
 ```
 BAŞLA
-  i ← 1
+  i = 1
   KOŞUL i <= 10 İKEN
     Yazdır i
-    i ← i + 1
+    i = i + 1
 BITIR
 ```
 
