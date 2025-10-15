@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\bin\Debug\net8.0\VeriAlmaOrnegi.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\bin\Debug\net8.0\VeriAlmaOrnegi.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\bin\Debug\net8.0\VeriAlmaOrnegi.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\bin\Debug\net8.0\VeriAlmaOrnegi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\bin\Debug\net8.0\VeriAlmaOrnegi.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\refint\VeriAlmaOrnegi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\VeriAlmaOrnegi.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VeriAlmaOrnegi\VeriAlmaOrnegi\obj\Debug\net8.0\ref\VeriAlmaOrnegi.dll

@@ -20,12 +20,12 @@ Bu dersin sonunda öğrenciler:
 
 ### C# vs Diğer Diller
 ```
-| Özellik        | C#     | Java   | Python | C++    |
-|----------------|--------|--------|--------|--------|
-| Öğrenme        | Kolay  | Orta   | Çok Kolay | Zor  |
-| Performans     | Yüksek | Yüksek | Orta   | Çok Yüksek |
-| Platform       | Çoklu  | Çoklu  | Çoklu  | Çoklu  |
-| Tip Güvenliği  | Var    | Var    | Yok    | Kısmi  |
+| Özellik        | C#     | Java   | Python    | C++        |
+|----------------|--------|--------|-----------|------------|
+| Öğrenme        | Kolay  | Orta   | Çok Kolay | Zor        |
+| Performans     | Yüksek | Yüksek | Orta      | Çok Yüksek |
+| Platform       | Çoklu  | Çoklu  | Çoklu     | Çoklu      |
+| Tip Güvenliği  | Var    | Var    | Yok       | Kısmi      |
 ```
 
 ## 2. C# Geliştirme Ortamı
@@ -73,8 +73,8 @@ namespace IlkProgram
 ### 4.1 Büyük/Küçük Harf Duyarlılığı
 C# büyük/küçük harf duyarlıdır:
 ```csharp
-int sayı = 5;    // Doğru
-int Sayı = 10;   // Farklı değişken
+int sayi = 5;    // Doğru
+int Sayi = 10;   // Farklı değişken
 int SAYI = 15;   // Yine farklı değişken
 ```
 
@@ -258,7 +258,7 @@ else
 ### 8.1 Otomatik Dönüşüm (Implicit)
 ```csharp
 int kucukSayi = 100;
-long buyukSayi = küçükSayı;    // Otomatik dönüşüm
+long buyukSayi = kucukSayı;    // Otomatik dönüşüm
 
 float kucukOndalik = 3.14f;
 double buyukOndalik = kucukOndalik; // Otomatik dönüşüm

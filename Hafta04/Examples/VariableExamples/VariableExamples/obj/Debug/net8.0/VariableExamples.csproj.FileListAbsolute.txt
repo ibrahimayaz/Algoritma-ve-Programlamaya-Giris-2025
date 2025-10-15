@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\bin\Debug\net8.0\VariableExamples.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\bin\Debug\net8.0\VariableExamples.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\bin\Debug\net8.0\VariableExamples.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\bin\Debug\net8.0\VariableExamples.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\bin\Debug\net8.0\VariableExamples.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\refint\VariableExamples.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\VariableExamples.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta04\Examples\VariableExamples\VariableExamples\obj\Debug\net8.0\ref\VariableExamples.dll

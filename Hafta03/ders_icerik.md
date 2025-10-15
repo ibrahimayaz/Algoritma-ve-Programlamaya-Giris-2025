@@ -271,8 +271,8 @@ BITIR
 **Sözde Kod:**
 ```
 BAŞLA
-  toplam ← 0
-  sayıAdedi ← 0
+  toplam = 0
+  sayıAdedi = 0
   
   Yazdır "Sayı girin (0 = çıkış):"
   
@@ -280,14 +280,14 @@ BAŞLA
     sayı ← Kullanıcıdan sayı al
     
     EĞER sayı != 0 İSE
-      toplam ← toplam + sayı
-      sayıAdedi ← sayıAdedi + 1
+      toplam = toplam + sayı
+      sayıAdedi = sayıAdedi + 1
       Yazdır "Şu anki toplam: " + toplam
       Yazdır "Başka sayı girin (0 = çıkış):"
   KOŞUL sayı != 0 İKEN
   
   EĞER sayıAdedi > 0 İSE
-    ortalama ← toplam / sayıAdedi
+    ortalama = toplam / sayıAdedi
     Yazdır "Girilen " + sayıAdedi + " sayının toplamı: " + toplam
     Yazdır "Ortalama: " + ortalama
   DEĞILSE
@@ -316,17 +316,10 @@ DEĞILSE
 // Çarpım tablosu
 İÇİN i = 1'den 10'a KADAR
   İÇİN j = 1'den 10'a KADAR
-    çarpım ← i * j
+    çarpım = i * j
     Yazdır i + " x " + j + " = " + çarpım
   Yazdır "---" // Satır sonu
 ```
-
-## 8. Ders Materyalleri ve Kaynaklar
-
-### 📖 Okuma Kaynakları
-1. **Kitap:** "Programlama Mantığı ve Tasarımı" - Bölüm 4-5
-2. **Online:** Codecademy - "Control Flow"
-3. **Video:** "Loops and Conditionals Explained" - Khan Academy
 
 ### Kontrol Yapıları Örnekleri (Mermaid)
 
@@ -354,7 +347,7 @@ flowchart TD
   start([BAŞLA]) --> inNum[/Sayı al/]
   inNum --> d1{sayı > 0}
   d1 -- Evet --> pos@{ shape: doc, label: "Pozitif" } --> endNode([BİTİR])
-  d1 -- Hayır --> d2{sayı < 0?}
+  d1 -- Hayır --> d2{sayı < 0}
   d2 -- Evet --> neg@{ shape: doc, label: "Negatif" } --> endNode
   d2 -- Hayır --> zero@{ shape: doc, label: "Sıfır" } --> endNode
 ```
@@ -399,9 +392,9 @@ BITIR
 **Mermaid Akış Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> init[sayaç ← 0]
-  init --> loop{sayaç < 5}
-  loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[sayaç++] --> loop
+  start([BAŞLA]) --> init[sayac = 0]
+  init --> loop{sayac < 5}
+  loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[sayac++] --> loop
   loop -- Hayır --> show@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
 ```
 
@@ -453,7 +446,7 @@ BITIR
 ```mermaid
 flowchart TD
   start([BAŞLA]) --> init[toplam=0; sayi=0]
-  init --> loop{tekrar} --> inNum[/sayı al/] --> add[toplam += sayı] --> show@{ shape: doc, label: "toplam" } --> cont{sayı != 0?}
+  init --> loop{tekrar} --> inNum[/sayı al/] --> add[toplam += sayı] --> show@{ shape: doc, label: "toplam" } --> cont{sayı != 0}
   cont -- Evet --> loop
   cont -- Hayır --> endNode([BİTİR])
 ```
