@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\bin\Debug\net8.0\Sabitler.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\bin\Debug\net8.0\Sabitler.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\bin\Debug\net8.0\Sabitler.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\bin\Debug\net8.0\Sabitler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\bin\Debug\net8.0\Sabitler.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\refint\Sabitler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\Sabitler.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Nesne-Yonelimli-Programlama-2025\Hafta04\Ornekler\Sabitler\Sabitler\obj\Debug\net8.0\ref\Sabitler.dll

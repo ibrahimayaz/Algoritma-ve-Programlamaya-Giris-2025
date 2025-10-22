@@ -106,9 +106,6 @@ if (koşul)
    yorum bloğu
 */
 
-/// <summary>
-/// XML dokümantasyon yorumu
-/// </summary>
 ```
 
 ## 5. Veri Türleri
@@ -258,7 +255,7 @@ else
 ### 8.1 Otomatik Dönüşüm (Implicit)
 ```csharp
 int kucukSayi = 100;
-long buyukSayi = kucukSayı;    // Otomatik dönüşüm
+long buyukSayi = kucukSayi;    // Otomatik dönüşüm
 
 float kucukOndalik = 3.14f;
 double buyukOndalik = kucukOndalik; // Otomatik dönüşüm
