@@ -351,6 +351,30 @@ flowchart TD
   d2 -- Evet --> neg@{ shape: doc, label: "Negatif" } --> endNode
   d2 -- Hayır --> zero@{ shape: doc, label: "Sıfır" } --> endNode
 ```
+#### 📝 Örnek 1.1: FOR Döngüsü Diyagramı
+**Problem:** 1'den n'e kadar sayıların toplamını yazdıran algoritma
+
+**Sözde Kod:**
+```
+BAŞLA
+    n <- kullanıcıdan tam sayı al
+    toplam=0
+    İÇİN i = 1'den n'e KADAR
+        toplam=toplam+i
+    DÖNGÜ SON
+    Yazdır toplam
+BITIR
+```
+
+**Mermaid Akış Diyagramı (GitHub uyumlu):**
+```mermaid
+flowchart TD
+  start([BAŞLA]) --> inNum[/n/]
+  toplamm[toplam=0] --> init
+  init --> loop{i <= n}
+  loop -- Evet --> toplam[toplam=toplam+i] --> inc[i = i+1] --> loop
+  loop -- Hayır --> endNode([BİTİR])
+```
 
 #### 📝 Örnek 2: FOR Döngüsü Diyagramı
 **Problem:** 1'den 10'a kadar sayıları yazdıran algoritma
@@ -369,7 +393,7 @@ BITIR
 flowchart TD
   start([BAŞLA]) --> init[i = 1]
   init --> loop{i <= 10}
-  loop -- Evet --> print@{ shape: doc, label: "i yazdır" } --> inc[i = i+1] --> loop
+  loop -- Evet --> print@{ shape: doc, label: "i yazdır" } -->  inc[i = i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
 ```
 
