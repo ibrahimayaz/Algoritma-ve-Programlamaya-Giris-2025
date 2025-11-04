@@ -581,6 +581,38 @@ BAŞLA
   Yazdır "Durum: " + durum
 BITIR
 ```
+### 🔥 Örnek 6: Akademik Not Hesaplama Sistemi
+> **Zorluk:** ⭐⭐ Orta  
+> **Problem:** Vize ve Final sınav notunun ortalamasını(vize%40, final%60) alıp harf notu veren sistem
+
+#### 📝 Sözde Kod Çözümü:
+```
+BAŞLA
+  
+  // Notları alma
+  Yazdır "Vize notunu giriniz (0-100):"
+  v ← Kullanıcıdan sayı al
+  
+  Yazdır "Final notunu girin (0-100):"
+  f ← Kullanıcıdan sayı al
+
+  // Geçerlilik kontrolü
+  EĞER (v < 0 VEYA v > 100) VEYA (f < 0 VEYA f > 100) İSE
+    Yazdır "HATA: Notlar 0-100 arasında olmalıdır!"
+    ÇIK
+  BITIR
+  
+  // Ortalama hesaplama
+  ort = (v*0.4 + f*0.6)
+  
+  // Harf notu belirleme
+  EĞER ortalama >= 60 İSE
+    YAZDIR "GEÇTİ"
+  DEĞILSE
+    YAZDIR "KALDI"
+  BITIR
+BITIR
+```
 
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
