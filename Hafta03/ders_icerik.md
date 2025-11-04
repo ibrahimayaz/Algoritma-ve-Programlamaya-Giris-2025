@@ -369,8 +369,8 @@ BITIR
 **Mermaid Akış Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> inNum[/n/]
-  toplamm[toplam=0] --> init
+  start([BAŞLA]) --> inNum[/n/] -->
+  toplamm[toplam=0] -->
   init --> loop{i <= n}
   loop -- Evet --> toplam[toplam=toplam+i] --> inc[i = i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
