@@ -606,7 +606,7 @@ BAŞLA
   ort = (v*0.4 + f*0.6)
   
   // Harf notu belirleme
-  EĞER ortalama >= 60 İSE
+  EĞER ort >= 60 İSE
     YAZDIR "GEÇTİ"
   DEĞILSE
     YAZDIR "KALDI"
