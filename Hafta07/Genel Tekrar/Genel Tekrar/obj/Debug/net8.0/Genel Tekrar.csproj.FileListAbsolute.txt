@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\bin\Debug\net8.0\Genel Tekrar.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\bin\Debug\net8.0\Genel Tekrar.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\bin\Debug\net8.0\Genel Tekrar.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\bin\Debug\net8.0\Genel Tekrar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\bin\Debug\net8.0\Genel Tekrar.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\refint\Genel Tekrar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\Genel Tekrar.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Genel Tekrar\Genel Tekrar\obj\Debug\net8.0\ref\Genel Tekrar.dll

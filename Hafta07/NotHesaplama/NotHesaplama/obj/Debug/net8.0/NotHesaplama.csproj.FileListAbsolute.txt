@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\bin\Debug\net8.0\NotHesaplama.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\bin\Debug\net8.0\NotHesaplama.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\bin\Debug\net8.0\NotHesaplama.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\bin\Debug\net8.0\NotHesaplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\bin\Debug\net8.0\NotHesaplama.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\refint\NotHesaplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\NotHesaplama.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\NotHesaplama\NotHesaplama\obj\Debug\net8.0\ref\NotHesaplama.dll

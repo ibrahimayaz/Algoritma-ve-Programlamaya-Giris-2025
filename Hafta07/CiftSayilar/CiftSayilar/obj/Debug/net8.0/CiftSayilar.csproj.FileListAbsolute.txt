@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\bin\Debug\net8.0\CiftSayilar.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\bin\Debug\net8.0\CiftSayilar.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\bin\Debug\net8.0\CiftSayilar.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\bin\Debug\net8.0\CiftSayilar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\bin\Debug\net8.0\CiftSayilar.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\refint\CiftSayilar.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\CiftSayilar.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\CiftSayilar\CiftSayilar\obj\Debug\net8.0\ref\CiftSayilar.dll
