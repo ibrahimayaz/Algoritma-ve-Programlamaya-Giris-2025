@@ -344,7 +344,7 @@ BITIR
 **Mermaid Akış Diyagramı (GitHub uyumlu klasik sözdizimi):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> inNum[/Sayı al/]
+  start([BAŞLA]) --> inNum[/sayı/]
   inNum --> d1{sayı > 0}
   d1 -- Evet --> pos@{ shape: doc, label: "Pozitif" } --> endNode([BİTİR])
   d1 -- Hayır --> d2{sayı < 0}

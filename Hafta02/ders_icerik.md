@@ -705,8 +705,8 @@ BAŞLA
   BITIR
   
   // VKİ hesaplama
-  boyMetre ← boy / 100
-  vki ← kilo / (boyMetre * boyMetre)
+  boyMetre = boy / 100
+  vki = kilo / (boyMetre * boyMetre)
   
   // Kategori belirleme
   EĞER vki < 18.5 İSE
