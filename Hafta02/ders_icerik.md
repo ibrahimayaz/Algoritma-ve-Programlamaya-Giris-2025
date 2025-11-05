@@ -411,8 +411,6 @@ BAŞLA
     enBüyük = sayı3
     Yazdır "En büyük sayı: " + sayı3
   BITIR
-  
-  Yazdır "Girilen sayılar: " + sayı1 + ", " + sayı2 + ", " + sayı3
 BITIR
 ```
 
