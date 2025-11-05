@@ -692,30 +692,16 @@ BAŞLA
   
   // Kategori belirleme
   EĞER vki < 18.5 İSE
-    kategori ← "Zayıf"
-    öneri ← "Kilo almanız önerilir"
-    renk ← "🔵"
+    Yazdır "zayıf"
   DEĞILSE EĞER vki < 25 İSE
-    kategori ← "Normal"
-    öneri ← "İdeal kiloda değiniz"
-    renk ← "🟢"
+    Yazdır "normal"
   DEĞILSE EĞER vki < 30 İSE
-    kategori ← "Kilolu"
-    öneri ← "Kilo vermeniz önerilir"
-    renk ← "🟡"
+    Yazdır "kilolu"
   DEĞILSE
-    kategori ← "Obez"
-    öneri ← "Doktora başvurun"
-    renk ← "🔴"
+    Yazdır "obez"
   BITIR
-  
-  // Sonuçları gösterme
-  Yazdır "=== VKİ SONUÇLARI ==="
-  Yazdır "Kilo: " + kilo + " kg"
-  Yazdır "Boy: " + boy + " cm"
-  Yazdır "VKİ: " + vki
-  Yazdır renk + " Kategori: " + kategori
-  Yazdır "Öneri: " + öneri
+
+  Yazdır vki
 BITIR
 ```
 
