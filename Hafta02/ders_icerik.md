@@ -454,15 +454,15 @@ BAŞLA
   BITIR
   
   // Faktöriyel hesaplama
-  faktöriyel = 1
+  f = 1
   i = 1
   
   KOŞUL i <= n İKEN
-    faktöriyel = faktöriyel * i
+    f = f * i
     i = i + 1
   BITIR
   
-  Yazdır n + "! = " + faktöriyel
+  Yazdır n + "! = " + f
 BITIR
 ```
 
