@@ -708,23 +708,23 @@ BITIR
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  A([BAŞLA]) --> B[/kilo ← Kullanıcıdan sayı al/]
-  B --> C[/boy ← Kullanıcıdan sayı al/]
-  C --> D{"kilo <= 0\nveya\nboy <= 0 ?"}
-  D -- Evet --> E["Yazdır: HATA - Kilo ve boy pozitif olmalıdır!"]
+  A([BAŞLA]) --> B[/kilo/]
+  B --> C[/boy/]
+  C --> D{"kilo <= 0 veya boy <= 0 "}
+  D -- Evet --> E@{ shape: doc, label: "HATA - Kilo ve boy pozitif olmalıdır!" }
   E --> F([BİTİR])
   D -- Hayır --> G["boyMetre = boy / 100"]
   G --> H["vki = kilo / (boyMetre * boyMetre)"]
 
-  H --> I{"vki < 18.5 ?"}
-  I -- Evet --> I1["Yazdır: zayıf"]
+  H --> I{"vki < 18.5 "}
+  I -- Evet --> I1@{ shape: doc, label: "zayıf" }
   I -- Hayır --> J{"vki < 25 ?"}
-  J -- Evet --> J1["Yazdır: normal"]
+  J -- Evet --> J1@{ shape: doc, label: "normal" }
   J -- Hayır --> K{"vki < 30 ?"}
-  K -- Evet --> K1["Yazdır: kilolu"]
-  K -- Hayır --> L["Yazdır: obez"]
+  K -- Evet --> K1@{ shape: doc, label: "kilolu" }
+  K -- Hayır --> L@{ shape: doc, label: "obez" }
 
-  I1 --> Z["Yazdır: vki"]
+  I1 --> Z@{ shape: doc, label: "vki" }
   J1 --> Z
   K1 --> Z
   L --> Z
