@@ -403,11 +403,11 @@ flowchart TD
 **Sözde Kod:**
 ```
 BAŞLA
-    sayaç = 0
-    sayaç < 5 İKEN
+    i = 0
+    KOŞUL i < 5 İKEN
         kullanıcıdan veri al
         veriyi işle
-        sayaç = sayaç + 1
+        i = i + 1
     DÖNGÜ SON
     Sonuç göster
 BITIR
@@ -416,9 +416,9 @@ BITIR
 **Mermaid Akış Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> init[sayac = 0]
-  init --> loop{sayac < 5}
-  loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[sayac++] --> loop
+  start([BAŞLA]) --> init[i = 0]
+  init --> loop{i < 5}
+  loop -- Evet --> in[/Veri al/] --> proc[Veriyi işle] --> inc[i++] --> loop
   loop -- Hayır --> show@{ shape: doc, label: "Sonuç" } --> endNode([BİTİR])
 ```
 
