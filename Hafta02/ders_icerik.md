@@ -462,7 +462,7 @@ BAŞLA
     i = i + 1
   BITIR
   
-  Yazdır n + "! = " + f
+  Yazdır f
 BITIR
 ```
 
@@ -484,40 +484,25 @@ flowchart TD
 #### 📝 Sözde Kod Çözümü:
 ```
 BAŞLA
-  Yazdır "=== FİBONACCİ DİZİSİ ==="
-  Yazdır "Kaç terim yazdırılsın?"
-  n ← Kullanıcıdan sayı al
-  
-  EĞER n <= 0 İSE
-    Yazdır "HATA: Pozitif bir sayı girin!"
-    ÇIK
-  BITIR
-  
+  n ← kullanıcıdan sayı al
   a = 0
   b = 1
-  sayaç = 1
-  
-  Yazdır "Fibonacci Dizisi:"
-  
-  EĞER n >= 1 İSE
-    Yazdır a
-    sayaç = sayaç + 1
-  BITIR
-  
-  KOŞUL sayaç <= n İKEN
-    Yazdır b
-    c = a + b
-    a = b
-    b = c
-    sayaç = sayaç + 1
-  BITIR
-BITIR
+  i = 1
+
+  İKEN (i <= n) TEKRARLA
+      Yazdır a
+      temp = a + b
+      a = b
+      b = temp
+      i = i + 1
+  BİTİR
+BİTİR
 ```
 
 **Mermaid Diyagramı (GitHub uyumlu):**
 ```mermaid
 flowchart TD
-  start([BAŞLA]) --> nin[/n al/] --> init[a=0; b=1; i=1]
+  start([BAŞLA]) --> nin[/n/] --> init[a=0; b=1; i=1]
   init --> loop{i <= n}
   loop -- Evet --> out@{ shape: doc, label: "a yazdır" } --> step[temp=a+b; a=b; b=temp] --> inc[i=i+1] --> loop
   loop -- Hayır --> endNode([BİTİR])
