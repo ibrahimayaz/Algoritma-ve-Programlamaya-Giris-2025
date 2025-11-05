@@ -152,10 +152,10 @@ BITIR
 BITIR
 
 // WHILE döngüsü (Koşul sağlandığı sürece)
-i ← 1
+i = 1
 KOŞUL i <= 10 İKEN
   işlem
-  i ← i + 1
+  i = i + 1
 BITIR
 
 ```
@@ -168,7 +168,7 @@ BITIR
 
 // Örnek:
 FONKSİYON topla(a, b)
-  sonuç ← a + b
+  sonuç = a + b
   DÖNDÜR sonuç
 BITIR
 ```
