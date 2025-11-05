@@ -710,7 +710,7 @@ BITIR
 flowchart TD
   A([BAŞLA]) --> B[/kilo/]
   B --> C[/boy/]
-  C --> D{"kilo <= 0 veya boy <= 0 "}
+  C --> D{"kilo <= 0 VEYA boy <= 0"}
   D -- Evet --> E@{ shape: doc, label: "HATA - Kilo ve boy pozitif olmalıdır!" }
   E --> F([BİTİR])
   D -- Hayır --> G["boyMetre = boy / 100"]
@@ -718,9 +718,9 @@ flowchart TD
 
   H --> I{"vki < 18.5 "}
   I -- Evet --> I1@{ shape: doc, label: "zayıf" }
-  I -- Hayır --> J{"vki < 25 ?"}
+  I -- Hayır --> J{"vki < 25"}
   J -- Evet --> J1@{ shape: doc, label: "normal" }
-  J -- Hayır --> K{"vki < 30 ?"}
+  J -- Hayır --> K{"vki < 30"}
   K -- Evet --> K1@{ shape: doc, label: "kilolu" }
   K -- Hayır --> L@{ shape: doc, label: "obez" }
 
