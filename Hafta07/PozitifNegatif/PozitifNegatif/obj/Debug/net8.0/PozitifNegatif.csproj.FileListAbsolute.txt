@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\bin\Debug\net8.0\PozitifNegatif.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\bin\Debug\net8.0\PozitifNegatif.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\bin\Debug\net8.0\PozitifNegatif.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\bin\Debug\net8.0\PozitifNegatif.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\bin\Debug\net8.0\PozitifNegatif.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\refint\PozitifNegatif.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\PozitifNegatif.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\PozitifNegatif\PozitifNegatif\obj\Debug\net8.0\ref\PozitifNegatif.dll

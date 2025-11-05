@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\bin\Debug\net8.0\Toplama.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\bin\Debug\net8.0\Toplama.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\bin\Debug\net8.0\Toplama.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\bin\Debug\net8.0\Toplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\bin\Debug\net8.0\Toplama.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\refint\Toplama.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\Toplama.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\Toplama\Toplama\obj\Debug\net8.0\ref\Toplama.dll

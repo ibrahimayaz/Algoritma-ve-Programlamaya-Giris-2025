@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\bin\Debug\net8.0\GenelTekrarDegiskenler.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\bin\Debug\net8.0\GenelTekrarDegiskenler.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\bin\Debug\net8.0\GenelTekrarDegiskenler.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\bin\Debug\net8.0\GenelTekrarDegiskenler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\bin\Debug\net8.0\GenelTekrarDegiskenler.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\refint\GenelTekrarDegiskenler.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\GenelTekrarDegiskenler.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\GenelTekrarDegiskenler\GenelTekrarDegiskenler\obj\Debug\net8.0\ref\GenelTekrarDegiskenler.dll

@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\bin\Debug\net8.0\BolunebilmeSorusu.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\bin\Debug\net8.0\BolunebilmeSorusu.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\bin\Debug\net8.0\BolunebilmeSorusu.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\bin\Debug\net8.0\BolunebilmeSorusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\bin\Debug\net8.0\BolunebilmeSorusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\refint\BolunebilmeSorusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\BolunebilmeSorusu.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\BolunebilmeSorusu\BolunebilmeSorusu\obj\Debug\net8.0\ref\BolunebilmeSorusu.dll

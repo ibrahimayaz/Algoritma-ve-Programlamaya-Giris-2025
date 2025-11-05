@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\bin\Debug\net8.0\AsalSayi.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\bin\Debug\net8.0\AsalSayi.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\bin\Debug\net8.0\AsalSayi.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\bin\Debug\net8.0\AsalSayi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\bin\Debug\net8.0\AsalSayi.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\refint\AsalSayi.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\AsalSayi.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta07\AsalSayi\AsalSayi\obj\Debug\net8.0\ref\AsalSayi.dll
