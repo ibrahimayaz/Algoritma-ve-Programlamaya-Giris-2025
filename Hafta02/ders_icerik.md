@@ -710,20 +710,25 @@ BITIR
 flowchart TD
   A([BAŞLA]) --> B[/kilo ← Kullanıcıdan sayı al/]
   B --> C[/boy ← Kullanıcıdan sayı al/]
-  C --> D{kilo <= 0<br>VEYA<br>boy <= 0 ?}
-  D -- Evet --> E["Yazdır: HATA - Kilo ve boy pozitif olmalıdır!"] --> F([BİTİR])
-  D -- Hayır --> G[boyMetre = boy / 100]
-  G --> H[vki = kilo / (boyMetre * boyMetre)]
-  
-  H --> I{vki < 18.5 ?}
-  I -- Evet --> I1["Yazdır: zayıf"] --> Z
-  I -- Hayır --> J{vki < 25 ?}
-  J -- Evet --> J1["Yazdır: normal"] --> Z
-  J -- Hayır --> K{vki < 30 ?}
-  K -- Evet --> K1["Yazdır: kilolu"] --> Z
-  K -- Hayır --> L["Yazdır: obez"] --> Z
+  C --> D{"kilo <= 0\nveya\nboy <= 0 ?"}
+  D -- Evet --> E["Yazdır: HATA - Kilo ve boy pozitif olmalıdır!"]
+  E --> F([BİTİR])
+  D -- Hayır --> G["boyMetre = boy / 100"]
+  G --> H["vki = kilo / (boyMetre * boyMetre)"]
 
-  Z["Yazdır: vki"] --> M([BİTİR])
+  H --> I{"vki < 18.5 ?"}
+  I -- Evet --> I1["Yazdır: zayıf"]
+  I -- Hayır --> J{"vki < 25 ?"}
+  J -- Evet --> J1["Yazdır: normal"]
+  J -- Hayır --> K{"vki < 30 ?"}
+  K -- Evet --> K1["Yazdır: kilolu"]
+  K -- Hayır --> L["Yazdır: obez"]
+
+  I1 --> Z["Yazdır: vki"]
+  J1 --> Z
+  K1 --> Z
+  L --> Z
+  Z --> M([BİTİR])
 ```
 
 ---
