@@ -488,8 +488,7 @@ BAŞLA
   a = 0
   b = 1
   i = 1
-
-  İKEN (i <= n) TEKRARLA
+  KOŞUL (i <= n) İKEN
       Yazdır a
       temp = a + b
       a = b
