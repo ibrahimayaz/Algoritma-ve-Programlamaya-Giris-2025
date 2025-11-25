@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\bin\Debug\net8.0\ForDongusu.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\bin\Debug\net8.0\ForDongusu.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\bin\Debug\net8.0\ForDongusu.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\bin\Debug\net8.0\ForDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\bin\Debug\net8.0\ForDongusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\refint\ForDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ForDongusu.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\ForDongusu\ForDongusu\obj\Debug\net8.0\ref\ForDongusu.dll

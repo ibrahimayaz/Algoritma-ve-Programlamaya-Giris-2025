@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\bin\Debug\net8.0\WhileDongusu.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\bin\Debug\net8.0\WhileDongusu.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\bin\Debug\net8.0\WhileDongusu.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\bin\Debug\net8.0\WhileDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\bin\Debug\net8.0\WhileDongusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\refint\WhileDongusu.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\WhileDongusu.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\WhileDongusu\WhileDongusu\obj\Debug\net8.0\ref\WhileDongusu.dll

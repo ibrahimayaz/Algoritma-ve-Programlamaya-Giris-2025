@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\bin\Debug\net8.0\DiziProblemFor.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\bin\Debug\net8.0\DiziProblemFor.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\bin\Debug\net8.0\DiziProblemFor.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\bin\Debug\net8.0\DiziProblemFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\bin\Debug\net8.0\DiziProblemFor.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\refint\DiziProblemFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\DiziProblemFor.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DiziProblemFor\DiziProblemFor\obj\Debug\net8.0\ref\DiziProblemFor.dll
