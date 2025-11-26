@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\bin\Debug\net8.0\DoWhileOrnek3.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\bin\Debug\net8.0\DoWhileOrnek3.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\bin\Debug\net8.0\DoWhileOrnek3.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\bin\Debug\net8.0\DoWhileOrnek3.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\bin\Debug\net8.0\DoWhileOrnek3.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\refint\DoWhileOrnek3.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\DoWhileOrnek3.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\DoWhileOrnek3\DoWhileOrnek3\obj\Debug\net8.0\ref\DoWhileOrnek3.dll

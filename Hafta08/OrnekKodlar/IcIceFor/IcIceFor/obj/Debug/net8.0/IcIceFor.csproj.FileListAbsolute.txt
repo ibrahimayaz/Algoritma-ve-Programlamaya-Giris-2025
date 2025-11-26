@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\bin\Debug\net8.0\IcIceFor.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\bin\Debug\net8.0\IcIceFor.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\bin\Debug\net8.0\IcIceFor.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\bin\Debug\net8.0\IcIceFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\bin\Debug\net8.0\IcIceFor.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\refint\IcIceFor.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\IcIceFor.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta08\OrnekKodlar\IcIceFor\IcIceFor\obj\Debug\net8.0\ref\IcIceFor.dll

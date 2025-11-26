@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\bin\Debug\net8.0\DizilereGiris.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\bin\Debug\net8.0\DizilereGiris.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\bin\Debug\net8.0\DizilereGiris.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\bin\Debug\net8.0\DizilereGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\bin\Debug\net8.0\DizilereGiris.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\refint\DizilereGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\DizilereGiris.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilereGiris\DizilereGiris\obj\Debug\net8.0\ref\DizilereGiris.dll
