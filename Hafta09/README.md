@@ -94,18 +94,14 @@ for (int i = 0; i < d.Length; i++)
 Console.WriteLine($"{aranan} sayısı {adet} kez geçiyor.");
 ```
 
-### 10) Diziyi Ters Çevirme
-```csharp
-int[] d = { 1, 2, 3, 4 };
-for (int i = d.Length - 1; i >= 0; i--)
-	Console.WriteLine(d[i]);
-```
-### 11) Dizide belirlenen aralıkta kaç adet sayı var ?
+### 10) Dizide belirlenen aralıkta kaç adet sayı var ? Alt sınır ve üst sınır kullanıcı tarafından girilecektir.
 ```csharp
 int[] d = { 1, 2, 3, 4, 9, 20, 22, 25 };
 int adet=0;
-int alt=5;
-int ust=23;
+Console.WriteLine("Lütfen alt sınırı giriniz:");
+int alt=Console.ReadLine();
+Console.WriteLine("Lütfen üst sınırı giriniz:");
+int ust=Console.ReadLine();
 for (int i = 0; i < d.Length; i++)
 {
 	if(d[i]>=alt && d[i]<=ust){
@@ -114,7 +110,7 @@ for (int i = 0; i < d.Length; i++)
 }
 Console.WriteLine(adet);
 ```
-### 12) Dizide bölünme kuralına göre kaç adet sayı var ?
+### 11) Dizide bölünme kuralına göre kaç adet sayı var ?
 ```csharp
 int[] a = { 1, 2, 3, 4, 9, 20, 22, 25 };
 int adet=0;
@@ -126,6 +122,14 @@ for (int i = 0; i < a.Length; i++)
 }
 Console.WriteLine(adet);
 ```
+
+### 12) Diziyi Tersden Yazdırma
+```csharp
+int[] d = { 1, 2, 3, 4,9,9,10,57,9 };
+for (int i = d.Length - 1; i >= 0; i--)
+	Console.WriteLine(d[i]);
+```
+
 ---
 
 Ekstra örnekler ve açıklamalar için `OrnekKodlar/DizilereGiris` projesindeki kodları inceleyebilirsiniz. Her örneği ayrı bir `Main` içinde çalıştırarak pratik yapabilirsiniz.
