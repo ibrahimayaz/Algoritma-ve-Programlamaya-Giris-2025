@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiziAralikBulma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d47214da471f50fd2a7f90c62336b5865ce6b828")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bcaab6957a653c10de9af1fa7734267675c7442")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiziAralikBulma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiziAralikBulma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

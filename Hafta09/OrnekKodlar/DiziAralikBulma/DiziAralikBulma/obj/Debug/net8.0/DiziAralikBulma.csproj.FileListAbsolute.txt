@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\bin\Debug\net8.0\DiziAralikBulma.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\bin\Debug\net8.0\DiziAralikBulma.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\bin\Debug\net8.0\DiziAralikBulma.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\bin\Debug\net8.0\DiziAralikBulma.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\bin\Debug\net8.0\DiziAralikBulma.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\refint\DiziAralikBulma.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\DiziAralikBulma.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziAralikBulma\DiziAralikBulma\obj\Debug\net8.0\ref\DiziAralikBulma.dll

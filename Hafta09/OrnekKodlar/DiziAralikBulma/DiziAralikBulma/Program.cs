@@ -7,8 +7,6 @@ int ust = Convert.ToInt32(Console.ReadLine());
 for (int i = 0; i < d.Length; i++)
 {
     if (d[i] >= alt && d[i] <= ust)
-    {
         adet++;
-    }
 }
 Console.WriteLine(adet);

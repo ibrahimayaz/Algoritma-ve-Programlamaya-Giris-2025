@@ -111,15 +111,14 @@ for (int i = 0; i < d.Length; i++)
 }
 Console.WriteLine(adet);
 ```
-### 11) Dizide bölünme kuralına göre kaç adet sayı var ?
+### 11) Dizide bölünme kuralına göre kaç adet sayı var ? Bu problem 7 ile bölünmeye göre kontrol yapar.
+
 ```csharp
 int[] a = { 1, 2, 3, 4, 9, 20, 22, 25 };
 int adet=0;
 for (int i = 0; i < a.Length; i++)
 {
-	if(a[i]%7==0){
-		adet++;
-	}
+	if(a[i]%7==0) adet++;
 }
 Console.WriteLine(adet);
 ```
