@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\bin\Debug\net9.0\DiziOrnek2.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\bin\Debug\net9.0\DiziOrnek2.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\bin\Debug\net9.0\DiziOrnek2.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\bin\Debug\net9.0\DiziOrnek2.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\bin\Debug\net9.0\DiziOrnek2.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\refint\DiziOrnek2.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\DiziOrnek2.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziOrnek2\obj\Debug\net9.0\ref\DiziOrnek2.dll

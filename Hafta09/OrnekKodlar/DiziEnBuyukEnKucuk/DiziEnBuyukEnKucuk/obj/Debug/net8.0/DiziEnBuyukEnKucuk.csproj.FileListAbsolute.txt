@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\bin\Debug\net8.0\DiziEnBuyukEnKucuk.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\bin\Debug\net8.0\DiziEnBuyukEnKucuk.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\bin\Debug\net8.0\DiziEnBuyukEnKucuk.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\bin\Debug\net8.0\DiziEnBuyukEnKucuk.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\bin\Debug\net8.0\DiziEnBuyukEnKucuk.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\refint\DiziEnBuyukEnKucuk.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\DiziEnBuyukEnKucuk.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DiziEnBuyukEnKucuk\DiziEnBuyukEnKucuk\obj\Debug\net8.0\ref\DiziEnBuyukEnKucuk.dll

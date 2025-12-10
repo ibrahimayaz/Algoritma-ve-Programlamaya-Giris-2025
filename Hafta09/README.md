@@ -100,7 +100,32 @@ int[] d = { 1, 2, 3, 4 };
 for (int i = d.Length - 1; i >= 0; i--)
 	Console.WriteLine(d[i]);
 ```
-
+### 11) Dizide belirlenen aralıkta kaç adet sayı var ?
+```csharp
+int[] d = { 1, 2, 3, 4, 9, 20, 22, 25 };
+int adet=0;
+int alt=5;
+int ust=23;
+for (int i = 0; i < d.Length; i++)
+{
+	if(d[i]>=alt && d[i]<=ust){
+		adet++;
+	}
+}
+Console.WriteLine(adet);
+```
+### 12) Dizide bölünme kuralına göre kaç adet sayı var ?
+```csharp
+int[] a = { 1, 2, 3, 4, 9, 20, 22, 25 };
+int adet=0;
+for (int i = 0; i < a.Length; i++)
+{
+	if(a[i]%7==0){
+		adet++;
+	}
+}
+Console.WriteLine(adet);
+```
 ---
 
 Ekstra örnekler ve açıklamalar için `OrnekKodlar/DizilereGiris` projesindeki kodları inceleyebilirsiniz. Her örneği ayrı bir `Main` içinde çalıştırarak pratik yapabilirsiniz.

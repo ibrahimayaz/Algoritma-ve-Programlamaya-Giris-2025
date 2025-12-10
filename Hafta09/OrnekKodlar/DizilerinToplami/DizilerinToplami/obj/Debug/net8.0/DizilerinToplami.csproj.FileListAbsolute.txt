@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\bin\Debug\net8.0\DizilerinToplami.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\bin\Debug\net8.0\DizilerinToplami.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\bin\Debug\net8.0\DizilerinToplami.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\bin\Debug\net8.0\DizilerinToplami.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\bin\Debug\net8.0\DizilerinToplami.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\refint\DizilerinToplami.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\DizilerinToplami.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta09\OrnekKodlar\DizilerinToplami\DizilerinToplami\obj\Debug\net8.0\ref\DizilerinToplami.dll
