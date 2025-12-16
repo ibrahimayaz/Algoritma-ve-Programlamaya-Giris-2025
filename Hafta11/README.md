@@ -1,17 +1,159 @@
-# Hafta 11: Dosya İşlemleri
+# Hafta 11: Fonksiyonlar
 
-## Teorik Konular
-- Dosya okuma
-- Dosya yazma
-- Dosya silme
-- Dosya düzenleme işlemleri
+## Fonksiyonlar (Metotlar) Nedir?
+Fonksiyonlar (veya metotlar), belirli bir görevi yerine getiren, tekrar kullanılabilir kod bloklarıdır. Kodunuzu daha düzenli, okunabilir ve bakımı kolay hale getirir.
 
-## Örnekler
-1. Dosyaya yazma
-2. Dosyadan okuma
-3. Dosya silme
-4. Dosya var mı kontrolü
-5. Dosya üzerine yazma
+---
 
-## Ödev
-- Dosya işlemleri uygulamaları yapın
+## Temel Fonksiyon Söz Dizimi
+
+```csharp
+<dönüş_tipi> <fonksiyon_adı>(<parametreler>)
+{
+	// Fonksiyonun gövdesi
+	// Gerekirse return ile değer döndürülür
+}
+```
+
+---
+
+## Fonksiyon Tanımlama Kuralları
+- Fonksiyon adı harf veya alt çizgi ile başlamalıdır.
+- Parametreler parantez içinde tanımlanır, olmayabilir.
+- Dönüş tipi belirtmek zorunludur (`void` ise değer döndürmez).
+- Fonksiyon gövdesi `{}` ile çevrilidir.
+
+---
+
+## Dönüş Tipleri
+- `void`: Değer döndürmez.
+- `int`, `double`, `string`, `bool` gibi temel tipler veya kendi tanımladığınız tipler olabilir.
+
+---
+
+## Parametreler
+- Fonksiyonlara dışarıdan veri göndermek için kullanılır.
+- Birden fazla parametre virgül ile ayrılır.
+
+---
+
+## C# Fonksiyon Örnekleri
+
+### 1. Parametresiz ve Değersiz Fonksiyon
+```csharp
+void Selamla()
+{
+	Console.WriteLine("Merhaba!");
+}
+```
+
+### 2. Parametreli ve Değersiz Fonksiyon
+```csharp
+void Yazdir(string mesaj)
+{
+	Console.WriteLine(mesaj);
+}
+```
+
+### 3. Parametresiz ve Değer Döndüren Fonksiyon
+```csharp
+int GetirSayi()
+{
+	return 42;
+}
+```
+
+### 4. Parametreli ve Değer Döndüren Fonksiyon
+```csharp
+int Topla(int a, int b)
+{
+	return a + b;
+}
+```
+
+### 5. Bir Sayının Karesini Döndüren Fonksiyon
+```csharp
+int Kare(int x)
+{
+	return x * x;
+}
+```
+
+### 6. Bir Sayının Tek mi Çift mi Olduğunu Döndüren Fonksiyon
+```csharp
+bool TekMi(int n)
+{
+	return n % 2 != 0;
+}
+```
+
+### 7. Dizi Elemanlarının Toplamını Döndüren Fonksiyon
+```csharp
+int DiziToplam(int[] dizi)
+{
+	int toplam = 0;
+	for (int i = 0; i < dizi.Length; i++)
+		toplam += dizi[i];
+	return toplam;
+}
+```
+
+### 8. String Birleştiren Fonksiyon
+```csharp
+string Birleştir(string a, string b)
+{
+	return a + b;
+}
+```
+
+### 9. Maksimum Bulan Fonksiyon
+```csharp
+int Maksimum(int a, int b)
+{
+	return (a > b) ? a : b;
+}
+```
+
+### 10. Faktöriyel Hesaplayan Fonksiyon
+```csharp
+int Faktoriyel(int n)
+{
+	int sonuc = 1;
+	for (int i = 1; i <= n; i++)
+		sonuc *= i;
+	return sonuc;
+}
+```
+
+### 11. Recursive (Özyinelemeli) Fonksiyon Örneği
+```csharp
+int Fibonacci(int n)
+{
+	if (n <= 1) return n;
+	return Fibonacci(n - 1) + Fibonacci(n - 2);
+}
+```
+
+### 12. Varsayılan Parametreli Fonksiyon
+```csharp
+void MesajYaz(string mesaj = "Varsayılan mesaj")
+{
+	Console.WriteLine(mesaj);
+}
+```
+
+---
+
+## Fonksiyon Kullanımı
+Fonksiyonlar, ana programda çağrılarak kullanılır:
+```csharp
+int sonuc = Topla(3, 5);
+Console.WriteLine(sonuc); // 8
+```
+
+---
+
+## Notlar
+- Fonksiyonlar kod tekrarını önler.
+- Karmaşık işlemleri küçük parçalara böler.
+- Okunabilirliği ve bakımı artırır.
