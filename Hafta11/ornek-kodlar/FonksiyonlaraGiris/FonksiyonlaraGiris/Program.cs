@@ -24,7 +24,16 @@ Fonksiyon adları camelCase veya PascalCase göre yazılabilir.
 Fonksiyon tanımlama kuralı:
 
 */
-void f()
+void Selamla()
 {
-    Console.WriteLine();
+    Console.WriteLine("Merhaba Tatvan MYO !");
 }
+
+void Yazdir(string mesaj)
+{
+    Console.WriteLine(mesaj);
+}
+
+
+Yazdir("Merhaba Bitlis");
+

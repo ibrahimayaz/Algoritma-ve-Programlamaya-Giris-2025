@@ -19,7 +19,7 @@ Fonksiyonlar (veya metotlar), belirli bir görevi yerine getiren, tekrar kullan�
 
 ## Fonksiyon Tanımlama Kuralları
 - Fonksiyon adı harf veya alt çizgi ile başlamalıdır.
-- Parametreler parantez içinde tanımlanır, olmayabilir.
+- Parametreler parantez içinde tanımlanmalıdır.
 - Dönüş tipi belirtmek zorunludur (`void` ise değer döndürmez).
 - Fonksiyon gövdesi `{}` ile çevrilidir.
 
@@ -157,3 +157,21 @@ Console.WriteLine(sonuc); // 8
 - Fonksiyonlar kod tekrarını önler.
 - Karmaşık işlemleri küçük parçalara böler.
 - Okunabilirliği ve bakımı artırır.
+
+---
+
+## Fonksiyonlar ile İlgili Sıkça Yapılan Hatalar
+
+| Hata Açıklaması | Örnek |
+|-----------------|-------|
+| Fonksiyonun dönüş tipini belirtmemek | `Topla(int a, int b) { return a + b; }` (yanlış) <br> `int Topla(int a, int b) { return a + b; }` (doğru) |
+| Fonksiyon gövdesini `{}` ile yazmamak | `int Topla(int a, int b) return a + b;` (yanlış) |
+| Parametre tiplerini yazmamak | `int Topla(a, b) { ... }` (yanlış) <br> `int Topla(int a, int b) { ... }` (doğru) |
+| Fonksiyon çağrısında parametre sayısı veya tipi ile tanımın uyuşmaması | `Topla(3);` (yanlış) <br> `Topla(3, 5);` (doğru) |
+| return ifadesini dönüş tipi gerektiriyorsa kullanmamak | `int Kare(int x) { x * x; }` (yanlış) <br> `int Kare(int x) { return x * x; }` (doğru) |
+| void fonksiyonda return ile değer döndürmek | `void Selamla() { return "Merhaba"; }` (yanlış) |
+| Fonksiyon içinde tanımlanan değişkeni dışarıda kullanmak | `void F() { int x = 5; } ... Console.WriteLine(x);` (yanlış) |
+| Fonksiyon isimlerinde Türkçe karakter veya boşluk kullanmak | `void sayı topla() { ... }` (yanlış) |
+| Fonksiyonları tanımlamadan önce çağırmak (bazı dillerde hata) | `Yazdir(); void Yazdir() { ... }` (C#'ta genellikle sorun olmaz, ama önerilmez) |
+| Erişim belirleyicisini unutmak (sınıf içinde) | `int Topla(int a, int b) { ... }` <br> `public int Topla(int a, int b) { ... }` (doğru) |
+| Overload hatası (aynı isimde fonksiyon, farklı imza beklenirken çakışma) | `int F(int x) { ... }` <br> `int F(int y) { ... }` (yanlış, parametre tipi/farkı olmalı) |

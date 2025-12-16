@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\bin\Debug\net8.0\FonksiyonlaraGiris.exe
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\bin\Debug\net8.0\FonksiyonlaraGiris.deps.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\bin\Debug\net8.0\FonksiyonlaraGiris.runtimeconfig.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\bin\Debug\net8.0\FonksiyonlaraGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\bin\Debug\net8.0\FonksiyonlaraGiris.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.sourcelink.json
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\refint\FonksiyonlaraGiris.dll
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.pdb
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\FonksiyonlaraGiris.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders Dokümanları\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\FonksiyonlaraGiris\FonksiyonlaraGiris\obj\Debug\net8.0\ref\FonksiyonlaraGiris.dll
