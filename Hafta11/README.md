@@ -64,6 +64,24 @@ int GetirSayi()
 ```
 
 ### 4. Parametreli ve Değer Döndüren Fonksiyon
+
+**Matematiksel Gösterim:** $f(x) = x + 1$
+
+```csharp
+// int tipinde parametre alan ve int değerini
+// dönderen f adında bir fonksiyon.
+int f(int x){
+    return x + 1;
+}
+
+//Değer dönderdiği için atama yapılabilir.
+int y=f(3) + f(4); // 4+5
+```
+
+### 4.1. Parametreli ve Değer Döndüren Fonksiyon
+
+**Matematiksel Gösterim:** $Topla(a, b) = a + b$
+
 ```csharp
 int Topla(int a, int b)
 {
@@ -72,6 +90,9 @@ int Topla(int a, int b)
 ```
 
 ### 5. Bir Sayının Karesini Döndüren Fonksiyon
+
+**Matematiksel Gösterim:** $Kare(x) = x^2$
+
 ```csharp
 int Kare(int x)
 {

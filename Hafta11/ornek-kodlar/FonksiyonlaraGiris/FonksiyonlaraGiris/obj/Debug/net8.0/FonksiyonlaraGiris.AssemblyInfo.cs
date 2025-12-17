@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FonksiyonlaraGiris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d2eef85d838f0579452a8b57d3c967ccb058230")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+326d239eb0f2f8658e923c2cee2b6af9ab23594d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FonksiyonlaraGiris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FonksiyonlaraGiris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
