@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\bin\Debug\net8.0\RecursiceFonksiyonaGiris.exe
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\bin\Debug\net8.0\RecursiceFonksiyonaGiris.deps.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\bin\Debug\net8.0\RecursiceFonksiyonaGiris.runtimeconfig.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\bin\Debug\net8.0\RecursiceFonksiyonaGiris.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\bin\Debug\net8.0\RecursiceFonksiyonaGiris.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.sourcelink.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\refint\RecursiceFonksiyonaGiris.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\RecursiceFonksiyonaGiris.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta13\ornek-kodlar\RecursiceFonksiyonaGiris\RecursiceFonksiyonaGiris\obj\Debug\net8.0\ref\RecursiceFonksiyonaGiris.dll
