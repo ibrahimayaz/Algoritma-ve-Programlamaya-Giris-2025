@@ -146,7 +146,7 @@ int Faktoriyel(int n)
 }
 ```
 
-### 11. Recursive (Özyinelemeli) Fonksiyon Örneği - Fibonacci Serisi
+### 11. Fibonacci Serisi Fonksiyonu
 ```csharp
 int[] FibonacciSerisi(int n)
 {
