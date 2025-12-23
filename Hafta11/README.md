@@ -146,13 +146,38 @@ int Faktoriyel(int n)
 }
 ```
 
-### 11. Recursive (Özyinelemeli) Fonksiyon Örneği
+### 11. Recursive (Özyinelemeli) Fonksiyon Örneği - Fibonacci Serisi
 ```csharp
-int Fibonacci(int n)
+int[] FibonacciSerisi(int n)
+{
+	int[] dizi = new int[n];
+	
+	for (int i = 0; i < n; i++)
+	{
+		if (i <= 1)
+			dizi[i] = i;
+		else
+			dizi[i] = dizi[i - 1] + dizi[i - 2];
+	}
+	
+	return dizi;
+}
+
+// Kullanım örneği:
+// int[] fibSeri = FibonacciSerisi(10);
+// Çıktı: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+```
+
+**Özyinelemeli Versiyon:**
+```csharp
+int FibonacciTek(int n)
 {
 	if (n <= 1) return n;
-	return Fibonacci(n - 1) + Fibonacci(n - 2);
+	return FibonacciTek(n - 1) + FibonacciTek(n - 2);
 }
+
+// Bu fonksiyon sadece n. Fibonacci sayısını döndürür
+// Örnek: FibonacciTek(7) → 13
 ```
 
 ### 12. Varsayılan Parametreli Fonksiyon
