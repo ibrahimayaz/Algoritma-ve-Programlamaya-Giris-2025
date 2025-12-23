@@ -150,6 +150,7 @@ int Faktoriyel(int n)
 ```csharp
 int[] FibonacciSerisi(int n)
 {
+	//n elemanlı bir tam sayı dizi oluşturur.
 	int[] dizi = new int[n];
 	
 	for (int i = 0; i < n; i++)

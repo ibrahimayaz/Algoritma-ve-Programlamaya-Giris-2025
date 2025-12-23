@@ -3,7 +3,7 @@
 ## ÖRNEK 1: Basit Fonksiyon - Selamlama Yazdır
 
 ```csharp
-static void SelamVer()
+void SelamVer()
 {
     Console.WriteLine("Merhaba! Hoş geldiniz.");
 }
@@ -16,7 +16,7 @@ static void SelamVer()
 ## ÖRNEK 2: Parametre Alan Fonksiyon - Toplama
 
 ```csharp
-static void ToplaDikkat(int sayi1, int sayi2)
+void ToplaDikkat(int sayi1, int sayi2)
 {
     int sonuc = sayi1 + sayi2;
     Console.WriteLine($"{sayi1} + {sayi2} = {sonuc}");
@@ -30,7 +30,7 @@ static void ToplaDikkat(int sayi1, int sayi2)
 ## ÖRNEK 3: Dönüş Değeri Olan Fonksiyon - Çarpma
 
 ```csharp
-static int Carp(int a, int b)
+int Carp(int a, int b)
 {
     return a * b;
 }
@@ -43,7 +43,7 @@ static int Carp(int a, int b)
 ## ÖRNEK 4: Basit Dizi Deklarasyonu ve İşleme
 
 ```csharp
-static void DiziOrnegi()
+void DiziOrnegi()
 {
     int[] sayilar = { 10, 20, 30, 40, 50 };
     
@@ -62,7 +62,7 @@ static void DiziOrnegi()
 ## ÖRNEK 5: Dizinin Tüm Elemanlarını Toplayan Fonksiyon
 
 ```csharp
-static int DiziToplam(int[] dizi)
+int DiziToplam(int[] dizi)
 {
     int toplam = 0;
     foreach (int sayi in dizi)
@@ -80,7 +80,7 @@ static int DiziToplam(int[] dizi)
 ## ÖRNEK 6: Dizideki En Büyük Sayıyı Bulan Fonksiyon
 
 ```csharp
-static int EnBuyukBul(int[] dizi)
+int EnBuyukBul(int[] dizi)
 {
     int enBuyuk = dizi[0];
     
@@ -103,7 +103,7 @@ static int EnBuyukBul(int[] dizi)
 ## ÖRNEK 7: Dizideki En Küçük Sayıyı Bulan Fonksiyon
 
 ```csharp
-static int EnKucukBul(int[] dizi)
+int EnKucukBul(int[] dizi)
 {
     int enKucuk = dizi[0];
     
@@ -126,7 +126,7 @@ static int EnKucukBul(int[] dizi)
 ## ÖRNEK 8: Dizi Elemanlarının Ortalamasını Hesaplayan Fonksiyon
 
 ```csharp
-static double DiziOrtalamasi(int[] dizi)
+double DiziOrtalamasi(int[] dizi)
 {
     if (dizi.Length == 0)
         return 0;
@@ -143,7 +143,7 @@ static double DiziOrtalamasi(int[] dizi)
 ## ÖRNEK 9: İki Diziyi Birleştiren Fonksiyon
 
 ```csharp
-static int[] IkiDiziBirlestir(int[] dizi1, int[] dizi2)
+int[] IkiDiziBirlestir(int[] dizi1, int[] dizi2)
 {
     int[] yeniDizi = new int[dizi1.Length + dizi2.Length];
     
@@ -170,7 +170,7 @@ static int[] IkiDiziBirlestir(int[] dizi1, int[] dizi2)
 ## ÖRNEK 10: Diziyi Tersine Çeviren Fonksiyon
 
 ```csharp
-static void DiziTersineÇevir(int[] dizi)
+void DiziTersineÇevir(int[] dizi)
 {
     int solIndex = 0;
     int sagIndex = dizi.Length - 1;
@@ -195,7 +195,7 @@ static void DiziTersineÇevir(int[] dizi)
 ## Tüm Kodlar - Main Fonksiyonunda Çalışırken
 
 ```csharp
-static void Main()
+void Main()
 {
     Console.WriteLine("===== FONKSİYONLAR VE DİZİLER ÖRNEKLERİ =====\n");
 
