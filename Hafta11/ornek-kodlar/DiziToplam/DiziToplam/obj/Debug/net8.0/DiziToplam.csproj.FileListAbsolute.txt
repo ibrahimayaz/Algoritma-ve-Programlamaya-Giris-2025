@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\bin\Debug\net8.0\DiziToplam.exe
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\bin\Debug\net8.0\DiziToplam.deps.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\bin\Debug\net8.0\DiziToplam.runtimeconfig.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\bin\Debug\net8.0\DiziToplam.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\bin\Debug\net8.0\DiziToplam.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.sourcelink.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\refint\DiziToplam.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\DiziToplam.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\DiziToplam\DiziToplam\obj\Debug\net8.0\ref\DiziToplam.dll

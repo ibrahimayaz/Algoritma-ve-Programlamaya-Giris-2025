@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\bin\Debug\net8.0\OzYinelemeFibonacci.exe
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\bin\Debug\net8.0\OzYinelemeFibonacci.deps.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\bin\Debug\net8.0\OzYinelemeFibonacci.runtimeconfig.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\bin\Debug\net8.0\OzYinelemeFibonacci.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\bin\Debug\net8.0\OzYinelemeFibonacci.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.sourcelink.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\refint\OzYinelemeFibonacci.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\OzYinelemeFibonacci.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\OzYinelemeFibonacci\OzYinelemeFibonacci\obj\Debug\net8.0\ref\OzYinelemeFibonacci.dll

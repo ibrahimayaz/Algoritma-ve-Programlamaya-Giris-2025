@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\bin\Debug\net8.0\MaxBul.exe
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\bin\Debug\net8.0\MaxBul.deps.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\bin\Debug\net8.0\MaxBul.runtimeconfig.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\bin\Debug\net8.0\MaxBul.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\bin\Debug\net8.0\MaxBul.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.sourcelink.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\refint\MaxBul.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\MaxBul.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta11\ornek-kodlar\MaxBul\MaxBul\obj\Debug\net8.0\ref\MaxBul.dll

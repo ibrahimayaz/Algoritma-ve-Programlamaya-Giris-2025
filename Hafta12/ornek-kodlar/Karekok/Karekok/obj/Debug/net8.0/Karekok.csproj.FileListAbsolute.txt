@@ -1,0 +1,15 @@
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\bin\Debug\net8.0\Karekok.exe
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\bin\Debug\net8.0\Karekok.deps.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\bin\Debug\net8.0\Karekok.runtimeconfig.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\bin\Debug\net8.0\Karekok.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\bin\Debug\net8.0\Karekok.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.AssemblyInfoInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.AssemblyInfo.cs
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.csproj.CoreCompileInputs.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.sourcelink.json
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\refint\Karekok.dll
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.pdb
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\Karekok.genruntimeconfig.cache
+C:\Users\win10\Desktop\Ders_Dokumanlari\Algoritma-ve-Programlamaya-Giris-2025\Hafta12\ornek-kodlar\Karekok\Karekok\obj\Debug\net8.0\ref\Karekok.dll

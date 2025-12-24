@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OzYinelemeFibonacci/1.0.0": {
+        "runtime": {
+          "OzYinelemeFibonacci.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OzYinelemeFibonacci/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
